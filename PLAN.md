@@ -19,13 +19,13 @@
 | 4 | Web UI: Next.js 16 + React 19 + Tailwind 4 | ✅ | ✅ typecheck, lint, unit, build, browser e2e, live Haiku UI (5 questions) | — |
 | 5 | Auth (API keys) + rate limiting | ✅ | ✅ tests | — |
 | 6 | Evals (accuracy on known answers) | ✅ | ✅ 23 questions; Haiku + CrewAI 100% accuracy and verified | — |
-| 7 | CI (GitHub Actions) | ✅ written | ❌ | Push, make all jobs green |
+| 7 | CI (GitHub Actions) | ✅ | ✅ backend, sandbox-docker, frontend, and e2e green on main | — |
 | 8 | Deployment (compose + nginx, Oracle Cloud) | ✅ written | ❌ | Deploy, add HTTPS |
 | 9 | Portfolio packaging | — | — | Screenshots, demo video, case study |
 
 Tests: **57 backend tests** (`pytest -q`, plus 2 live DB tests skipped unless `TAHLIL_LIVE_DB=1`), **7 frontend unit tests** (`npm test`) and a **browser e2e test** (`npm run test:e2e`) that uploads a CSV, watches the steps stream in, checks the answer, asks a follow-up, stops a run, checks the unreachable state, and checks the mobile layout. The default backend suite passes with no API key or Docker.
 
-**Verified locally:** `pytest -q` with `TAHLIL_LIVE_DB=1` is 59 passed. Without that variable, expect 57 passed and 2 skipped. Also verified: the 23-question eval matrix (see the README), live sonnet questions including Punjab on the Postgres snapshot, frontend typecheck/lint/build/e2e, and five live Haiku questions in the web UI. **Still open:** CI and deploy.
+**Verified locally:** `pytest -q` with `TAHLIL_LIVE_DB=1` is 59 passed. Without that variable, expect 57 passed and 2 skipped. Also verified: the 23-question eval matrix (see the README), live sonnet questions including Punjab on the Postgres snapshot, frontend typecheck/lint/build/e2e, and five live Haiku questions in the web UI. GitHub CI on `main` is green: https://github.com/Ahmad-dev-top/tahlil/actions/runs/40920716510. **Still open:** deploy. The live evals workflow runs only after the `ANTHROPIC_API_KEY` repo secret is added.
 
 ---
 
@@ -164,7 +164,7 @@ Why a static export: the app is fully client-side, so production needs no Node s
 
 ---
 
-## Phase 7 — CI ✅ written
+## Phase 7 — CI ✅
 
 `.github/workflows/ci.yml` runs on every push and pull request:
 1. `backend`: pytest
