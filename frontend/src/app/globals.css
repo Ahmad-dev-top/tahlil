@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    color-scheme: light dark;
+  }
+  body {
+    @apply bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-teal-700 px-4 py-2 text-sm font-medium text-white hover:bg-teal-800 disabled:opacity-50;
+  }
+  .btn-tonal {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-teal-700/10 px-3 py-2 text-sm font-medium text-teal-900 hover:bg-teal-700/20 disabled:opacity-50 dark:text-teal-200;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-100 disabled:opacity-50 dark:text-zinc-300 dark:hover:bg-zinc-800;
+  }
+  .field {
+    @apply block space-y-1.5 text-sm;
+  }
+  .field > span {
+    @apply font-medium text-zinc-700 dark:text-zinc-300;
+  }
+  .field > input {
+    @apply w-full rounded-lg border border-zinc-300 bg-white px-3 py-2 outline-none focus:border-teal-600 focus:ring-2 focus:ring-teal-600/20 dark:border-zinc-700 dark:bg-zinc-950;
+  }
+}

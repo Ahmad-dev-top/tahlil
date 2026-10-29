@@ -1,0 +1,32 @@
+name: Evals
+
+# Live accuracy check. Not on every push: weekly, or when started by hand.
+# Steps no-op when the ANTHROPIC_API_KEY repo secret is missing.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * 1"
+
+jobs:
+  evals:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        if: env.ANTHROPIC_API_KEY != ''
+      - uses: actions/setup-python@v5
+        if: env.ANTHROPIC_API_KEY != ''
+        with:
+          python-version: "3.12"
+          cache: pip
+      - if: env.ANTHROPIC_API_KEY != ''
+        run: |
+          docker build -t tahlil-sandbox:latest sandbox
+          pip install -r requirements.txt
+          python -m evals.run --model anthropic/claude-haiku-5-5 --min-accuracy 0.8
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ANTHROPIC_API_KEY != ''
+        with:
+          name: eval-results
+          path: evals/results/

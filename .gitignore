@@ -1,0 +1,12 @@
+.env
+frontend/.env.local
+data/
+.sandbox-work/
+.sandbox-work
+*.duckdb
+*.sqlite
+evals/results/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

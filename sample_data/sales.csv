@@ -1,0 +1,2401 @@
+order_id,order_date,region,channel,category,product,units,unit_price_pkr,revenue_pkr
+ORD-10830,2025-01-01,KPK,Daraz,Home,Iron,3,5136,15408
+ORD-10352,2025-01-02,Sindh,WhatsApp,Home,Air Fryer,3,18180,54540
+ORD-12396,2025-01-02,Sindh,WhatsApp,Fashion,Shawl,1,3008,3008
+ORD-10229,2025-01-02,Sindh,Website,Electronics,Smart Watch,4,11160,44640
+ORD-11731,2025-01-02,Punjab,Daraz,Fashion,Kurta,4,2548,10192
+ORD-11229,2025-01-02,Sindh,WhatsApp,Electronics,Power Bank,1,4950,4950
+ORD-10075,2025-01-02,Sindh,Daraz,Fashion,Sneakers,2,6890,13780
+ORD-10013,2025-01-02,Islamabad,Website,Electronics,Charger,4,1728,6912
+ORD-11361,2025-01-03,Punjab,WhatsApp,Electronics,Smart Watch,4,11640,46560
+ORD-11847,2025-01-03,KPK,Daraz,Fashion,Kurta,2,2744,5488
+ORD-12193,2025-01-03,Punjab,WhatsApp,Electronics,Earbuds,2,3780,7560
+ORD-10140,2025-01-03,Punjab,WhatsApp,Fashion,Lawn Suit,3,4275,12825
+ORD-11755,2025-01-04,KPK,Daraz,Electronics,Power Bank,3,5995,17985
+ORD-11116,2025-01-05,KPK,Daraz,Fashion,Lawn Suit,1,4230,4230
+ORD-11386,2025-01-05,Islamabad,Website,Fashion,Sneakers,4,6305,25220
+ORD-12025,2025-01-05,Islamabad,Daraz,Electronics,Earbuds,2,3710,7420
+ORD-11495,2025-01-05,KPK,WhatsApp,Fashion,Sneakers,1,6435,6435
+ORD-11360,2025-01-05,Sindh,WhatsApp,Electronics,Earbuds,2,3570,7140
+ORD-10884,2025-01-05,Punjab,WhatsApp,Electronics,Earbuds,4,3780,15120
+ORD-10065,2025-01-05,Punjab,WhatsApp,Fashion,Sneakers,2,6370,12740
+ORD-12070,2025-01-05,Sindh,Daraz,Home,Air Fryer,2,18900,37800
+ORD-12271,2025-01-05,Islamabad,WhatsApp,Electronics,Power Bank,3,5885,17655
+ORD-10142,2025-01-06,Sindh,Daraz,Electronics,Smart Watch,3,11160,33480
+ORD-10418,2025-01-06,Sindh,Website,Home,Bedsheet Set,2,3822,7644
+ORD-10849,2025-01-06,Punjab,Website,Fashion,Sneakers,1,6695,6695
+ORD-11218,2025-01-06,Islamabad,Daraz,Home,Air Fryer,1,18000,18000
+ORD-11907,2025-01-06,Sindh,Website,Fashion,Kurta,1,2660,2660
+ORD-10241,2025-01-06,Punjab,Website,Fashion,Sneakers,1,7085,7085
+ORD-12079,2025-01-06,Sindh,WhatsApp,Fashion,Sneakers,2,6370,12740
+ORD-11813,2025-01-06,Sindh,Daraz,Home,Water Dispenser,3,27300,81900
+ORD-11123,2025-01-06,Punjab,WhatsApp,Electronics,Smart Watch,2,11160,22320
+ORD-11929,2025-01-07,Punjab,Daraz,Electronics,Charger,3,1674,5022
+ORD-11193,2025-01-07,Sindh,Daraz,Electronics,Power Bank,1,4950,4950
+ORD-10544,2025-01-08,Sindh,Website,Electronics,Smart Watch,3,12840,38520
+ORD-10393,2025-01-08,Punjab,Website,Fashion,Shawl,1,3136,3136
+ORD-10375,2025-01-08,Punjab,Website,Fashion,Sneakers,1,6565,6565
+ORD-10626,2025-01-08,KPK,WhatsApp,Home,Water Dispenser,4,26780,107120
+ORD-12224,2025-01-08,Punjab,WhatsApp,Fashion,Shawl,4,3104,12416
+ORD-11128,2025-01-09,KPK,Daraz,Electronics,Earbuds,2,3185,6370
+ORD-11115,2025-01-10,Sindh,Daraz,Fashion,Shawl,4,3008,12032
+ORD-11152,2025-01-10,Punjab,Website,Home,Bedsheet Set,3,3864,11592
+ORD-10471,2025-01-10,Punjab,Daraz,Home,Bedsheet Set,3,4074,12222
+ORD-11798,2025-01-10,Sindh,WhatsApp,Fashion,Sneakers,4,6760,27040
+ORD-10193,2025-01-10,KPK,Website,Fashion,Kurta,4,3052,12208
+ORD-11297,2025-01-10,Punjab,Daraz,Electronics,Power Bank,1,5170,5170
+ORD-11773,2025-01-10,Sindh,Daraz,Electronics,Earbuds,1,3325,3325
+ORD-12163,2025-01-11,Sindh,WhatsApp,Electronics,Power Bank,3,5500,16500
+ORD-12073,2025-01-11,Punjab,Website,Fashion,Shawl,3,3168,9504
+ORD-10638,2025-01-11,Punjab,Website,Home,Water Dispenser,3,24960,74880
+ORD-11769,2025-01-11,Punjab,Website,Fashion,Kurta,3,2884,8652
+ORD-12324,2025-01-12,Balochistan,Website,Electronics,Charger,3,1944,5832
+ORD-11745,2025-01-12,Punjab,Website,Home,Water Dispenser,1,24180,24180
+ORD-10630,2025-01-12,Punjab,Website,Fashion,Shawl,2,3232,6464
+ORD-10373,2025-01-12,Islamabad,WhatsApp,Electronics,Smart Watch,1,10920,10920
+ORD-10679,2025-01-12,Punjab,Website,Electronics,Power Bank,4,5280,21120
+ORD-11169,2025-01-12,KPK,Website,Home,Water Dispenser,4,23920,95680
+ORD-10197,2025-01-12,KPK,WhatsApp,Fashion,Shawl,1,3392,3392
+ORD-10941,2025-01-13,Punjab,Daraz,Fashion,Kurta,3,2744,8232
+ORD-12238,2025-01-13,Sindh,Daraz,Fashion,Lawn Suit,2,4185,8370
+ORD-11259,2025-01-13,Punjab,Website,Fashion,Lawn Suit,1,4500,4500
+ORD-10705,2025-01-13,Punjab,Website,Fashion,Kurta,3,2800,8400
+ORD-10617,2025-01-13,Sindh,Website,Electronics,Earbuds,2,3710,7420
+ORD-11583,2025-01-13,Punjab,Daraz,Electronics,Charger,3,1638,4914
+ORD-11681,2025-01-13,Punjab,Website,Home,Air Fryer,4,17640,70560
+ORD-11733,2025-01-13,Sindh,Daraz,Home,Iron,1,4800,4800
+ORD-11831,2025-01-13,KPK,Website,Fashion,Shawl,1,3424,3424
+ORD-11527,2025-01-13,Punjab,Website,Electronics,Smart Watch,4,11280,45120
+ORD-10049,2025-01-14,Punjab,Website,Home,Bedsheet Set,2,4074,8148
+ORD-10868,2025-01-14,Sindh,Website,Fashion,Kurta,3,2548,7644
+ORD-10181,2025-01-14,Punjab,Daraz,Fashion,Kurta,1,2884,2884
+ORD-10904,2025-01-14,KPK,Daraz,Home,Water Dispenser,3,28080,84240
+ORD-12240,2025-01-15,Sindh,Website,Electronics,Smart Watch,4,12600,50400
+ORD-10411,2025-01-15,Punjab,Daraz,Electronics,Charger,2,1692,3384
+ORD-10385,2025-01-15,Punjab,Website,Electronics,Earbuds,3,3780,11340
+ORD-10761,2025-01-15,Sindh,WhatsApp,Electronics,Power Bank,2,6050,12100
+ORD-10871,2025-01-15,Punjab,WhatsApp,Electronics,Earbuds,3,3360,10080
+ORD-11646,2025-01-16,Islamabad,Website,Electronics,Smart Watch,1,11280,11280
+ORD-10840,2025-01-16,Punjab,Daraz,Electronics,Smart Watch,4,12480,49920
+ORD-11383,2025-01-16,Islamabad,Daraz,Fashion,Shawl,3,3200,9600
+ORD-10090,2025-01-16,Sindh,Website,Home,Water Dispenser,1,25480,25480
+ORD-11719,2025-01-16,Sindh,WhatsApp,Home,Water Dispenser,1,27300,27300
+ORD-11074,2025-01-17,KPK,WhatsApp,Fashion,Lawn Suit,3,4230,12690
+ORD-11162,2025-01-17,Punjab,Website,Electronics,Smart Watch,1,11040,11040
+ORD-11714,2025-01-17,Punjab,Daraz,Home,Air Fryer,2,18360,36720
+ORD-11871,2025-01-17,Islamabad,Website,Fashion,Lawn Suit,2,4185,8370
+ORD-10047,2025-01-17,Sindh,Website,Electronics,Earbuds,2,3640,7280
+ORD-11457,2025-01-17,Punjab,Website,Electronics,Charger,3,1800,5400
+ORD-11580,2025-01-18,Islamabad,Website,Electronics,Smart Watch,4,12240,48960
+ORD-10166,2025-01-18,Punjab,WhatsApp,Fashion,Sneakers,2,6370,12740
+ORD-10371,2025-01-18,Punjab,Daraz,Electronics,Charger,2,1638,3276
+ORD-11238,2025-01-18,Sindh,Daraz,Electronics,Power Bank,4,5500,22000
+ORD-10454,2025-01-19,Sindh,Website,Electronics,Power Bank,3,5115,15345
+ORD-10419,2025-01-19,KPK,Website,Electronics,Smart Watch,3,11160,33480
+ORD-11151,2025-01-19,Islamabad,Website,Home,Water Dispenser,1,25220,25220
+ORD-12010,2025-01-19,Islamabad,WhatsApp,Fashion,Kurta,4,2632,10528
+ORD-10319,2025-01-19,Punjab,Website,Fashion,Sneakers,3,6760,20280
+ORD-12173,2025-01-19,Sindh,Website,Home,Water Dispenser,1,26780,26780
+ORD-11090,2025-01-20,KPK,Website,Electronics,Earbuds,4,3255,13020
+ORD-12284,2025-01-20,KPK,Website,Home,Water Dispenser,2,28340,56680
+ORD-11310,2025-01-20,Islamabad,WhatsApp,Fashion,Sneakers,3,6565,19695
+ORD-10132,2025-01-20,Punjab,WhatsApp,Electronics,Smart Watch,2,12960,25920
+ORD-12297,2025-01-20,Punjab,Website,Fashion,Kurta,2,2940,5880
+ORD-11513,2025-01-20,KPK,Daraz,Electronics,Charger,4,1782,7128
+ORD-11877,2025-01-20,Punjab,Daraz,Home,Bedsheet Set,2,3990,7980
+ORD-11967,2025-01-20,Punjab,WhatsApp,Home,Air Fryer,4,17640,70560
+ORD-10008,2025-01-21,Sindh,WhatsApp,Home,Water Dispenser,4,24700,98800
+ORD-11025,2025-01-21,Sindh,WhatsApp,Electronics,Earbuds,2,3395,6790
+ORD-10584,2025-01-21,Islamabad,Website,Electronics,Earbuds,2,3640,7280
+ORD-10856,2025-01-21,Punjab,Website,Home,Water Dispenser,3,26780,80340
+ORD-12255,2025-01-21,Islamabad,Website,Fashion,Sneakers,2,6370,12740
+ORD-10192,2025-01-21,KPK,Daraz,Electronics,Earbuds,4,3290,13160
+ORD-11919,2025-01-21,Sindh,Daraz,Electronics,Smart Watch,4,12480,49920
+ORD-10689,2025-01-21,Sindh,Website,Electronics,Earbuds,1,3675,3675
+ORD-11925,2025-01-21,Balochistan,Daraz,Fashion,Shawl,1,3072,3072
+ORD-12366,2025-01-22,Punjab,Daraz,Home,Air Fryer,3,18000,54000
+ORD-11546,2025-01-22,Balochistan,Daraz,Fashion,Kurta,4,2576,10304
+ORD-10212,2025-01-22,Islamabad,Website,Home,Air Fryer,1,17460,17460
+ORD-10105,2025-01-22,Punjab,WhatsApp,Fashion,Kurta,2,2604,5208
+ORD-11236,2025-01-22,Sindh,Daraz,Home,Water Dispenser,4,28080,112320
+ORD-12233,2025-01-22,Sindh,WhatsApp,Fashion,Kurta,4,2576,10304
+ORD-11033,2025-01-23,Punjab,Daraz,Home,Bedsheet Set,1,4032,4032
+ORD-10698,2025-01-23,Balochistan,WhatsApp,Home,Water Dispenser,2,27040,54080
+ORD-11986,2025-01-23,Punjab,WhatsApp,Electronics,Charger,1,1926,1926
+ORD-10349,2025-01-23,Punjab,Daraz,Electronics,Smart Watch,2,12240,24480
+ORD-10926,2025-01-23,Punjab,WhatsApp,Electronics,Earbuds,2,3535,7070
+ORD-10174,2025-01-23,Islamabad,Website,Fashion,Lawn Suit,1,4365,4365
+ORD-11643,2025-01-23,Sindh,Daraz,Home,Iron,1,4416,4416
+ORD-10565,2025-01-24,Islamabad,Daraz,Fashion,Shawl,4,2944,11776
+ORD-10845,2025-01-24,Punjab,Website,Electronics,Power Bank,2,5720,11440
+ORD-12004,2025-01-24,Punjab,Website,Fashion,Lawn Suit,3,4500,13500
+ORD-11327,2025-01-24,Punjab,WhatsApp,Fashion,Shawl,4,3168,12672
+ORD-12328,2025-01-24,Punjab,Daraz,Fashion,Kurta,4,3052,12208
+ORD-11982,2025-01-25,Punjab,Website,Fashion,Sneakers,3,6825,20475
+ORD-11353,2025-01-25,Islamabad,WhatsApp,Electronics,Power Bank,2,5225,10450
+ORD-11817,2025-01-25,Balochistan,Daraz,Home,Iron,1,4320,4320
+ORD-10675,2025-01-25,Islamabad,WhatsApp,Home,Air Fryer,2,19800,39600
+ORD-10767,2025-01-25,Punjab,Website,Electronics,Smart Watch,1,12120,12120
+ORD-11589,2025-01-25,Punjab,Website,Home,Iron,2,5088,10176
+ORD-12345,2025-01-25,Punjab,Daraz,Electronics,Power Bank,4,5115,20460
+ORD-11063,2025-01-25,Punjab,WhatsApp,Fashion,Sneakers,4,6435,25740
+ORD-12196,2025-01-26,Punjab,Website,Electronics,Earbuds,2,3395,6790
+ORD-10876,2025-01-26,KPK,WhatsApp,Electronics,Charger,2,1944,3888
+ORD-11098,2025-01-26,Balochistan,Daraz,Home,Bedsheet Set,1,4410,4410
+ORD-11977,2025-01-26,Punjab,Website,Fashion,Lawn Suit,1,4590,4590
+ORD-11612,2025-01-26,Punjab,Website,Fashion,Kurta,4,2604,10416
+ORD-10556,2025-01-26,Sindh,Daraz,Electronics,Earbuds,2,3640,7280
+ORD-10293,2025-01-26,Punjab,Daraz,Fashion,Sneakers,4,6890,27560
+ORD-11743,2025-01-26,Punjab,WhatsApp,Home,Iron,2,4704,9408
+ORD-11467,2025-01-26,Islamabad,Website,Home,Water Dispenser,4,28340,113360
+ORD-11390,2025-01-26,Sindh,Website,Electronics,Charger,2,1926,3852
+ORD-12169,2025-01-27,KPK,Daraz,Fashion,Shawl,3,3424,10272
+ORD-10991,2025-01-27,Sindh,Daraz,Electronics,Earbuds,1,3710,3710
+ORD-11096,2025-01-27,Islamabad,Daraz,Home,Bedsheet Set,2,3780,7560
+ORD-11369,2025-01-27,Punjab,Website,Electronics,Charger,4,1908,7632
+ORD-10922,2025-01-27,KPK,Website,Fashion,Sneakers,2,5980,11960
+ORD-11406,2025-01-27,KPK,Daraz,Fashion,Kurta,3,2632,7896
+ORD-11737,2025-01-28,Balochistan,Daraz,Fashion,Shawl,2,3200,6400
+ORD-12398,2025-01-28,Sindh,Daraz,Fashion,Kurta,1,2940,2940
+ORD-11054,2025-01-28,Punjab,Daraz,Electronics,Smart Watch,3,11880,35640
+ORD-11343,2025-01-28,Punjab,WhatsApp,Electronics,Charger,4,1854,7416
+ORD-10998,2025-01-28,Punjab,Website,Fashion,Kurta,3,3052,9156
+ORD-10879,2025-01-28,Sindh,WhatsApp,Fashion,Lawn Suit,3,4500,13500
+ORD-11207,2025-01-29,Balochistan,Website,Fashion,Sneakers,1,6760,6760
+ORD-11234,2025-01-29,Sindh,Daraz,Electronics,Power Bank,4,5390,21560
+ORD-10206,2025-01-29,Sindh,Daraz,Electronics,Earbuds,2,3640,7280
+ORD-10521,2025-01-29,Punjab,Daraz,Home,Bedsheet Set,4,4620,18480
+ORD-11338,2025-01-29,KPK,WhatsApp,Fashion,Sneakers,2,5915,11830
+ORD-11319,2025-01-29,KPK,Daraz,Home,Bedsheet Set,4,4242,16968
+ORD-12104,2025-01-29,Sindh,WhatsApp,Home,Iron,4,4320,17280
+ORD-10792,2025-01-30,Sindh,Website,Electronics,Charger,1,1746,1746
+ORD-11699,2025-01-30,Sindh,Daraz,Electronics,Charger,3,1656,4968
+ORD-10513,2025-01-30,Sindh,WhatsApp,Fashion,Kurta,2,2576,5152
+ORD-11389,2025-01-30,Islamabad,Website,Fashion,Shawl,2,3392,6784
+ORD-10531,2025-01-30,Balochistan,WhatsApp,Fashion,Kurta,3,3052,9156
+ORD-10462,2025-01-31,KPK,Daraz,Fashion,Sneakers,4,7085,28340
+ORD-12213,2025-01-31,Islamabad,Daraz,Fashion,Lawn Suit,2,4410,8820
+ORD-11265,2025-01-31,KPK,Website,Home,Iron,1,5040,5040
+ORD-10863,2025-01-31,Punjab,WhatsApp,Electronics,Smart Watch,3,11520,34560
+ORD-12397,2025-01-31,Sindh,WhatsApp,Fashion,Kurta,1,2772,2772
+ORD-12341,2025-02-01,Sindh,Daraz,Fashion,Shawl,3,3104,9312
+ORD-12085,2025-02-01,Punjab,Website,Electronics,Earbuds,4,3640,14560
+ORD-12289,2025-02-01,Sindh,Website,Electronics,Charger,3,1890,5670
+ORD-10248,2025-02-01,Islamabad,Website,Fashion,Lawn Suit,1,4770,4770
+ORD-12381,2025-02-01,Punjab,Website,Fashion,Lawn Suit,3,4320,12960
+ORD-11789,2025-02-01,Punjab,WhatsApp,Fashion,Sneakers,2,6630,13260
+ORD-11632,2025-02-01,Sindh,Website,Electronics,Charger,2,1764,3528
+ORD-10392,2025-02-02,Punjab,Website,Electronics,Charger,4,1710,6840
+ORD-10596,2025-02-02,Punjab,Website,Home,Water Dispenser,3,28600,85800
+ORD-10346,2025-02-02,Punjab,Website,Home,Iron,4,4704,18816
+ORD-10934,2025-02-02,Sindh,Daraz,Electronics,Charger,4,1908,7632
+ORD-12252,2025-02-02,Sindh,Website,Home,Water Dispenser,4,27040,108160
+ORD-10268,2025-02-02,KPK,WhatsApp,Fashion,Shawl,4,3328,13312
+ORD-10653,2025-02-03,Punjab,Daraz,Home,Air Fryer,3,18000,54000
+ORD-10146,2025-02-03,Punjab,Daraz,Fashion,Kurta,4,2884,11536
+ORD-11204,2025-02-03,Sindh,Daraz,Electronics,Earbuds,3,3710,11130
+ORD-10809,2025-02-03,Punjab,WhatsApp,Electronics,Earbuds,4,3255,13020
+ORD-11230,2025-02-03,Punjab,WhatsApp,Electronics,Charger,3,1854,5562
+ORD-10093,2025-02-03,Balochistan,Website,Home,Water Dispenser,2,24440,48880
+ORD-11577,2025-02-03,Punjab,Daraz,Electronics,Smart Watch,4,12480,49920
+ORD-12067,2025-02-04,Sindh,Daraz,Fashion,Sneakers,2,7085,14170
+ORD-11765,2025-02-04,Punjab,WhatsApp,Electronics,Power Bank,2,5885,11770
+ORD-12164,2025-02-04,KPK,Daraz,Electronics,Power Bank,2,6050,12100
+ORD-12290,2025-02-04,Punjab,Daraz,Fashion,Lawn Suit,2,4095,8190
+ORD-12256,2025-02-04,Islamabad,Daraz,Electronics,Charger,1,1764,1764
+ORD-11983,2025-02-05,Punjab,WhatsApp,Home,Water Dispenser,4,27040,108160
+ORD-10451,2025-02-05,KPK,Daraz,Electronics,Charger,1,1962,1962
+ORD-10066,2025-02-05,KPK,Website,Fashion,Sneakers,1,6240,6240
+ORD-11869,2025-02-05,Balochistan,Daraz,Fashion,Kurta,4,2744,10976
+ORD-10553,2025-02-05,Islamabad,Website,Electronics,Earbuds,4,3675,14700
+ORD-10135,2025-02-05,KPK,Website,Home,Water Dispenser,1,28080,28080
+ORD-12243,2025-02-05,Islamabad,Daraz,Electronics,Earbuds,3,3220,9660
+ORD-10292,2025-02-05,Sindh,Website,Electronics,Smart Watch,4,11160,44640
+ORD-10489,2025-02-06,Islamabad,Daraz,Electronics,Earbuds,1,3185,3185
+ORD-10816,2025-02-06,Sindh,Website,Fashion,Shawl,1,2944,2944
+ORD-10774,2025-02-06,Islamabad,Daraz,Home,Air Fryer,2,19260,38520
+ORD-11779,2025-02-06,KPK,Daraz,Fashion,Kurta,4,2856,11424
+ORD-11447,2025-02-06,Sindh,Daraz,Home,Water Dispenser,4,26260,105040
+ORD-12336,2025-02-06,Punjab,Website,Fashion,Kurta,3,2604,7812
+ORD-10912,2025-02-06,Islamabad,Website,Home,Air Fryer,4,19620,78480
+ORD-11799,2025-02-06,Balochistan,Website,Electronics,Charger,2,1656,3312
+ORD-11160,2025-02-07,KPK,Website,Fashion,Shawl,1,3200,3200
+ORD-11575,2025-02-07,KPK,Daraz,Electronics,Earbuds,3,3605,10815
+ORD-12162,2025-02-07,Islamabad,Daraz,Home,Iron,4,5232,20928
+ORD-12090,2025-02-07,Punjab,Website,Home,Air Fryer,4,18540,74160
+ORD-10622,2025-02-07,KPK,WhatsApp,Electronics,Power Bank,2,5940,11880
+ORD-11671,2025-02-08,Sindh,Daraz,Home,Water Dispenser,4,25480,101920
+ORD-12322,2025-02-08,Islamabad,Website,Fashion,Kurta,3,2660,7980
+ORD-10256,2025-02-08,Islamabad,Website,Electronics,Charger,2,1656,3312
+ORD-10104,2025-02-09,KPK,Daraz,Fashion,Kurta,2,3024,6048
+ORD-11441,2025-02-09,Punjab,Website,Electronics,Smart Watch,4,10920,43680
+ORD-10896,2025-02-09,Punjab,WhatsApp,Electronics,Charger,3,1674,5022
+ORD-12093,2025-02-09,Sindh,Website,Fashion,Lawn Suit,4,4950,19800
+ORD-11774,2025-02-09,Punjab,Daraz,Fashion,Lawn Suit,2,4680,9360
+ORD-10388,2025-02-09,Punjab,Website,Electronics,Charger,1,1854,1854
+ORD-10202,2025-02-09,Islamabad,Daraz,Home,Iron,1,4992,4992
+ORD-10656,2025-02-09,Sindh,Daraz,Electronics,Charger,1,1836,1836
+ORD-12306,2025-02-09,Islamabad,Website,Electronics,Power Bank,3,5555,16665
+ORD-12230,2025-02-10,Punjab,WhatsApp,Electronics,Charger,1,1800,1800
+ORD-10680,2025-02-10,Punjab,Website,Electronics,Charger,3,1746,5238
+ORD-10958,2025-02-10,Islamabad,Website,Fashion,Lawn Suit,2,4680,9360
+ORD-12018,2025-02-11,Punjab,Website,Fashion,Sneakers,4,6500,26000
+ORD-11880,2025-02-11,Sindh,Website,Home,Bedsheet Set,1,3780,3780
+ORD-10327,2025-02-11,KPK,Website,Fashion,Sneakers,2,6240,12480
+ORD-10743,2025-02-11,Sindh,Website,Electronics,Earbuds,4,3430,13720
+ORD-10046,2025-02-11,KPK,Website,Home,Air Fryer,4,18540,74160
+ORD-12036,2025-02-11,Balochistan,Daraz,Fashion,Shawl,3,3264,9792
+ORD-10359,2025-02-11,Punjab,Daraz,Electronics,Earbuds,3,3290,9870
+ORD-11165,2025-02-11,Sindh,Website,Fashion,Sneakers,2,6435,12870
+ORD-12115,2025-02-11,Sindh,Daraz,Home,Bedsheet Set,2,4074,8148
+ORD-10390,2025-02-11,Punjab,Daraz,Home,Water Dispenser,1,23660,23660
+ORD-10425,2025-02-11,Punjab,Daraz,Home,Water Dispenser,3,28340,85020
+ORD-11255,2025-02-12,Sindh,Daraz,Electronics,Earbuds,1,3395,3395
+ORD-12174,2025-02-12,Punjab,Daraz,Fashion,Lawn Suit,3,4320,12960
+ORD-11487,2025-02-12,Sindh,WhatsApp,Home,Iron,4,4896,19584
+ORD-11868,2025-02-12,KPK,Daraz,Electronics,Charger,3,1800,5400
+ORD-10657,2025-02-12,Punjab,Website,Home,Bedsheet Set,4,4410,17640
+ORD-11794,2025-02-12,Punjab,Website,Home,Iron,2,4464,8928
+ORD-10018,2025-02-13,Punjab,WhatsApp,Electronics,Earbuds,2,3360,6720
+ORD-11902,2025-02-13,Punjab,Website,Home,Iron,1,4944,4944
+ORD-12215,2025-02-13,Punjab,Daraz,Fashion,Kurta,2,3052,6104
+ORD-12199,2025-02-13,Sindh,Daraz,Fashion,Sneakers,3,5980,17940
+ORD-10874,2025-02-13,Punjab,WhatsApp,Electronics,Earbuds,2,3465,6930
+ORD-10709,2025-02-14,Sindh,WhatsApp,Fashion,Lawn Suit,2,4140,8280
+ORD-11296,2025-02-14,Sindh,Daraz,Home,Iron,4,4704,18816
+ORD-11814,2025-02-14,Punjab,Website,Electronics,Charger,2,1656,3312
+ORD-10199,2025-02-14,Punjab,Daraz,Home,Air Fryer,4,18180,72720
+ORD-12015,2025-02-15,Punjab,Daraz,Home,Water Dispenser,2,24180,48360
+ORD-11889,2025-02-15,KPK,WhatsApp,Electronics,Smart Watch,1,11280,11280
+ORD-11345,2025-02-15,Punjab,Daraz,Fashion,Sneakers,4,6435,25740
+ORD-10651,2025-02-15,KPK,Website,Fashion,Shawl,2,2944,5888
+ORD-10581,2025-02-15,Punjab,Daraz,Electronics,Power Bank,3,5775,17325
+ORD-10338,2025-02-15,Sindh,WhatsApp,Fashion,Lawn Suit,3,4185,12555
+ORD-12359,2025-02-15,Punjab,WhatsApp,Fashion,Lawn Suit,4,4095,16380
+ORD-11638,2025-02-15,Sindh,Website,Electronics,Power Bank,3,5060,15180
+ORD-10703,2025-02-15,Sindh,Website,Fashion,Kurta,4,2912,11648
+ORD-12394,2025-02-15,Punjab,Website,Electronics,Charger,3,1962,5886
+ORD-10428,2025-02-16,Punjab,Daraz,Home,Iron,4,4896,19584
+ORD-10642,2025-02-16,Punjab,Website,Fashion,Shawl,3,3360,10080
+ORD-12329,2025-02-16,Sindh,Website,Electronics,Power Bank,2,5005,10010
+ORD-12353,2025-02-16,Punjab,Website,Home,Air Fryer,1,17640,17640
+ORD-11775,2025-02-16,Sindh,Daraz,Fashion,Lawn Suit,4,4545,18180
+ORD-12017,2025-02-16,Islamabad,Daraz,Electronics,Smart Watch,4,10800,43200
+ORD-10990,2025-02-17,Sindh,WhatsApp,Home,Bedsheet Set,4,4326,17304
+ORD-11517,2025-02-17,KPK,Daraz,Home,Water Dispenser,2,24700,49400
+ORD-10016,2025-02-17,Islamabad,Website,Home,Air Fryer,4,18720,74880
+ORD-11819,2025-02-17,KPK,Website,Fashion,Lawn Suit,3,4455,13365
+ORD-10588,2025-02-17,Punjab,Website,Electronics,Power Bank,3,4950,14850
+ORD-10437,2025-02-17,Islamabad,Website,Fashion,Shawl,3,3264,9792
+ORD-11251,2025-02-17,Islamabad,Website,Fashion,Lawn Suit,1,4860,4860
+ORD-10844,2025-02-17,Punjab,Daraz,Home,Air Fryer,2,18540,37080
+ORD-10529,2025-02-17,Sindh,WhatsApp,Home,Bedsheet Set,2,4494,8988
+ORD-10525,2025-02-17,Sindh,Website,Fashion,Sneakers,1,5915,5915
+ORD-11571,2025-02-17,Sindh,Website,Electronics,Earbuds,3,3850,11550
+ORD-10527,2025-02-18,Punjab,Website,Electronics,Power Bank,4,5720,22880
+ORD-11124,2025-02-18,Islamabad,Website,Fashion,Lawn Suit,4,4365,17460
+ORD-11209,2025-02-18,Islamabad,WhatsApp,Home,Water Dispenser,3,24440,73320
+ORD-11565,2025-02-18,Punjab,Website,Electronics,Earbuds,1,3325,3325
+ORD-10149,2025-02-18,KPK,Daraz,Fashion,Sneakers,3,6565,19695
+ORD-10493,2025-02-18,Balochistan,Website,Electronics,Charger,4,1854,7416
+ORD-11423,2025-02-19,Punjab,Website,Fashion,Shawl,3,3488,10464
+ORD-11105,2025-02-19,Sindh,Website,Fashion,Lawn Suit,1,4140,4140
+ORD-11990,2025-02-19,KPK,Website,Home,Bedsheet Set,1,4620,4620
+ORD-12069,2025-02-19,Sindh,Daraz,Home,Water Dispenser,3,27560,82680
+ORD-11073,2025-02-19,KPK,Daraz,Electronics,Charger,1,1944,1944
+ORD-12029,2025-02-19,Sindh,Website,Home,Air Fryer,4,18540,74160
+ORD-10741,2025-02-19,KPK,Website,Home,Iron,1,5040,5040
+ORD-10308,2025-02-19,KPK,Daraz,Fashion,Lawn Suit,1,4320,4320
+ORD-10235,2025-02-19,KPK,Website,Home,Air Fryer,3,16920,50760
+ORD-12101,2025-02-20,Sindh,Website,Home,Iron,2,4896,9792
+ORD-10468,2025-02-20,Balochistan,Daraz,Electronics,Smart Watch,3,12000,36000
+ORD-10637,2025-02-20,Punjab,WhatsApp,Home,Water Dispenser,1,26520,26520
+ORD-11107,2025-02-20,Punjab,WhatsApp,Fashion,Sneakers,3,6370,19110
+ORD-11551,2025-02-20,Punjab,Daraz,Fashion,Lawn Suit,4,4545,18180
+ORD-10266,2025-02-20,Punjab,Website,Electronics,Power Bank,1,5610,5610
+ORD-11509,2025-02-20,Sindh,Daraz,Fashion,Lawn Suit,3,4275,12825
+ORD-11818,2025-02-21,Sindh,Website,Fashion,Kurta,1,2940,2940
+ORD-11099,2025-02-21,Punjab,Daraz,Electronics,Charger,4,1710,6840
+ORD-11479,2025-02-21,Punjab,Website,Fashion,Kurta,3,2548,7644
+ORD-12023,2025-02-21,Sindh,Website,Fashion,Shawl,3,3392,10176
+ORD-10050,2025-02-21,Islamabad,Website,Electronics,Power Bank,1,5060,5060
+ORD-11641,2025-02-21,KPK,Website,Home,Bedsheet Set,2,4578,9156
+ORD-11294,2025-02-22,Sindh,Daraz,Fashion,Kurta,3,2856,8568
+ORD-11034,2025-02-22,Punjab,Website,Electronics,Charger,2,1782,3564
+ORD-11235,2025-02-22,Punjab,Daraz,Electronics,Charger,4,1800,7200
+ORD-11164,2025-02-22,KPK,Website,Electronics,Earbuds,1,3325,3325
+ORD-11136,2025-02-23,Punjab,Website,Electronics,Charger,2,1728,3456
+ORD-10159,2025-02-23,Punjab,WhatsApp,Home,Water Dispenser,1,24440,24440
+ORD-10674,2025-02-23,KPK,Daraz,Electronics,Charger,3,1962,5886
+ORD-12221,2025-02-23,Sindh,Website,Fashion,Lawn Suit,2,4905,9810
+ORD-10612,2025-02-23,Sindh,WhatsApp,Fashion,Lawn Suit,1,4410,4410
+ORD-11440,2025-02-23,Sindh,Website,Home,Air Fryer,3,19440,58320
+ORD-11559,2025-02-23,Sindh,Daraz,Fashion,Shawl,1,2944,2944
+ORD-11736,2025-02-24,Punjab,Daraz,Fashion,Sneakers,1,7020,7020
+ORD-10643,2025-02-24,Sindh,Website,Electronics,Earbuds,4,3710,14840
+ORD-10111,2025-02-24,KPK,Website,Electronics,Power Bank,1,5555,5555
+ORD-11891,2025-02-25,Islamabad,Daraz,Electronics,Earbuds,3,3360,10080
+ORD-10127,2025-02-25,Punjab,Website,Home,Air Fryer,1,16740,16740
+ORD-11262,2025-02-25,KPK,Daraz,Home,Water Dispenser,1,28340,28340
+ORD-11387,2025-02-25,KPK,WhatsApp,Fashion,Shawl,2,2912,5824
+ORD-11642,2025-02-25,Sindh,WhatsApp,Fashion,Shawl,2,3456,6912
+ORD-10424,2025-02-25,KPK,Website,Fashion,Sneakers,3,6110,18330
+ORD-10225,2025-02-25,Balochistan,Daraz,Fashion,Sneakers,1,6890,6890
+ORD-12352,2025-02-26,Sindh,Daraz,Electronics,Power Bank,2,5885,11770
+ORD-10079,2025-02-26,Punjab,Website,Home,Air Fryer,2,16560,33120
+ORD-10900,2025-02-26,KPK,Daraz,Fashion,Lawn Suit,4,4365,17460
+ORD-11781,2025-02-26,Punjab,Daraz,Fashion,Sneakers,1,6890,6890
+ORD-11695,2025-02-26,Islamabad,Website,Home,Bedsheet Set,3,4494,13482
+ORD-10678,2025-02-26,Punjab,Website,Electronics,Smart Watch,2,12960,25920
+ORD-10805,2025-02-26,Sindh,WhatsApp,Fashion,Shawl,2,3008,6016
+ORD-11470,2025-02-27,Sindh,WhatsApp,Electronics,Smart Watch,1,12120,12120
+ORD-11603,2025-02-27,Punjab,Daraz,Fashion,Sneakers,3,6500,19500
+ORD-10928,2025-02-27,KPK,WhatsApp,Home,Bedsheet Set,2,4200,8400
+ORD-10274,2025-02-27,Sindh,Website,Home,Air Fryer,3,16740,50220
+ORD-11674,2025-02-27,Sindh,Daraz,Home,Bedsheet Set,1,3864,3864
+ORD-10469,2025-02-28,Punjab,Daraz,Fashion,Lawn Suit,1,4455,4455
+ORD-11006,2025-02-28,Punjab,WhatsApp,Home,Water Dispenser,4,23660,94640
+ORD-11072,2025-02-28,KPK,Website,Electronics,Earbuds,2,3815,7630
+ORD-10043,2025-02-28,Punjab,Website,Electronics,Power Bank,2,5170,10340
+ORD-12373,2025-02-28,Balochistan,Website,Fashion,Lawn Suit,3,4590,13770
+ORD-12081,2025-02-28,Sindh,WhatsApp,Home,Iron,4,5280,21120
+ORD-11143,2025-02-28,Punjab,Daraz,Electronics,Charger,1,1782,1782
+ORD-11572,2025-02-28,Sindh,WhatsApp,Electronics,Charger,1,1872,1872
+ORD-11499,2025-03-01,KPK,WhatsApp,Fashion,Shawl,2,3168,6336
+ORD-10482,2025-03-01,KPK,Website,Electronics,Smart Watch,1,12720,12720
+ORD-10296,2025-03-01,Punjab,Daraz,Electronics,Smart Watch,3,11160,33480
+ORD-11126,2025-03-01,Sindh,Website,Fashion,Kurta,3,2744,8232
+ORD-10476,2025-03-01,Sindh,WhatsApp,Fashion,Sneakers,1,5915,5915
+ORD-11127,2025-03-01,Punjab,WhatsApp,Electronics,Power Bank,1,5170,5170
+ORD-10795,2025-03-02,Sindh,WhatsApp,Home,Bedsheet Set,2,4200,8400
+ORD-10389,2025-03-02,Punjab,Website,Fashion,Lawn Suit,4,4590,18360
+ORD-11507,2025-03-02,KPK,Website,Electronics,Earbuds,3,3255,9765
+ORD-11052,2025-03-02,Sindh,Website,Electronics,Power Bank,2,5940,11880
+ORD-10520,2025-03-02,Punjab,WhatsApp,Electronics,Power Bank,3,5445,16335
+ORD-10718,2025-03-02,Punjab,Daraz,Home,Air Fryer,4,18360,73440
+ORD-11119,2025-03-02,Punjab,Website,Electronics,Earbuds,2,3710,7420
+ORD-12316,2025-03-02,Islamabad,Website,Electronics,Smart Watch,1,12480,12480
+ORD-11417,2025-03-02,Sindh,Website,Fashion,Sneakers,4,6565,26260
+ORD-10318,2025-03-03,Punjab,WhatsApp,Electronics,Charger,1,1746,1746
+ORD-11292,2025-03-03,Punjab,Daraz,Electronics,Smart Watch,1,11520,11520
+ORD-12386,2025-03-03,Punjab,Website,Fashion,Sneakers,1,6955,6955
+ORD-10916,2025-03-03,Sindh,Website,Fashion,Lawn Suit,4,4320,17280
+ORD-10791,2025-03-03,Punjab,Daraz,Home,Bedsheet Set,3,4536,13608
+ORD-11996,2025-03-03,Punjab,Daraz,Electronics,Smart Watch,4,12600,50400
+ORD-10710,2025-03-03,Sindh,Website,Fashion,Shawl,1,3488,3488
+ORD-10372,2025-03-04,KPK,Daraz,Fashion,Shawl,1,3264,3264
+ORD-11288,2025-03-04,Sindh,Website,Electronics,Smart Watch,4,11280,45120
+ORD-11469,2025-03-04,Punjab,Website,Fashion,Kurta,3,2632,7896
+ORD-10810,2025-03-04,Punjab,WhatsApp,Electronics,Power Bank,2,5775,11550
+ORD-11109,2025-03-05,KPK,WhatsApp,Home,Iron,3,4848,14544
+ORD-11438,2025-03-05,Punjab,Daraz,Electronics,Power Bank,3,5995,17985
+ORD-11922,2025-03-05,Punjab,Website,Electronics,Power Bank,1,5885,5885
+ORD-10332,2025-03-05,KPK,Daraz,Electronics,Earbuds,4,3535,14140
+ORD-11325,2025-03-05,Sindh,Daraz,Home,Bedsheet Set,1,4200,4200
+ORD-11451,2025-03-05,Balochistan,WhatsApp,Electronics,Power Bank,3,5335,16005
+ORD-11941,2025-03-05,Punjab,WhatsApp,Electronics,Power Bank,1,5775,5775
+ORD-10659,2025-03-06,Balochistan,Daraz,Electronics,Smart Watch,2,12480,24960
+ORD-12184,2025-03-06,Punjab,WhatsApp,Electronics,Earbuds,1,3675,3675
+ORD-11829,2025-03-06,Sindh,Website,Home,Bedsheet Set,4,4074,16296
+ORD-12135,2025-03-06,Sindh,WhatsApp,Electronics,Power Bank,1,5115,5115
+ORD-12102,2025-03-06,Punjab,Daraz,Home,Bedsheet Set,1,4536,4536
+ORD-11995,2025-03-06,Sindh,Website,Electronics,Charger,3,1638,4914
+ORD-10711,2025-03-06,Sindh,Website,Home,Iron,3,5232,15696
+ORD-11388,2025-03-06,Sindh,Daraz,Fashion,Kurta,1,3024,3024
+ORD-10167,2025-03-07,Sindh,WhatsApp,Fashion,Shawl,4,3104,12416
+ORD-10257,2025-03-07,Sindh,Website,Fashion,Sneakers,4,6500,26000
+ORD-10658,2025-03-07,Balochistan,Website,Electronics,Charger,3,1908,5724
+ORD-11026,2025-03-07,Punjab,Website,Electronics,Power Bank,2,5610,11220
+ORD-10739,2025-03-07,Sindh,Website,Electronics,Smart Watch,2,12120,24240
+ORD-11416,2025-03-08,Sindh,Website,Fashion,Shawl,2,3040,6080
+ORD-10736,2025-03-08,Islamabad,Website,Fashion,Shawl,1,2944,2944
+ORD-10546,2025-03-08,Punjab,Daraz,Fashion,Kurta,3,2576,7728
+ORD-11454,2025-03-08,Sindh,WhatsApp,Electronics,Smart Watch,1,13080,13080
+ORD-10959,2025-03-08,Sindh,Website,Home,Iron,4,4992,19968
+ORD-12146,2025-03-08,Balochistan,Website,Fashion,Shawl,3,3200,9600
+ORD-11788,2025-03-08,Punjab,WhatsApp,Fashion,Kurta,3,2604,7812
+ORD-10583,2025-03-09,Punjab,Daraz,Fashion,Kurta,1,2996,2996
+ORD-10347,2025-03-09,Islamabad,Website,Fashion,Lawn Suit,3,4365,13095
+ORD-11324,2025-03-09,Balochistan,WhatsApp,Home,Iron,4,4944,19776
+ORD-11698,2025-03-09,Punjab,WhatsApp,Fashion,Kurta,1,2772,2772
+ORD-12177,2025-03-09,Islamabad,Website,Electronics,Smart Watch,3,11040,33120
+ORD-11133,2025-03-09,Islamabad,Daraz,Home,Air Fryer,4,19620,78480
+ORD-11211,2025-03-09,Punjab,WhatsApp,Home,Bedsheet Set,3,3822,11466
+ORD-10603,2025-03-09,Punjab,Daraz,Fashion,Sneakers,3,7020,21060
+ORD-10084,2025-03-09,Islamabad,WhatsApp,Home,Bedsheet Set,2,3780,7560
+ORD-11117,2025-03-09,KPK,WhatsApp,Fashion,Sneakers,3,5850,17550
+ORD-11226,2025-03-09,Punjab,Website,Fashion,Lawn Suit,2,4815,9630
+ORD-10717,2025-03-09,Islamabad,WhatsApp,Fashion,Shawl,3,3104,9312
+ORD-12031,2025-03-10,Punjab,WhatsApp,Electronics,Earbuds,4,3395,13580
+ORD-11669,2025-03-10,Punjab,Daraz,Fashion,Sneakers,1,5915,5915
+ORD-10381,2025-03-10,KPK,WhatsApp,Home,Iron,2,4752,9504
+ORD-10543,2025-03-10,Balochistan,WhatsApp,Electronics,Smart Watch,3,12000,36000
+ORD-11708,2025-03-10,KPK,Daraz,Electronics,Earbuds,4,3220,12880
+ORD-11048,2025-03-11,Sindh,Website,Electronics,Smart Watch,4,11160,44640
+ORD-12298,2025-03-11,Islamabad,Website,Home,Bedsheet Set,2,4452,8904
+ORD-10407,2025-03-11,Sindh,Website,Electronics,Earbuds,1,3675,3675
+ORD-11762,2025-03-11,Punjab,WhatsApp,Fashion,Kurta,2,2520,5040
+ORD-10667,2025-03-11,Islamabad,Website,Electronics,Smart Watch,1,12960,12960
+ORD-10571,2025-03-11,Islamabad,Website,Home,Air Fryer,2,19260,38520
+ORD-10067,2025-03-12,Punjab,Daraz,Electronics,Smart Watch,1,12720,12720
+ORD-10252,2025-03-12,Punjab,Website,Fashion,Shawl,4,2976,11904
+ORD-12273,2025-03-12,Sindh,Daraz,Fashion,Shawl,4,3392,13568
+ORD-10494,2025-03-12,Punjab,WhatsApp,Fashion,Lawn Suit,1,4770,4770
+ORD-11911,2025-03-12,Punjab,Daraz,Electronics,Charger,4,1674,6696
+ORD-10161,2025-03-12,Punjab,Website,Fashion,Lawn Suit,4,4320,17280
+ORD-11461,2025-03-12,Punjab,Website,Electronics,Charger,1,1836,1836
+ORD-11510,2025-03-13,Punjab,Website,Electronics,Earbuds,1,3465,3465
+ORD-11071,2025-03-13,Punjab,Website,Fashion,Shawl,4,3424,13696
+ORD-11568,2025-03-13,Sindh,Website,Home,Iron,2,4704,9408
+ORD-10885,2025-03-13,Islamabad,WhatsApp,Electronics,Charger,2,1800,3600
+ORD-12259,2025-03-13,Punjab,WhatsApp,Fashion,Sneakers,1,6825,6825
+ORD-11266,2025-03-13,KPK,Daraz,Electronics,Charger,1,1818,1818
+ORD-11411,2025-03-14,Sindh,Daraz,Fashion,Kurta,4,2856,11424
+ORD-11870,2025-03-14,Punjab,Daraz,Electronics,Earbuds,4,3500,14000
+ORD-10999,2025-03-14,Punjab,Website,Fashion,Kurta,1,2996,2996
+ORD-10522,2025-03-14,KPK,Website,Electronics,Smart Watch,3,12000,36000
+ORD-10602,2025-03-14,KPK,Website,Fashion,Kurta,2,2884,5768
+ORD-11184,2025-03-14,Islamabad,WhatsApp,Fashion,Lawn Suit,3,4725,14175
+ORD-10443,2025-03-14,Sindh,Website,Fashion,Sneakers,1,6565,6565
+ORD-10889,2025-03-14,Islamabad,Website,Home,Bedsheet Set,1,4326,4326
+ORD-10253,2025-03-14,Punjab,Website,Home,Air Fryer,2,16200,32400
+ORD-11851,2025-03-14,KPK,Website,Home,Air Fryer,1,18360,18360
+ORD-11286,2025-03-15,Islamabad,Daraz,Electronics,Smart Watch,3,11160,33480
+ORD-10071,2025-03-15,Balochistan,Website,Electronics,Charger,4,1674,6696
+ORD-12009,2025-03-15,Islamabad,Daraz,Fashion,Sneakers,2,6110,12220
+ORD-11703,2025-03-15,Sindh,Website,Fashion,Kurta,3,2660,7980
+ORD-11017,2025-03-15,Punjab,Website,Fashion,Sneakers,4,6500,26000
+ORD-11739,2025-03-15,Sindh,Website,Home,Water Dispenser,3,27300,81900
+ORD-11707,2025-03-15,Islamabad,Daraz,Electronics,Charger,4,1746,6984
+ORD-10272,2025-03-15,Punjab,WhatsApp,Fashion,Lawn Suit,2,4230,8460
+ORD-11999,2025-03-15,Sindh,WhatsApp,Electronics,Earbuds,1,3780,3780
+ORD-11751,2025-03-16,Punjab,Website,Fashion,Shawl,2,3072,6144
+ORD-10317,2025-03-16,Islamabad,Daraz,Fashion,Lawn Suit,3,4950,14850
+ORD-11778,2025-03-16,Punjab,Website,Electronics,Power Bank,3,5335,16005
+ORD-11053,2025-03-16,Islamabad,Daraz,Electronics,Smart Watch,4,12000,48000
+ORD-11812,2025-03-16,Punjab,WhatsApp,Electronics,Earbuds,1,3465,3465
+ORD-11303,2025-03-16,Punjab,WhatsApp,Electronics,Power Bank,4,5445,21780
+ORD-12220,2025-03-17,Sindh,WhatsApp,Fashion,Shawl,4,3104,12416
+ORD-12039,2025-03-17,KPK,Website,Home,Air Fryer,4,19080,76320
+ORD-12399,2025-03-17,Islamabad,WhatsApp,Electronics,Earbuds,1,3465,3465
+ORD-10753,2025-03-17,KPK,Website,Home,Water Dispenser,3,26000,78000
+ORD-10610,2025-03-17,Punjab,Website,Fashion,Lawn Suit,2,4365,8730
+ORD-12268,2025-03-17,Sindh,Daraz,Fashion,Sneakers,3,6110,18330
+ORD-11903,2025-03-18,Islamabad,Daraz,Fashion,Sneakers,4,6890,27560
+ORD-10839,2025-03-18,KPK,WhatsApp,Electronics,Smart Watch,4,11280,45120
+ORD-10508,2025-03-18,Punjab,WhatsApp,Home,Air Fryer,4,16380,65520
+ORD-12083,2025-03-19,Islamabad,Website,Fashion,Lawn Suit,3,4050,12150
+ORD-11570,2025-03-19,Sindh,Website,Home,Bedsheet Set,1,4452,4452
+ORD-11636,2025-03-19,Punjab,Website,Fashion,Shawl,4,3296,13184
+ORD-12118,2025-03-19,Sindh,Website,Fashion,Kurta,1,2968,2968
+ORD-11241,2025-03-19,Punjab,Daraz,Home,Bedsheet Set,2,4158,8316
+ORD-10178,2025-03-19,Balochistan,Website,Home,Iron,3,4992,14976
+ORD-10321,2025-03-19,Punjab,WhatsApp,Electronics,Power Bank,4,5830,23320
+ORD-11146,2025-03-19,Islamabad,Daraz,Home,Water Dispenser,4,24700,98800
+ORD-10576,2025-03-19,Balochistan,Daraz,Electronics,Charger,2,1692,3384
+ORD-11331,2025-03-20,Sindh,Website,Home,Water Dispenser,2,23920,47840
+ORD-11534,2025-03-20,Punjab,Website,Electronics,Power Bank,2,5225,10450
+ORD-10505,2025-03-20,KPK,Daraz,Electronics,Charger,2,1944,3888
+ORD-10139,2025-03-20,KPK,Daraz,Electronics,Smart Watch,4,11160,44640
+ORD-11616,2025-03-20,Sindh,Website,Fashion,Lawn Suit,1,4860,4860
+ORD-10404,2025-03-20,Punjab,Website,Electronics,Earbuds,2,3780,7560
+ORD-10041,2025-03-20,Punjab,Website,Fashion,Lawn Suit,1,4635,4635
+ORD-11159,2025-03-20,Punjab,Website,Fashion,Lawn Suit,2,4275,8550
+ORD-10475,2025-03-20,Punjab,Website,Electronics,Smart Watch,3,10920,32760
+ORD-11540,2025-03-20,Punjab,Website,Home,Bedsheet Set,3,4578,13734
+ORD-11964,2025-03-20,Punjab,Daraz,Electronics,Earbuds,1,3710,3710
+ORD-10270,2025-03-21,Punjab,Daraz,Home,Water Dispenser,3,28600,85800
+ORD-11092,2025-03-21,Punjab,WhatsApp,Fashion,Sneakers,1,6370,6370
+ORD-10826,2025-03-21,Punjab,Daraz,Electronics,Power Bank,1,5280,5280
+ORD-11630,2025-03-21,Punjab,Website,Electronics,Power Bank,1,5610,5610
+ORD-11114,2025-03-21,Balochistan,Website,Fashion,Kurta,2,2912,5824
+ORD-10671,2025-03-21,KPK,WhatsApp,Electronics,Charger,3,1674,5022
+ORD-11515,2025-03-21,Punjab,WhatsApp,Fashion,Kurta,2,2996,5992
+ORD-11321,2025-03-22,KPK,Website,Electronics,Charger,4,1620,6480
+ORD-11771,2025-03-22,Islamabad,Daraz,Home,Air Fryer,4,17820,71280
+ORD-11746,2025-03-23,Sindh,Website,Fashion,Shawl,1,3200,3200
+ORD-10992,2025-03-23,Punjab,Daraz,Fashion,Sneakers,2,5915,11830
+ORD-10883,2025-03-23,Balochistan,Website,Home,Iron,2,4704,9408
+ORD-10994,2025-03-24,Islamabad,Daraz,Fashion,Sneakers,2,5915,11830
+ORD-11832,2025-03-24,Punjab,Website,Electronics,Earbuds,2,3290,6580
+ORD-11852,2025-03-24,Sindh,Daraz,Home,Bedsheet Set,2,3990,7980
+ORD-10251,2025-03-24,Punjab,Daraz,Electronics,Earbuds,1,3220,3220
+ORD-10701,2025-03-24,KPK,Daraz,Electronics,Charger,3,1818,5454
+ORD-10007,2025-03-24,Punjab,Daraz,Fashion,Kurta,2,2632,5264
+ORD-10110,2025-03-24,Punjab,Website,Home,Bedsheet Set,1,4200,4200
+ORD-10828,2025-03-24,Sindh,Daraz,Fashion,Lawn Suit,2,4410,8820
+ORD-11520,2025-03-24,KPK,Website,Home,Bedsheet Set,3,4368,13104
+ORD-11302,2025-03-25,Sindh,Daraz,Fashion,Lawn Suit,3,4275,12825
+ORD-11242,2025-03-25,Islamabad,WhatsApp,Electronics,Earbuds,2,3185,6370
+ORD-11653,2025-03-25,Punjab,Daraz,Electronics,Charger,2,1872,3744
+ORD-11696,2025-03-25,Islamabad,Website,Electronics,Smart Watch,1,10800,10800
+ORD-10250,2025-03-26,Sindh,Website,Electronics,Power Bank,3,5995,17985
+ORD-10749,2025-03-26,Sindh,Website,Fashion,Sneakers,1,6955,6955
+ORD-11060,2025-03-26,KPK,Daraz,Electronics,Earbuds,4,3465,13860
+ORD-11102,2025-03-26,KPK,WhatsApp,Home,Water Dispenser,1,26780,26780
+ORD-10566,2025-03-26,KPK,Daraz,Electronics,Charger,2,1836,3672
+ORD-11802,2025-03-26,KPK,Website,Home,Air Fryer,2,18900,37800
+ORD-11364,2025-03-27,Sindh,Daraz,Fashion,Kurta,1,2996,2996
+ORD-11655,2025-03-27,Punjab,Daraz,Electronics,Charger,3,1746,5238
+ORD-11392,2025-03-27,Punjab,Website,Electronics,Power Bank,3,5225,15675
+ORD-10342,2025-03-27,Punjab,WhatsApp,Electronics,Smart Watch,1,12240,12240
+ORD-12236,2025-03-28,KPK,Website,Electronics,Earbuds,1,3290,3290
+ORD-10412,2025-03-28,Punjab,Website,Electronics,Smart Watch,4,11880,47520
+ORD-10406,2025-03-28,Punjab,Website,Electronics,Earbuds,1,3605,3605
+ORD-10769,2025-03-28,KPK,Daraz,Home,Water Dispenser,3,27300,81900
+ORD-10832,2025-03-28,Punjab,Website,Electronics,Earbuds,4,3570,14280
+ORD-10179,2025-03-29,KPK,WhatsApp,Electronics,Charger,3,1746,5238
+ORD-12372,2025-03-29,Sindh,Daraz,Home,Air Fryer,3,16740,50220
+ORD-10131,2025-03-29,Punjab,Website,Electronics,Charger,3,1926,5778
+ORD-11888,2025-03-30,Punjab,Website,Electronics,Charger,1,1782,1782
+ORD-10748,2025-03-30,Punjab,Website,Electronics,Charger,2,1872,3744
+ORD-11837,2025-03-31,Sindh,Website,Electronics,Earbuds,3,3220,9660
+ORD-11944,2025-03-31,Punjab,Website,Fashion,Sneakers,2,5915,11830
+ORD-11504,2025-03-31,KPK,Daraz,Electronics,Charger,3,1926,5778
+ORD-11037,2025-03-31,KPK,Daraz,Fashion,Sneakers,1,5915,5915
+ORD-11032,2025-03-31,Punjab,Website,Home,Iron,2,4560,9120
+ORD-11233,2025-03-31,Sindh,Daraz,Home,Iron,1,5040,5040
+ORD-10094,2025-03-31,Punjab,Website,Electronics,Earbuds,4,3430,13720
+ORD-11757,2025-03-31,Punjab,WhatsApp,Fashion,Kurta,2,2688,5376
+ORD-12051,2025-03-31,Sindh,Daraz,Electronics,Smart Watch,2,13200,26400
+ORD-10384,2025-03-31,Punjab,Website,Electronics,Power Bank,4,5720,22880
+ORD-10974,2025-03-31,Punjab,Daraz,Electronics,Earbuds,3,3570,10710
+ORD-10164,2025-03-31,Punjab,Website,Fashion,Lawn Suit,3,4950,14850
+ORD-10063,2025-04-01,KPK,Daraz,Electronics,Power Bank,1,5390,5390
+ORD-10294,2025-04-01,Sindh,Website,Electronics,Charger,3,1818,5454
+ORD-10686,2025-04-01,Punjab,Daraz,Fashion,Sneakers,2,7020,14040
+ORD-10697,2025-04-01,Punjab,Website,Fashion,Sneakers,5,5915,29575
+ORD-10964,2025-04-01,Punjab,Daraz,Fashion,Lawn Suit,3,4185,12555
+ORD-12363,2025-04-01,Punjab,Website,Fashion,Lawn Suit,2,4815,9630
+ORD-10507,2025-04-01,Punjab,Website,Electronics,Charger,1,1944,1944
+ORD-10379,2025-04-01,Balochistan,Website,Electronics,Earbuds,4,3290,13160
+ORD-12034,2025-04-02,Punjab,Daraz,Electronics,Charger,1,1962,1962
+ORD-11494,2025-04-02,Punjab,Website,Home,Iron,2,5232,10464
+ORD-11449,2025-04-02,Punjab,Daraz,Home,Bedsheet Set,1,3822,3822
+ORD-10954,2025-04-02,Sindh,Daraz,Electronics,Smart Watch,4,11400,45600
+ORD-10301,2025-04-02,KPK,Website,Home,Air Fryer,4,18720,74880
+ORD-11918,2025-04-02,Punjab,Website,Electronics,Earbuds,3,3500,10500
+ORD-10740,2025-04-03,Sindh,Daraz,Home,Iron,4,4848,19392
+ORD-10632,2025-04-03,Sindh,WhatsApp,Electronics,Charger,4,1728,6912
+ORD-11705,2025-04-03,KPK,Daraz,Home,Iron,1,4848,4848
+ORD-10377,2025-04-03,Sindh,WhatsApp,Fashion,Sneakers,4,6760,27040
+ORD-11687,2025-04-03,KPK,Website,Home,Iron,3,5136,15408
+ORD-10694,2025-04-03,Punjab,Website,Fashion,Lawn Suit,1,4185,4185
+ORD-11549,2025-04-03,Punjab,Daraz,Home,Water Dispenser,1,26780,26780
+ORD-11927,2025-04-03,Sindh,Daraz,Fashion,Shawl,3,3328,9984
+ORD-10483,2025-04-03,Punjab,Daraz,Home,Iron,4,5088,20352
+ORD-12123,2025-04-04,Punjab,Daraz,Home,Air Fryer,2,19080,38160
+ORD-10025,2025-04-04,Sindh,WhatsApp,Home,Iron,3,5040,15120
+ORD-11093,2025-04-04,Balochistan,Daraz,Electronics,Charger,3,1872,5616
+ORD-11533,2025-04-04,Balochistan,WhatsApp,Electronics,Smart Watch,2,11160,22320
+ORD-12214,2025-04-04,Punjab,Website,Home,Bedsheet Set,3,3948,11844
+ORD-11670,2025-04-04,Punjab,Website,Electronics,Smart Watch,4,12120,48480
+ORD-10650,2025-04-04,Sindh,Website,Home,Bedsheet Set,2,4158,8316
+ORD-11061,2025-04-04,Punjab,Daraz,Fashion,Sneakers,3,6110,18330
+ORD-11979,2025-04-05,Sindh,WhatsApp,Electronics,Earbuds,4,3535,14140
+ORD-11045,2025-04-05,Sindh,WhatsApp,Electronics,Smart Watch,2,11640,23280
+ORD-11528,2025-04-05,Sindh,Daraz,Electronics,Charger,4,1818,7272
+ORD-10676,2025-04-05,Punjab,Website,Electronics,Smart Watch,4,12120,48480
+ORD-10376,2025-04-05,Sindh,Website,Home,Iron,2,4464,8928
+ORD-11490,2025-04-06,Punjab,WhatsApp,Electronics,Power Bank,1,5335,5335
+ORD-12206,2025-04-06,Punjab,WhatsApp,Electronics,Smart Watch,4,10920,43680
+ORD-10722,2025-04-06,Punjab,Website,Electronics,Smart Watch,3,12240,36720
+ORD-11196,2025-04-06,Punjab,Daraz,Home,Water Dispenser,1,27040,27040
+ORD-11801,2025-04-06,Islamabad,Website,Home,Water Dispenser,1,23920,23920
+ORD-11780,2025-04-06,KPK,WhatsApp,Electronics,Power Bank,1,5005,5005
+ORD-12246,2025-04-06,Punjab,Website,Fashion,Lawn Suit,6,4725,28350
+ORD-12389,2025-04-06,Punjab,WhatsApp,Home,Bedsheet Set,2,4452,8904
+ORD-11371,2025-04-07,Islamabad,Website,Home,Bedsheet Set,1,4032,4032
+ORD-11192,2025-04-07,Sindh,WhatsApp,Fashion,Lawn Suit,3,4815,14445
+ORD-10448,2025-04-07,Punjab,Daraz,Fashion,Kurta,4,2968,11872
+ORD-12027,2025-04-07,Punjab,Website,Fashion,Sneakers,2,6370,12740
+ORD-11826,2025-04-07,Sindh,WhatsApp,Fashion,Kurta,3,2548,7644
+ORD-11615,2025-04-08,Sindh,Daraz,Electronics,Smart Watch,2,12720,25440
+ORD-10983,2025-04-08,Balochistan,Website,Home,Air Fryer,1,16380,16380
+ORD-10081,2025-04-08,Punjab,Daraz,Electronics,Charger,4,1872,7488
+ORD-10721,2025-04-08,KPK,Daraz,Electronics,Earbuds,3,3185,9555
+ORD-11243,2025-04-08,Sindh,WhatsApp,Home,Iron,2,4992,9984
+ORD-10060,2025-04-08,KPK,WhatsApp,Fashion,Sneakers,3,5850,17550
+ORD-12261,2025-04-08,Punjab,Website,Electronics,Power Bank,4,5940,23760
+ORD-10573,2025-04-08,Sindh,Website,Fashion,Sneakers,2,5850,11700
+ORD-11323,2025-04-09,Sindh,WhatsApp,Fashion,Kurta,4,2968,11872
+ORD-11129,2025-04-09,Sindh,Website,Electronics,Smart Watch,4,12960,51840
+ORD-10535,2025-04-09,Sindh,Website,Fashion,Kurta,3,2660,7980
+ORD-11247,2025-04-09,KPK,Website,Home,Air Fryer,4,18720,74880
+ORD-11431,2025-04-09,KPK,Daraz,Fashion,Kurta,3,2912,8736
+ORD-11042,2025-04-09,KPK,Website,Fashion,Kurta,1,2548,2548
+ORD-11212,2025-04-09,Islamabad,Website,Fashion,Shawl,5,3360,16800
+ORD-11968,2025-04-09,Balochistan,Daraz,Electronics,Smart Watch,1,12360,12360
+ORD-12026,2025-04-09,KPK,Website,Electronics,Earbuds,4,3500,14000
+ORD-12002,2025-04-10,KPK,Website,Fashion,Kurta,3,2856,8568
+ORD-10267,2025-04-10,Punjab,Daraz,Electronics,Smart Watch,3,11880,35640
+ORD-11337,2025-04-10,Sindh,WhatsApp,Electronics,Power Bank,3,5940,17820
+ORD-11166,2025-04-11,Punjab,Website,Home,Water Dispenser,2,26260,52520
+ORD-11267,2025-04-11,Punjab,Website,Home,Bedsheet Set,2,4452,8904
+ORD-11002,2025-04-12,Punjab,Daraz,Home,Bedsheet Set,1,3948,3948
+ORD-11219,2025-04-12,Islamabad,Website,Fashion,Shawl,3,2976,8928
+ORD-11307,2025-04-12,Punjab,Daraz,Electronics,Smart Watch,3,13080,39240
+ORD-10808,2025-04-12,Punjab,Daraz,Fashion,Shawl,2,3264,6528
+ORD-11657,2025-04-12,Sindh,WhatsApp,Electronics,Smart Watch,1,12720,12720
+ORD-11724,2025-04-12,Sindh,Daraz,Home,Iron,3,5136,15408
+ORD-12072,2025-04-12,Islamabad,Website,Electronics,Charger,4,1764,7056
+ORD-12354,2025-04-12,Islamabad,Website,Home,Air Fryer,4,18540,74160
+ORD-10023,2025-04-12,Balochistan,WhatsApp,Electronics,Smart Watch,1,10800,10800
+ORD-10572,2025-04-13,Islamabad,Daraz,Electronics,Earbuds,4,3395,13580
+ORD-10817,2025-04-13,Islamabad,WhatsApp,Electronics,Charger,1,1818,1818
+ORD-10214,2025-04-13,KPK,Daraz,Electronics,Smart Watch,2,10920,21840
+ORD-10158,2025-04-13,Sindh,Daraz,Electronics,Charger,4,1638,6552
+ORD-10978,2025-04-13,KPK,Website,Fashion,Lawn Suit,3,4905,14715
+ORD-11525,2025-04-13,KPK,Website,Electronics,Smart Watch,3,13080,39240
+ORD-11863,2025-04-13,Punjab,Daraz,Home,Air Fryer,2,17460,34920
+ORD-12330,2025-04-13,Punjab,Daraz,Electronics,Smart Watch,3,11160,33480
+ORD-11082,2025-04-13,Sindh,Website,Fashion,Kurta,3,2856,8568
+ORD-12327,2025-04-14,Sindh,Daraz,Home,Air Fryer,1,18000,18000
+ORD-10725,2025-04-14,Punjab,Website,Fashion,Sneakers,2,6500,13000
+ORD-11511,2025-04-14,Sindh,Website,Fashion,Sneakers,2,5850,11700
+ORD-12342,2025-04-14,Punjab,Daraz,Fashion,Kurta,4,3080,12320
+ORD-10886,2025-04-14,Balochistan,WhatsApp,Fashion,Shawl,4,3456,13824
+ORD-11111,2025-04-14,Sindh,Website,Home,Iron,1,5088,5088
+ORD-12149,2025-04-14,Sindh,Website,Fashion,Sneakers,2,7020,14040
+ORD-12350,2025-04-15,Punjab,WhatsApp,Electronics,Charger,4,1962,7848
+ORD-10010,2025-04-15,KPK,Website,Fashion,Kurta,3,3052,9156
+ORD-11711,2025-04-15,Sindh,Website,Electronics,Smart Watch,3,11880,35640
+ORD-12278,2025-04-15,Sindh,Website,Electronics,Power Bank,2,5665,11330
+ORD-11726,2025-04-15,Sindh,Daraz,Electronics,Charger,3,1962,5886
+ORD-12312,2025-04-15,Punjab,WhatsApp,Fashion,Kurta,6,3080,18480
+ORD-11957,2025-04-15,KPK,WhatsApp,Fashion,Sneakers,5,6630,33150
+ORD-10946,2025-04-15,KPK,Website,Electronics,Charger,1,1908,1908
+ORD-12209,2025-04-16,Balochistan,Daraz,Electronics,Charger,2,1782,3564
+ORD-12043,2025-04-16,Islamabad,Website,Electronics,Earbuds,4,3675,14700
+ORD-10692,2025-04-16,Sindh,Website,Fashion,Kurta,3,3024,9072
+ORD-11372,2025-04-16,KPK,Website,Electronics,Charger,3,1710,5130
+ORD-11057,2025-04-16,Sindh,WhatsApp,Home,Water Dispenser,1,24440,24440
+ORD-12287,2025-04-16,Sindh,Website,Fashion,Sneakers,5,5980,29900
+ORD-11953,2025-04-16,Punjab,WhatsApp,Electronics,Earbuds,1,3745,3745
+ORD-11315,2025-04-16,Punjab,Daraz,Home,Iron,2,4848,9696
+ORD-12244,2025-04-17,KPK,WhatsApp,Electronics,Power Bank,4,5665,22660
+ORD-11281,2025-04-17,Punjab,WhatsApp,Electronics,Charger,2,1890,3780
+ORD-11046,2025-04-17,Balochistan,Website,Electronics,Earbuds,4,3185,12740
+ORD-10914,2025-04-17,Islamabad,Website,Fashion,Sneakers,2,6500,13000
+ORD-12013,2025-04-17,Punjab,Website,Fashion,Sneakers,5,6370,31850
+ORD-10963,2025-04-17,Islamabad,WhatsApp,Home,Iron,4,4752,19008
+ORD-10961,2025-04-17,Punjab,Daraz,Electronics,Earbuds,4,3430,13720
+ORD-12260,2025-04-18,Punjab,WhatsApp,Fashion,Sneakers,3,6175,18525
+ORD-10782,2025-04-18,KPK,WhatsApp,Fashion,Sneakers,4,7020,28080
+ORD-12205,2025-04-18,KPK,Daraz,Fashion,Sneakers,3,6305,18915
+ORD-11937,2025-04-18,Punjab,WhatsApp,Home,Water Dispenser,1,27820,27820
+ORD-10806,2025-04-18,KPK,Daraz,Fashion,Shawl,3,3328,9984
+ORD-12204,2025-04-19,Sindh,WhatsApp,Fashion,Sneakers,5,6760,33800
+ORD-10312,2025-04-19,Islamabad,Daraz,Home,Air Fryer,1,17100,17100
+ORD-12333,2025-04-19,Punjab,Daraz,Home,Air Fryer,2,18720,37440
+ORD-11677,2025-04-19,Punjab,Website,Fashion,Kurta,1,2996,2996
+ORD-12225,2025-04-19,Balochistan,WhatsApp,Home,Air Fryer,2,18900,37800
+ORD-10370,2025-04-19,Sindh,WhatsApp,Home,Bedsheet Set,4,4494,17976
+ORD-10504,2025-04-19,Punjab,Website,Fashion,Sneakers,3,6695,20085
+ORD-10009,2025-04-20,Balochistan,Website,Fashion,Kurta,3,2520,7560
+ORD-10519,2025-04-20,Punjab,WhatsApp,Home,Air Fryer,1,19440,19440
+ORD-10426,2025-04-20,KPK,Website,Fashion,Shawl,5,3360,16800
+ORD-12210,2025-04-20,Punjab,Website,Fashion,Shawl,3,3168,9504
+ORD-10143,2025-04-20,Sindh,WhatsApp,Home,Water Dispenser,3,28340,85020
+ORD-12075,2025-04-20,Punjab,Website,Electronics,Power Bank,1,5060,5060
+ORD-10322,2025-04-20,Islamabad,Daraz,Home,Iron,4,4704,18816
+ORD-11554,2025-04-20,Punjab,WhatsApp,Electronics,Charger,1,1818,1818
+ORD-10021,2025-04-21,Punjab,Website,Fashion,Lawn Suit,3,4815,14445
+ORD-10430,2025-04-21,Sindh,WhatsApp,Home,Bedsheet Set,3,3990,11970
+ORD-12351,2025-04-21,Punjab,Website,Electronics,Charger,4,1728,6912
+ORD-10789,2025-04-21,Balochistan,Website,Electronics,Earbuds,3,3675,11025
+ORD-11659,2025-04-21,Sindh,Website,Fashion,Sneakers,5,6565,32825
+ORD-11213,2025-04-21,KPK,Website,Electronics,Power Bank,2,5665,11330
+ORD-12344,2025-04-21,KPK,Daraz,Fashion,Shawl,3,3232,9696
+ORD-11618,2025-04-21,Sindh,Daraz,Home,Water Dispenser,4,23660,94640
+ORD-11016,2025-04-21,Sindh,WhatsApp,Electronics,Charger,4,1764,7056
+ORD-11317,2025-04-22,KPK,Daraz,Electronics,Power Bank,3,5115,15345
+ORD-10386,2025-04-22,Islamabad,Website,Electronics,Smart Watch,1,13080,13080
+ORD-11816,2025-04-22,Punjab,Website,Home,Water Dispenser,3,27040,81120
+ORD-10500,2025-04-22,Punjab,Website,Electronics,Earbuds,4,3500,14000
+ORD-12181,2025-04-22,Balochistan,Website,Fashion,Kurta,3,2996,8988
+ORD-10337,2025-04-22,KPK,Website,Home,Iron,3,4656,13968
+ORD-12172,2025-04-22,KPK,Daraz,Electronics,Charger,2,1944,3888
+ORD-11676,2025-04-22,Punjab,WhatsApp,Fashion,Lawn Suit,5,4770,23850
+ORD-11059,2025-04-22,Punjab,WhatsApp,Electronics,Smart Watch,4,10920,43680
+ORD-10537,2025-04-22,Balochistan,Website,Home,Bedsheet Set,4,4452,17808
+ORD-10436,2025-04-22,Sindh,Website,Home,Iron,4,4800,19200
+ORD-10550,2025-04-23,Islamabad,Daraz,Fashion,Kurta,2,2996,5992
+ORD-12055,2025-04-23,Punjab,Website,Electronics,Power Bank,3,5115,15345
+ORD-10228,2025-04-23,Punjab,Website,Fashion,Kurta,2,3024,6048
+ORD-10306,2025-04-24,KPK,Daraz,Home,Air Fryer,2,18540,37080
+ORD-11545,2025-04-24,Islamabad,Website,Fashion,Shawl,2,3456,6912
+ORD-11912,2025-04-24,Punjab,Website,Fashion,Shawl,3,2912,8736
+ORD-10683,2025-04-24,KPK,WhatsApp,Electronics,Smart Watch,2,11880,23760
+ORD-10600,2025-04-24,Sindh,Website,Home,Iron,1,4560,4560
+ORD-11843,2025-04-24,Islamabad,WhatsApp,Fashion,Sneakers,3,6955,20865
+ORD-12062,2025-04-24,Punjab,Website,Fashion,Shawl,6,3168,19008
+ORD-10260,2025-04-24,Punjab,Website,Electronics,Power Bank,4,5665,22660
+ORD-10395,2025-04-24,Islamabad,WhatsApp,Electronics,Power Bank,2,5500,11000
+ORD-11491,2025-04-24,Punjab,Daraz,Electronics,Charger,4,1764,7056
+ORD-10986,2025-04-24,Islamabad,Daraz,Electronics,Earbuds,4,3815,15260
+ORD-11702,2025-04-24,KPK,Website,Home,Iron,1,4368,4368
+ORD-11666,2025-04-24,Punjab,WhatsApp,Home,Iron,3,4608,13824
+ORD-11252,2025-04-25,Sindh,Daraz,Fashion,Sneakers,1,6760,6760
+ORD-10464,2025-04-25,Punjab,Daraz,Fashion,Sneakers,4,5980,23920
+ORD-10681,2025-04-25,Punjab,Daraz,Fashion,Shawl,2,3232,6464
+ORD-10431,2025-04-25,Punjab,Website,Fashion,Sneakers,4,6955,27820
+ORD-11273,2025-04-25,Punjab,WhatsApp,Home,Air Fryer,2,19080,38160
+ORD-10995,2025-04-25,Punjab,Daraz,Home,Air Fryer,2,17280,34560
+ORD-11861,2025-04-26,Balochistan,Website,Electronics,Earbuds,2,3605,7210
+ORD-12153,2025-04-26,Sindh,WhatsApp,Electronics,Smart Watch,4,13080,52320
+ORD-11428,2025-04-26,Punjab,Website,Home,Iron,2,4944,9888
+ORD-11019,2025-04-26,Islamabad,Website,Fashion,Sneakers,3,6630,19890
+ORD-10763,2025-04-26,Sindh,Daraz,Electronics,Earbuds,4,3535,14140
+ORD-10984,2025-04-26,Islamabad,Daraz,Home,Air Fryer,3,19440,58320
+ORD-11167,2025-04-26,Punjab,Daraz,Fashion,Sneakers,3,6825,20475
+ORD-11767,2025-04-27,Sindh,Website,Fashion,Sneakers,6,6955,41730
+ORD-11834,2025-04-27,Sindh,Website,Electronics,Power Bank,3,5170,15510
+ORD-10423,2025-04-27,KPK,Website,Electronics,Smart Watch,2,13200,26400
+ORD-11381,2025-04-27,Sindh,WhatsApp,Electronics,Smart Watch,1,12840,12840
+ORD-12091,2025-04-27,KPK,Website,Fashion,Sneakers,3,6630,19890
+ORD-12393,2025-04-27,Punjab,Website,Electronics,Smart Watch,2,12000,24000
+ORD-11892,2025-04-27,Sindh,Daraz,Fashion,Shawl,2,3328,6656
+ORD-10109,2025-04-28,KPK,WhatsApp,Electronics,Power Bank,3,5555,16665
+ORD-10608,2025-04-28,Islamabad,Daraz,Fashion,Sneakers,3,6565,19695
+ORD-12106,2025-04-28,Punjab,Website,Fashion,Shawl,4,3136,12544
+ORD-10189,2025-04-28,Sindh,Website,Home,Bedsheet Set,2,4200,8400
+ORD-10970,2025-04-28,Punjab,Daraz,Fashion,Shawl,5,2880,14400
+ORD-11665,2025-04-28,Sindh,Daraz,Electronics,Power Bank,3,5445,16335
+ORD-12082,2025-04-28,Islamabad,Daraz,Fashion,Lawn Suit,3,4410,13230
+ORD-11075,2025-04-28,KPK,Website,Electronics,Power Bank,2,5830,11660
+ORD-12263,2025-04-29,Islamabad,WhatsApp,Home,Iron,3,5088,15264
+ORD-11399,2025-04-29,Punjab,Daraz,Fashion,Shawl,3,3456,10368
+ORD-10882,2025-04-29,Sindh,Website,Fashion,Sneakers,2,6110,12220
+ORD-11298,2025-04-29,Sindh,WhatsApp,Fashion,Kurta,4,2800,11200
+ORD-10790,2025-04-30,Punjab,Website,Electronics,Charger,4,1836,7344
+ORD-11729,2025-04-30,Punjab,Website,Home,Bedsheet Set,3,4452,13356
+ORD-10461,2025-04-30,Punjab,WhatsApp,Electronics,Power Bank,1,5445,5445
+ORD-11150,2025-05-01,Islamabad,WhatsApp,Electronics,Power Bank,4,5280,21120
+ORD-11924,2025-05-01,Punjab,WhatsApp,Electronics,Power Bank,4,5445,21780
+ORD-10801,2025-05-01,Sindh,WhatsApp,Home,Water Dispenser,1,24960,24960
+ORD-11529,2025-05-01,Sindh,Daraz,Fashion,Shawl,2,2944,5888
+ORD-12189,2025-05-01,Punjab,Daraz,Fashion,Lawn Suit,5,4905,24525
+ORD-11168,2025-05-01,Balochistan,Daraz,Fashion,Sneakers,5,7020,35100
+ORD-10509,2025-05-01,Sindh,Daraz,Electronics,Earbuds,4,3640,14560
+ORD-11459,2025-05-02,Islamabad,Website,Electronics,Charger,3,1710,5130
+ORD-11961,2025-05-02,Punjab,Daraz,Fashion,Kurta,4,2856,11424
+ORD-11741,2025-05-02,Islamabad,WhatsApp,Electronics,Power Bank,3,5775,17325
+ORD-11579,2025-05-02,Sindh,WhatsApp,Fashion,Kurta,5,2996,14980
+ORD-10562,2025-05-02,Punjab,WhatsApp,Fashion,Kurta,6,2828,16968
+ORD-10313,2025-05-02,Sindh,Daraz,Home,Air Fryer,4,19080,76320
+ORD-11787,2025-05-02,Sindh,WhatsApp,Electronics,Charger,3,1908,5724
+ORD-11205,2025-05-03,Punjab,Website,Fashion,Shawl,4,2944,11776
+ORD-10982,2025-05-03,Punjab,Daraz,Fashion,Lawn Suit,5,4410,22050
+ORD-11189,2025-05-03,Balochistan,Daraz,Fashion,Sneakers,3,6435,19305
+ORD-11785,2025-05-03,Punjab,Website,Home,Iron,3,4848,14544
+ORD-10835,2025-05-03,Sindh,Daraz,Electronics,Earbuds,4,3815,15260
+ORD-11727,2025-05-03,Sindh,Website,Electronics,Power Bank,3,5060,15180
+ORD-10644,2025-05-04,Islamabad,Daraz,Electronics,Smart Watch,3,11040,33120
+ORD-10742,2025-05-04,Islamabad,Website,Home,Bedsheet Set,2,4536,9072
+ORD-10927,2025-05-04,Islamabad,Daraz,Fashion,Kurta,3,2744,8232
+ORD-12309,2025-05-04,Punjab,Daraz,Home,Bedsheet Set,1,3990,3990
+ORD-10764,2025-05-04,Punjab,Daraz,Home,Iron,3,4368,13104
+ORD-10788,2025-05-04,Punjab,Website,Electronics,Earbuds,2,3255,6510
+ORD-10421,2025-05-04,Islamabad,Website,Electronics,Charger,2,1872,3744
+ORD-10618,2025-05-05,Balochistan,Daraz,Home,Water Dispenser,3,27560,82680
+ORD-12334,2025-05-05,Punjab,Daraz,Electronics,Earbuds,4,3570,14280
+ORD-10614,2025-05-05,Punjab,WhatsApp,Fashion,Lawn Suit,3,4815,14445
+ORD-10038,2025-05-05,KPK,Daraz,Home,Bedsheet Set,2,4452,8904
+ORD-10265,2025-05-05,Punjab,Website,Electronics,Smart Watch,1,10800,10800
+ORD-10022,2025-05-05,Sindh,Website,Electronics,Smart Watch,2,13080,26160
+ORD-12016,2025-05-06,Balochistan,WhatsApp,Electronics,Power Bank,4,5445,21780
+ORD-10514,2025-05-06,Sindh,Website,Electronics,Power Bank,3,5115,15345
+ORD-10211,2025-05-06,KPK,Daraz,Electronics,Smart Watch,2,11160,22320
+ORD-11566,2025-05-06,Sindh,Website,Home,Air Fryer,4,19440,77760
+ORD-11091,2025-05-06,Sindh,Daraz,Fashion,Lawn Suit,4,4410,17640
+ORD-10960,2025-05-06,KPK,Daraz,Home,Water Dispenser,4,25740,102960
+ORD-11056,2025-05-07,Punjab,WhatsApp,Home,Air Fryer,2,18900,37800
+ORD-10259,2025-05-07,KPK,WhatsApp,Fashion,Lawn Suit,4,4140,16560
+ORD-10470,2025-05-07,Sindh,WhatsApp,Home,Air Fryer,4,16380,65520
+ORD-11258,2025-05-08,Islamabad,Website,Fashion,Shawl,4,3392,13568
+ORD-11586,2025-05-08,Punjab,Daraz,Electronics,Charger,1,1926,1926
+ORD-11689,2025-05-08,Islamabad,WhatsApp,Electronics,Earbuds,3,3255,9765
+ORD-11352,2025-05-08,Islamabad,Website,Home,Air Fryer,3,19620,58860
+ORD-11975,2025-05-08,Punjab,Website,Fashion,Shawl,6,3360,20160
+ORD-10969,2025-05-09,Balochistan,Website,Fashion,Kurta,4,2996,11984
+ORD-10217,2025-05-10,Punjab,Website,Electronics,Charger,2,1692,3384
+ORD-11481,2025-05-10,Sindh,Website,Electronics,Power Bank,1,5445,5445
+ORD-11844,2025-05-10,KPK,Website,Electronics,Power Bank,1,5940,5940
+ORD-11228,2025-05-11,Punjab,WhatsApp,Electronics,Charger,1,1854,1854
+ORD-10130,2025-05-11,KPK,Website,Electronics,Charger,4,1746,6984
+ORD-11521,2025-05-11,Balochistan,Website,Fashion,Sneakers,1,6175,6175
+ORD-11332,2025-05-11,Islamabad,Website,Home,Bedsheet Set,1,4284,4284
+ORD-11156,2025-05-11,Punjab,Website,Electronics,Earbuds,4,3500,14000
+ORD-12216,2025-05-11,Islamabad,WhatsApp,Fashion,Shawl,5,3296,16480
+ORD-11886,2025-05-12,Punjab,Website,Electronics,Smart Watch,3,11520,34560
+ORD-11846,2025-05-12,Sindh,Website,Electronics,Power Bank,3,5665,16995
+ORD-11108,2025-05-12,Punjab,WhatsApp,Electronics,Charger,2,1728,3456
+ORD-10101,2025-05-12,KPK,Daraz,Electronics,Charger,4,1836,7344
+ORD-11038,2025-05-13,KPK,WhatsApp,Home,Iron,4,4800,19200
+ORD-12275,2025-05-13,KPK,Website,Electronics,Earbuds,4,3780,15120
+ORD-10634,2025-05-13,KPK,WhatsApp,Electronics,Earbuds,1,3220,3220
+ORD-10255,2025-05-13,Sindh,Website,Fashion,Shawl,1,3136,3136
+ORD-10460,2025-05-13,Punjab,WhatsApp,Electronics,Charger,1,1836,1836
+ORD-10906,2025-05-14,Sindh,Daraz,Fashion,Sneakers,1,6565,6565
+ORD-12179,2025-05-15,KPK,Daraz,Fashion,Shawl,3,3104,9312
+ORD-11276,2025-05-15,Sindh,Daraz,Electronics,Earbuds,3,3325,9975
+ORD-12042,2025-05-15,Punjab,Website,Home,Bedsheet Set,3,4200,12600
+ORD-11365,2025-05-15,Punjab,Website,Fashion,Lawn Suit,3,4680,14040
+ORD-10073,2025-05-15,Sindh,WhatsApp,Electronics,Charger,4,1926,7704
+ORD-10195,2025-05-16,Punjab,WhatsApp,Electronics,Earbuds,4,3500,14000
+ORD-10501,2025-05-16,KPK,WhatsApp,Fashion,Lawn Suit,4,4545,18180
+ORD-11606,2025-05-16,Balochistan,WhatsApp,Home,Iron,4,4704,18816
+ORD-10563,2025-05-16,Sindh,WhatsApp,Electronics,Power Bank,4,5885,23540
+ORD-12195,2025-05-16,Sindh,Daraz,Electronics,Smart Watch,3,12840,38520
+ORD-10973,2025-05-16,Sindh,Website,Home,Bedsheet Set,1,4326,4326
+ORD-11433,2025-05-16,Sindh,Website,Fashion,Lawn Suit,3,4770,14310
+ORD-11629,2025-05-17,Sindh,Daraz,Electronics,Smart Watch,1,12120,12120
+ORD-11663,2025-05-17,Sindh,Website,Electronics,Smart Watch,4,10800,43200
+ORD-12384,2025-05-17,Sindh,Daraz,Fashion,Shawl,4,3520,14080
+ORD-10648,2025-05-17,Sindh,WhatsApp,Home,Water Dispenser,2,26780,53560
+ORD-11650,2025-05-17,Punjab,Daraz,Electronics,Power Bank,3,5335,16005
+ORD-10288,2025-05-17,Islamabad,Website,Fashion,Shawl,5,2912,14560
+ORD-11623,2025-05-17,KPK,Website,Fashion,Shawl,3,3200,9600
+ORD-11013,2025-05-17,Islamabad,Daraz,Home,Bedsheet Set,4,4032,16128
+ORD-11820,2025-05-17,Punjab,WhatsApp,Electronics,Power Bank,1,5170,5170
+ORD-10981,2025-05-18,Balochistan,Website,Home,Water Dispenser,4,24180,96720
+ORD-11078,2025-05-18,KPK,Daraz,Home,Water Dispenser,3,24960,74880
+ORD-10175,2025-05-18,Balochistan,WhatsApp,Fashion,Lawn Suit,3,4050,12150
+ORD-11176,2025-05-18,Punjab,Website,Fashion,Shawl,3,2880,8640
+ORD-10410,2025-05-18,Sindh,WhatsApp,Fashion,Lawn Suit,5,4725,23625
+ORD-10168,2025-05-18,Sindh,Website,Home,Iron,4,4512,18048
+ORD-10336,2025-05-18,Sindh,Website,Electronics,Charger,4,1944,7776
+ORD-10549,2025-05-18,Sindh,WhatsApp,Electronics,Earbuds,3,3220,9660
+ORD-12006,2025-05-18,Islamabad,Website,Electronics,Charger,4,1782,7128
+ORD-11041,2025-05-18,Punjab,WhatsApp,Electronics,Smart Watch,1,12240,12240
+ORD-10499,2025-05-18,Islamabad,Website,Home,Iron,2,4560,9120
+ORD-10932,2025-05-18,Sindh,WhatsApp,Fashion,Shawl,4,2976,11904
+ORD-11973,2025-05-19,KPK,Daraz,Fashion,Kurta,1,2968,2968
+ORD-11289,2025-05-19,Sindh,WhatsApp,Home,Bedsheet Set,2,4410,8820
+ORD-10956,2025-05-19,Islamabad,Website,Fashion,Sneakers,3,6500,19500
+ORD-10115,2025-05-19,Sindh,Website,Electronics,Charger,3,1746,5238
+ORD-10062,2025-05-19,Punjab,Website,Home,Bedsheet Set,2,3864,7728
+ORD-10491,2025-05-19,Punjab,Website,Fashion,Lawn Suit,4,4275,17100
+ORD-10919,2025-05-19,Punjab,WhatsApp,Home,Water Dispenser,1,26520,26520
+ORD-10481,2025-05-19,KPK,WhatsApp,Fashion,Kurta,4,2576,10304
+ORD-11224,2025-05-19,Sindh,Website,Home,Water Dispenser,3,24700,74100
+ORD-10613,2025-05-19,Punjab,Website,Electronics,Earbuds,4,3605,14420
+ORD-11314,2025-05-20,Islamabad,WhatsApp,Electronics,Charger,1,1656,1656
+ORD-10931,2025-05-20,Punjab,WhatsApp,Fashion,Lawn Suit,2,4365,8730
+ORD-11040,2025-05-20,Sindh,WhatsApp,Electronics,Earbuds,3,3850,11550
+ORD-10738,2025-05-20,KPK,Daraz,Electronics,Smart Watch,1,12120,12120
+ORD-11370,2025-05-20,Punjab,Daraz,Fashion,Sneakers,3,6760,20280
+ORD-10629,2025-05-20,Sindh,WhatsApp,Electronics,Charger,4,1656,6624
+ORD-11100,2025-05-20,Balochistan,Website,Electronics,Charger,1,1926,1926
+ORD-10112,2025-05-20,Punjab,Website,Fashion,Kurta,2,2744,5488
+ORD-11526,2025-05-20,Islamabad,Website,Electronics,Earbuds,4,3500,14000
+ORD-11933,2025-05-20,Punjab,Website,Home,Water Dispenser,1,27040,27040
+ORD-10812,2025-05-20,Sindh,Website,Fashion,Shawl,4,3136,12544
+ORD-11190,2025-05-20,Punjab,Website,Fashion,Shawl,3,3456,10368
+ORD-11637,2025-05-21,Sindh,Daraz,Fashion,Kurta,1,2828,2828
+ORD-12142,2025-05-21,Punjab,Website,Home,Bedsheet Set,4,4326,17304
+ORD-12301,2025-05-21,Islamabad,Daraz,Fashion,Shawl,3,3392,10176
+ORD-10446,2025-05-21,Sindh,WhatsApp,Fashion,Kurta,4,2828,11312
+ORD-11732,2025-05-21,KPK,Daraz,Electronics,Earbuds,2,3605,7210
+ORD-11068,2025-05-21,KPK,WhatsApp,Electronics,Power Bank,3,5005,15015
+ORD-11448,2025-05-21,Sindh,WhatsApp,Fashion,Lawn Suit,5,4500,22500
+ORD-10107,2025-05-22,KPK,Website,Electronics,Charger,1,1908,1908
+ORD-11758,2025-05-22,Balochistan,Website,Home,Iron,1,5040,5040
+ORD-10635,2025-05-22,Punjab,WhatsApp,Fashion,Shawl,3,3136,9408
+ORD-10623,2025-05-22,Islamabad,Daraz,Electronics,Charger,4,1620,6480
+ORD-11182,2025-05-22,Punjab,Daraz,Electronics,Earbuds,4,3290,13160
+ORD-11295,2025-05-22,Punjab,WhatsApp,Fashion,Lawn Suit,3,4950,14850
+ORD-10682,2025-05-23,Punjab,WhatsApp,Home,Water Dispenser,3,24180,72540
+ORD-11544,2025-05-23,Punjab,WhatsApp,Fashion,Shawl,4,3328,13312
+ORD-11584,2025-05-23,KPK,Website,Electronics,Earbuds,2,3640,7280
+ORD-12304,2025-05-23,Sindh,Daraz,Fashion,Shawl,2,3008,6016
+ORD-12111,2025-05-23,Punjab,Website,Electronics,Power Bank,1,5830,5830
+ORD-10943,2025-05-23,Punjab,Daraz,Home,Water Dispenser,3,25220,75660
+ORD-11385,2025-05-24,Islamabad,Daraz,Fashion,Kurta,6,2884,17304
+ORD-12059,2025-05-24,Punjab,WhatsApp,Electronics,Power Bank,2,5335,10670
+ORD-10699,2025-05-24,Sindh,WhatsApp,Electronics,Smart Watch,4,11280,45120
+ORD-12280,2025-05-24,Punjab,Website,Electronics,Smart Watch,3,11520,34560
+ORD-11344,2025-05-24,Punjab,Website,Electronics,Charger,3,1728,5184
+ORD-10118,2025-05-24,KPK,Website,Electronics,Smart Watch,3,12840,38520
+ORD-10796,2025-05-24,Punjab,WhatsApp,Home,Air Fryer,3,18900,56700
+ORD-11920,2025-05-24,Sindh,Daraz,Electronics,Power Bank,2,5665,11330
+ORD-10733,2025-05-25,Sindh,Website,Fashion,Kurta,3,2744,8232
+ORD-11062,2025-05-25,Sindh,Website,Fashion,Shawl,3,3456,10368
+ORD-10599,2025-05-25,Punjab,Website,Fashion,Shawl,3,3200,9600
+ORD-10258,2025-05-25,Balochistan,Website,Electronics,Power Bank,1,5940,5940
+ORD-11194,2025-05-25,Sindh,Website,Electronics,Smart Watch,3,12840,38520
+ORD-11088,2025-05-25,Sindh,WhatsApp,Home,Air Fryer,4,17280,69120
+ORD-10915,2025-05-25,Sindh,Website,Electronics,Smart Watch,4,11040,44160
+ORD-12045,2025-05-26,Punjab,Daraz,Electronics,Smart Watch,2,12720,25440
+ORD-10315,2025-05-26,Punjab,WhatsApp,Electronics,Power Bank,2,5390,10780
+ORD-12387,2025-05-26,Sindh,WhatsApp,Home,Water Dispenser,1,23920,23920
+ORD-11872,2025-05-26,KPK,Website,Home,Air Fryer,3,16380,49140
+ORD-11916,2025-05-26,Islamabad,Website,Electronics,Power Bank,1,5225,5225
+ORD-10133,2025-05-27,Sindh,Website,Home,Iron,4,5040,20160
+ORD-10866,2025-05-27,KPK,Daraz,Electronics,Power Bank,1,5830,5830
+ORD-11118,2025-05-27,Islamabad,Daraz,Electronics,Charger,1,1656,1656
+ORD-10114,2025-05-27,Sindh,WhatsApp,Electronics,Smart Watch,4,12960,51840
+ORD-12198,2025-05-27,Sindh,Website,Electronics,Charger,2,1926,3852
+ORD-11841,2025-05-27,KPK,WhatsApp,Electronics,Earbuds,1,3850,3850
+ORD-11624,2025-05-27,Islamabad,WhatsApp,Electronics,Charger,1,1836,1836
+ORD-11535,2025-05-28,Sindh,WhatsApp,Fashion,Lawn Suit,2,4680,9360
+ORD-11429,2025-05-28,Punjab,Website,Electronics,Earbuds,2,3535,7070
+ORD-10590,2025-05-28,Punjab,Website,Home,Water Dispenser,4,24180,96720
+ORD-11382,2025-05-28,Islamabad,Daraz,Home,Iron,4,4512,18048
+ORD-11683,2025-05-28,KPK,Website,Electronics,Earbuds,4,3710,14840
+ORD-11227,2025-05-28,Punjab,Website,Fashion,Shawl,3,3072,9216
+ORD-11522,2025-05-29,KPK,WhatsApp,Electronics,Earbuds,2,3465,6930
+ORD-12365,2025-05-29,Punjab,Daraz,Fashion,Lawn Suit,2,4545,9090
+ORD-11539,2025-05-29,Sindh,Daraz,Home,Iron,4,5088,20352
+ORD-11137,2025-05-29,KPK,Website,Electronics,Earbuds,2,3710,7420
+ORD-11627,2025-05-29,Sindh,Website,Fashion,Shawl,3,3456,10368
+ORD-11893,2025-05-29,Punjab,Website,Electronics,Charger,3,1890,5670
+ORD-10136,2025-05-29,Sindh,Daraz,Fashion,Kurta,2,3024,6048
+ORD-10911,2025-05-29,Punjab,Website,Electronics,Charger,3,1764,5292
+ORD-12311,2025-05-29,Punjab,Website,Electronics,Charger,2,1674,3348
+ORD-10855,2025-05-30,KPK,Daraz,Electronics,Earbuds,4,3185,12740
+ORD-11436,2025-05-30,Punjab,Website,Home,Iron,1,5184,5184
+ORD-12157,2025-05-30,KPK,Website,Electronics,Smart Watch,3,10920,32760
+ORD-12266,2025-05-30,Punjab,Website,Home,Iron,2,4752,9504
+ORD-12054,2025-05-30,Punjab,Website,Electronics,Power Bank,1,5940,5940
+ORD-10177,2025-05-30,Islamabad,Website,Home,Water Dispenser,3,26000,78000
+ORD-10351,2025-05-31,Sindh,Daraz,Fashion,Lawn Suit,3,4095,12285
+ORD-10344,2025-05-31,Sindh,WhatsApp,Fashion,Sneakers,1,6695,6695
+ORD-10226,2025-05-31,Punjab,Daraz,Electronics,Power Bank,1,5115,5115
+ORD-11430,2025-05-31,Sindh,Daraz,Electronics,Charger,3,1782,5346
+ORD-12292,2025-05-31,Balochistan,Website,Home,Iron,1,5040,5040
+ORD-10289,2025-05-31,KPK,Daraz,Electronics,Power Bank,1,5885,5885
+ORD-11607,2025-05-31,Punjab,WhatsApp,Electronics,Charger,4,1746,6984
+ORD-11904,2025-05-31,Sindh,Website,Electronics,Charger,1,1854,1854
+ORD-11634,2025-05-31,Balochistan,WhatsApp,Fashion,Kurta,5,2856,14280
+ORD-10829,2025-06-01,Punjab,Daraz,Electronics,Smart Watch,3,13080,39240
+ORD-12166,2025-06-01,Punjab,Daraz,Electronics,Power Bank,2,5445,10890
+ORD-11906,2025-06-01,KPK,WhatsApp,Electronics,Smart Watch,1,12120,12120
+ORD-12131,2025-06-01,KPK,Website,Electronics,Smart Watch,3,10920,32760
+ORD-10200,2025-06-01,Sindh,Website,Fashion,Kurta,6,2688,16128
+ORD-11560,2025-06-02,Punjab,WhatsApp,Electronics,Charger,1,1656,1656
+ORD-12168,2025-06-02,Islamabad,WhatsApp,Electronics,Charger,2,1656,3312
+ORD-11208,2025-06-02,Islamabad,Website,Fashion,Shawl,5,3424,17120
+ORD-10237,2025-06-02,Punjab,Website,Electronics,Power Bank,2,5940,11880
+ORD-11139,2025-06-02,Sindh,Website,Electronics,Charger,2,1818,3636
+ORD-12076,2025-06-02,Punjab,Website,Home,Water Dispenser,1,23920,23920
+ORD-10838,2025-06-02,Sindh,Daraz,Electronics,Earbuds,1,3360,3360
+ORD-11312,2025-06-02,Islamabad,WhatsApp,Electronics,Power Bank,4,5060,20240
+ORD-10910,2025-06-02,Punjab,Website,Electronics,Smart Watch,2,12720,25440
+ORD-11001,2025-06-03,Punjab,WhatsApp,Fashion,Kurta,4,2688,10752
+ORD-11768,2025-06-03,Islamabad,Daraz,Fashion,Kurta,3,2856,8568
+ORD-11199,2025-06-03,Islamabad,WhatsApp,Electronics,Power Bank,2,5170,10340
+ORD-10615,2025-06-03,Balochistan,Daraz,Electronics,Charger,1,1962,1962
+ORD-10957,2025-06-03,KPK,Website,Electronics,Smart Watch,3,13200,39600
+ORD-12129,2025-06-04,Punjab,Website,Fashion,Sneakers,5,6175,30875
+ORD-12035,2025-06-04,KPK,Website,Fashion,Kurta,3,2884,8652
+ORD-11250,2025-06-04,Punjab,Daraz,Fashion,Kurta,6,2968,17808
+ORD-11065,2025-06-04,Punjab,Website,Fashion,Lawn Suit,5,4275,21375
+ORD-10920,2025-06-04,Sindh,Daraz,Electronics,Charger,3,1908,5724
+ORD-11220,2025-06-04,Punjab,Website,Fashion,Shawl,6,2880,17280
+ORD-11980,2025-06-04,Sindh,Website,Electronics,Earbuds,2,3395,6790
+ORD-12300,2025-06-05,Sindh,Daraz,Electronics,Power Bank,4,5280,21120
+ORD-10704,2025-06-05,Islamabad,Website,Fashion,Kurta,2,2968,5936
+ORD-10898,2025-06-05,KPK,Daraz,Electronics,Earbuds,3,3780,11340
+ORD-10285,2025-06-05,Punjab,WhatsApp,Fashion,Kurta,5,2632,13160
+ORD-11921,2025-06-06,Punjab,WhatsApp,Electronics,Charger,1,1782,1782
+ORD-12098,2025-06-06,Sindh,Daraz,Fashion,Shawl,6,3104,18624
+ORD-12037,2025-06-06,Sindh,Daraz,Electronics,Smart Watch,4,13200,52800
+ORD-11784,2025-06-06,Punjab,Website,Electronics,Charger,1,1872,1872
+ORD-12107,2025-06-06,Sindh,Website,Fashion,Sneakers,5,5850,29250
+ORD-10205,2025-06-06,Islamabad,WhatsApp,Electronics,Power Bank,3,5995,17985
+ORD-10295,2025-06-06,KPK,Website,Electronics,Earbuds,3,3255,9765
+ORD-11374,2025-06-06,Balochistan,Website,Electronics,Earbuds,3,3745,11235
+ORD-11536,2025-06-06,Islamabad,WhatsApp,Home,Air Fryer,4,18540,74160
+ORD-11639,2025-06-07,Punjab,Website,Electronics,Earbuds,3,3675,11025
+ORD-11998,2025-06-07,Islamabad,Daraz,Fashion,Lawn Suit,3,4635,13905
+ORD-11596,2025-06-07,Sindh,Daraz,Electronics,Smart Watch,1,10800,10800
+ORD-10965,2025-06-07,Punjab,Website,Home,Bedsheet Set,4,4452,17808
+ORD-11908,2025-06-07,KPK,Website,Fashion,Lawn Suit,1,4140,4140
+ORD-10620,2025-06-08,Islamabad,Website,Home,Iron,3,4896,14688
+ORD-12192,2025-06-08,Islamabad,Website,Fashion,Lawn Suit,2,4590,9180
+ORD-12052,2025-06-08,Islamabad,WhatsApp,Electronics,Smart Watch,3,12600,37800
+ORD-10374,2025-06-08,Punjab,Daraz,Home,Water Dispenser,1,24960,24960
+ORD-10208,2025-06-08,Islamabad,Daraz,Electronics,Smart Watch,1,11280,11280
+ORD-11883,2025-06-08,Sindh,Daraz,Electronics,Smart Watch,1,12600,12600
+ORD-10652,2025-06-08,Sindh,Daraz,Electronics,Charger,1,1944,1944
+ORD-10545,2025-06-08,Sindh,Website,Electronics,Power Bank,1,5280,5280
+ORD-11749,2025-06-08,Balochistan,Daraz,Electronics,Earbuds,2,3255,6510
+ORD-10434,2025-06-08,KPK,Daraz,Electronics,Power Bank,1,5665,5665
+ORD-10827,2025-06-08,Punjab,Daraz,Electronics,Smart Watch,1,11160,11160
+ORD-11658,2025-06-08,Punjab,Website,Home,Bedsheet Set,1,3906,3906
+ORD-11477,2025-06-09,Balochistan,Website,Electronics,Power Bank,3,5610,16830
+ORD-10402,2025-06-09,Punjab,WhatsApp,Fashion,Lawn Suit,5,4905,24525
+ORD-12200,2025-06-09,Islamabad,WhatsApp,Fashion,Lawn Suit,2,4185,8370
+ORD-11553,2025-06-09,Punjab,Website,Home,Water Dispenser,1,27300,27300
+ORD-11095,2025-06-09,Punjab,Daraz,Electronics,Charger,4,1908,7632
+ORD-11988,2025-06-09,Punjab,Daraz,Home,Bedsheet Set,3,4116,12348
+ORD-11866,2025-06-10,Punjab,Website,Electronics,Earbuds,4,3710,14840
+ORD-10129,2025-06-10,Punjab,WhatsApp,Home,Air Fryer,2,17460,34920
+ORD-10120,2025-06-10,KPK,Daraz,Electronics,Smart Watch,2,11880,23760
+ORD-12299,2025-06-10,Punjab,Daraz,Fashion,Shawl,3,3232,9696
+ORD-11410,2025-06-10,Balochistan,WhatsApp,Fashion,Kurta,3,2632,7896
+ORD-11488,2025-06-10,Punjab,Website,Electronics,Earbuds,2,3850,7700
+ORD-10814,2025-06-10,Punjab,Daraz,Electronics,Charger,1,1962,1962
+ORD-11101,2025-06-11,Punjab,Website,Electronics,Earbuds,3,3360,10080
+ORD-10058,2025-06-11,KPK,WhatsApp,Fashion,Sneakers,4,6695,26780
+ORD-10756,2025-06-11,Islamabad,WhatsApp,Home,Bedsheet Set,3,3990,11970
+ORD-12310,2025-06-11,KPK,Website,Home,Iron,2,4896,9792
+ORD-11849,2025-06-11,KPK,Website,Electronics,Smart Watch,4,12600,50400
+ORD-10271,2025-06-12,KPK,Daraz,Fashion,Shawl,3,2880,8640
+ORD-10122,2025-06-12,Punjab,WhatsApp,Electronics,Power Bank,2,5390,10780
+ORD-10027,2025-06-12,Punjab,Daraz,Electronics,Earbuds,3,3255,9765
+ORD-10611,2025-06-12,KPK,Website,Fashion,Sneakers,1,5915,5915
+ORD-10048,2025-06-12,Punjab,Website,Electronics,Charger,2,1926,3852
+ORD-10663,2025-06-12,Punjab,Daraz,Fashion,Kurta,5,2856,14280
+ORD-11031,2025-06-12,Punjab,Daraz,Home,Water Dispenser,3,26780,80340
+ORD-10971,2025-06-13,Balochistan,Website,Home,Water Dispenser,3,26780,80340
+ORD-11215,2025-06-13,Sindh,WhatsApp,Electronics,Power Bank,4,5390,21560
+ORD-11550,2025-06-13,Balochistan,WhatsApp,Electronics,Smart Watch,4,11760,47040
+ORD-10190,2025-06-13,KPK,Daraz,Electronics,Earbuds,2,3395,6790
+ORD-12219,2025-06-13,Punjab,Daraz,Home,Bedsheet Set,4,4284,17136
+ORD-10684,2025-06-13,Sindh,Daraz,Home,Air Fryer,1,16740,16740
+ORD-11635,2025-06-13,Punjab,Daraz,Home,Iron,1,4656,4656
+ORD-11356,2025-06-13,Sindh,Daraz,Home,Air Fryer,2,19620,39240
+ORD-10937,2025-06-13,Punjab,Daraz,Electronics,Earbuds,4,3535,14140
+ORD-11313,2025-06-13,Sindh,Website,Electronics,Charger,2,1710,3420
+ORD-12274,2025-06-13,Punjab,Website,Home,Water Dispenser,2,23400,46800
+ORD-10586,2025-06-14,Punjab,Daraz,Electronics,Earbuds,3,3430,10290
+ORD-11712,2025-06-14,Punjab,Daraz,Electronics,Charger,2,1764,3528
+ORD-11134,2025-06-14,Islamabad,Daraz,Electronics,Power Bank,2,5885,11770
+ORD-10668,2025-06-15,Sindh,Website,Fashion,Kurta,1,2968,2968
+ORD-11827,2025-06-15,Sindh,Website,Home,Bedsheet Set,3,3906,11718
+ORD-10552,2025-06-15,Islamabad,Daraz,Home,Iron,2,4464,8928
+ORD-11617,2025-06-15,KPK,WhatsApp,Electronics,Charger,2,1746,3492
+ORD-11277,2025-06-15,Sindh,Daraz,Electronics,Earbuds,4,3675,14700
+ORD-10452,2025-06-15,Punjab,Website,Electronics,Power Bank,3,5830,17490
+ORD-11330,2025-06-15,Balochistan,WhatsApp,Fashion,Lawn Suit,1,4500,4500
+ORD-10836,2025-06-15,Punjab,WhatsApp,Fashion,Lawn Suit,4,4230,16920
+ORD-12254,2025-06-15,Punjab,WhatsApp,Electronics,Earbuds,2,3850,7700
+ORD-10891,2025-06-15,Punjab,Website,Home,Iron,2,5184,10368
+ORD-10873,2025-06-15,Sindh,Website,Electronics,Power Bank,1,5280,5280
+ORD-11377,2025-06-15,Sindh,WhatsApp,Home,Bedsheet Set,1,4284,4284
+ORD-10334,2025-06-16,Punjab,Daraz,Fashion,Sneakers,1,6435,6435
+ORD-12346,2025-06-16,Punjab,Website,Electronics,Earbuds,3,3360,10080
+ORD-10485,2025-06-16,Sindh,Daraz,Electronics,Power Bank,1,5775,5775
+ORD-10687,2025-06-16,Punjab,Website,Electronics,Charger,3,1944,5832
+ORD-11501,2025-06-16,KPK,Daraz,Home,Air Fryer,2,18360,36720
+ORD-10394,2025-06-16,Islamabad,Website,Fashion,Sneakers,5,6630,33150
+ORD-10511,2025-06-16,Sindh,Daraz,Fashion,Kurta,3,2800,8400
+ORD-11593,2025-06-17,Islamabad,WhatsApp,Fashion,Sneakers,6,7085,42510
+ORD-12239,2025-06-17,KPK,WhatsApp,Electronics,Smart Watch,2,12360,24720
+ORD-11412,2025-06-17,Balochistan,Daraz,Fashion,Sneakers,1,6110,6110
+ORD-11011,2025-06-17,Islamabad,Daraz,Electronics,Power Bank,1,5995,5995
+ORD-11125,2025-06-17,Sindh,Website,Home,Air Fryer,1,17100,17100
+ORD-10820,2025-06-18,Islamabad,WhatsApp,Electronics,Earbuds,3,3500,10500
+ORD-12291,2025-06-18,Punjab,Website,Fashion,Shawl,3,3008,9024
+ORD-12147,2025-06-19,KPK,Website,Electronics,Charger,4,1872,7488
+ORD-11949,2025-06-19,Sindh,Website,Electronics,Power Bank,2,5885,11770
+ORD-12047,2025-06-19,Sindh,Daraz,Fashion,Shawl,3,2976,8928
+ORD-12058,2025-06-19,Sindh,Daraz,Fashion,Shawl,5,3104,15520
+ORD-11519,2025-06-19,Islamabad,Website,Electronics,Smart Watch,3,12840,38520
+ORD-10771,2025-06-19,Balochistan,Website,Electronics,Smart Watch,3,12480,37440
+ORD-12100,2025-06-20,Islamabad,Daraz,Electronics,Earbuds,4,3185,12740
+ORD-10053,2025-06-20,Punjab,Daraz,Electronics,Earbuds,4,3325,13300
+ORD-10040,2025-06-20,Punjab,Website,Electronics,Power Bank,1,5995,5995
+ORD-10341,2025-06-20,Punjab,WhatsApp,Home,Air Fryer,2,18180,36360
+ORD-10019,2025-06-20,Punjab,Website,Electronics,Power Bank,3,5115,15345
+ORD-10921,2025-06-20,Sindh,Daraz,Electronics,Smart Watch,4,12840,51360
+ORD-10414,2025-06-20,Sindh,WhatsApp,Electronics,Earbuds,1,3605,3605
+ORD-11004,2025-06-20,Punjab,Daraz,Electronics,Power Bank,3,5720,17160
+ORD-10185,2025-06-20,Punjab,Daraz,Fashion,Sneakers,4,6110,24440
+ORD-10466,2025-06-20,Punjab,Website,Electronics,Smart Watch,4,10800,43200
+ORD-10901,2025-06-20,KPK,Daraz,Fashion,Lawn Suit,5,4635,23175
+ORD-11329,2025-06-20,KPK,Daraz,Fashion,Kurta,5,2716,13580
+ORD-11140,2025-06-21,Punjab,WhatsApp,Electronics,Smart Watch,2,12840,25680
+ORD-10320,2025-06-21,Punjab,Website,Fashion,Sneakers,1,6305,6305
+ORD-12110,2025-06-21,Islamabad,Website,Home,Iron,1,4656,4656
+ORD-10853,2025-06-21,Punjab,Website,Fashion,Shawl,3,3424,10272
+ORD-11648,2025-06-21,Balochistan,Website,Home,Water Dispenser,3,26780,80340
+ORD-11913,2025-06-21,Sindh,WhatsApp,Fashion,Shawl,2,3040,6080
+ORD-11309,2025-06-21,Balochistan,Website,Electronics,Charger,2,1944,3888
+ORD-12358,2025-06-21,Islamabad,WhatsApp,Home,Water Dispenser,3,24180,72540
+ORD-11463,2025-06-21,Islamabad,WhatsApp,Fashion,Lawn Suit,2,4410,8820
+ORD-11633,2025-06-21,Balochistan,Daraz,Home,Water Dispenser,1,27300,27300
+ORD-11375,2025-06-21,Sindh,Daraz,Electronics,Smart Watch,2,12000,24000
+ORD-12145,2025-06-21,Punjab,Daraz,Fashion,Lawn Suit,5,4680,23400
+ORD-12319,2025-06-21,Punjab,Website,Electronics,Smart Watch,4,12480,49920
+ORD-12087,2025-06-22,Punjab,Daraz,Electronics,Power Bank,4,5225,20900
+ORD-11007,2025-06-22,Sindh,Website,Electronics,Earbuds,3,3500,10500
+ORD-10677,2025-06-22,Sindh,Daraz,Electronics,Earbuds,4,3360,13440
+ORD-10092,2025-06-22,KPK,Website,Fashion,Shawl,2,2912,5824
+ORD-11349,2025-06-23,Punjab,Website,Electronics,Power Bank,1,5555,5555
+ORD-10616,2025-06-23,Punjab,Website,Electronics,Smart Watch,1,12480,12480
+ORD-11121,2025-06-23,Sindh,Daraz,Electronics,Charger,4,1710,6840
+ORD-11047,2025-06-23,Islamabad,Website,Electronics,Smart Watch,4,12240,48960
+ORD-10854,2025-06-23,KPK,Daraz,Electronics,Charger,4,1782,7128
+ORD-11563,2025-06-23,Sindh,Daraz,Electronics,Smart Watch,4,11760,47040
+ORD-11476,2025-06-24,Islamabad,Daraz,Fashion,Sneakers,3,6435,19305
+ORD-10331,2025-06-24,Sindh,WhatsApp,Electronics,Earbuds,1,3605,3605
+ORD-10028,2025-06-24,Balochistan,WhatsApp,Fashion,Lawn Suit,4,4815,19260
+ORD-12375,2025-06-24,Balochistan,WhatsApp,Fashion,Kurta,4,2688,10752
+ORD-11716,2025-06-24,Sindh,WhatsApp,Home,Water Dispenser,4,25480,101920
+ORD-10188,2025-06-24,KPK,WhatsApp,Fashion,Shawl,2,3040,6080
+ORD-10730,2025-06-25,Islamabad,Daraz,Electronics,Smart Watch,4,11760,47040
+ORD-12357,2025-06-25,Sindh,Website,Fashion,Lawn Suit,5,4230,21150
+ORD-10715,2025-06-26,Islamabad,WhatsApp,Home,Bedsheet Set,4,4242,16968
+ORD-11500,2025-06-26,KPK,Daraz,Fashion,Shawl,5,3040,15200
+ORD-11496,2025-06-26,Punjab,Website,Electronics,Smart Watch,1,13080,13080
+ORD-10152,2025-06-26,Punjab,Website,Electronics,Charger,3,1836,5508
+ORD-12272,2025-06-26,Sindh,Website,Home,Iron,4,5184,20736
+ORD-12323,2025-06-27,Punjab,WhatsApp,Fashion,Sneakers,6,5915,35490
+ORD-11471,2025-06-27,Punjab,WhatsApp,Home,Bedsheet Set,3,4578,13734
+ORD-10540,2025-06-27,KPK,Website,Fashion,Sneakers,5,5915,29575
+ORD-11614,2025-06-27,Punjab,WhatsApp,Electronics,Charger,1,1890,1890
+ORD-10244,2025-06-27,Punjab,Website,Electronics,Smart Watch,3,13200,39600
+ORD-11097,2025-06-28,Punjab,Daraz,Electronics,Smart Watch,3,11520,34560
+ORD-11362,2025-06-28,Islamabad,Website,Home,Bedsheet Set,4,4536,18144
+ORD-11914,2025-06-28,Punjab,Daraz,Electronics,Power Bank,2,5830,11660
+ORD-11678,2025-06-28,Punjab,Daraz,Home,Iron,3,4992,14976
+ORD-11306,2025-06-28,Balochistan,Website,Home,Water Dispenser,4,24180,96720
+ORD-11290,2025-06-28,Punjab,Website,Fashion,Sneakers,3,6760,20280
+ORD-12360,2025-06-28,Islamabad,Website,Fashion,Shawl,4,3136,12544
+ORD-10074,2025-06-28,KPK,Website,Electronics,Earbuds,1,3395,3395
+ORD-11079,2025-06-28,Sindh,Website,Electronics,Smart Watch,2,12240,24480
+ORD-11590,2025-06-29,Punjab,WhatsApp,Fashion,Lawn Suit,3,4410,13230
+ORD-11462,2025-06-29,Punjab,WhatsApp,Fashion,Lawn Suit,6,4860,29160
+ORD-11030,2025-06-29,Punjab,Website,Fashion,Lawn Suit,3,4500,13500
+ORD-12377,2025-06-29,KPK,Website,Home,Iron,4,5232,20928
+ORD-11415,2025-06-29,Islamabad,Daraz,Home,Iron,3,4416,13248
+ORD-11947,2025-06-29,Islamabad,Daraz,Electronics,Earbuds,3,3290,9870
+ORD-11506,2025-06-29,Punjab,WhatsApp,Home,Iron,3,4656,13968
+ORD-10472,2025-06-29,Punjab,Daraz,Fashion,Lawn Suit,4,4320,17280
+ORD-10997,2025-06-30,Punjab,Website,Electronics,Earbuds,2,3535,7070
+ORD-11972,2025-06-30,Punjab,Website,Electronics,Charger,1,1710,1710
+ORD-10987,2025-06-30,KPK,Website,Electronics,Smart Watch,1,11160,11160
+ORD-10948,2025-06-30,Sindh,Daraz,Electronics,Smart Watch,2,12720,25440
+ORD-11548,2025-06-30,Punjab,Daraz,Electronics,Earbuds,3,3745,11235
+ORD-11464,2025-07-01,Punjab,WhatsApp,Fashion,Sneakers,1,7085,7085
+ORD-11104,2025-07-01,Sindh,Website,Electronics,Charger,4,1944,7776
+ORD-11620,2025-07-01,Punjab,Daraz,Electronics,Power Bank,4,5280,21120
+ORD-12171,2025-07-01,Sindh,Website,Electronics,Power Bank,2,5555,11110
+ORD-12361,2025-07-01,Balochistan,WhatsApp,Fashion,Shawl,4,3360,13440
+ORD-10442,2025-07-01,Punjab,WhatsApp,Electronics,Earbuds,2,3395,6790
+ORD-10144,2025-07-01,Punjab,WhatsApp,Fashion,Kurta,4,3052,12208
+ORD-10757,2025-07-01,Islamabad,Website,Home,Water Dispenser,1,24180,24180
+ORD-10061,2025-07-01,Punjab,Daraz,Electronics,Smart Watch,3,11880,35640
+ORD-11508,2025-07-02,Punjab,Daraz,Electronics,Earbuds,1,3255,3255
+ORD-12302,2025-07-02,Balochistan,Daraz,Electronics,Charger,2,1854,3708
+ORD-11664,2025-07-02,Islamabad,Website,Electronics,Power Bank,4,6050,24200
+ORD-10014,2025-07-02,Balochistan,WhatsApp,Fashion,Sneakers,3,6565,19695
+ORD-11264,2025-07-03,Punjab,Website,Fashion,Lawn Suit,4,4185,16740
+ORD-11867,2025-07-03,KPK,WhatsApp,Fashion,Sneakers,1,7020,7020
+ORD-10707,2025-07-03,KPK,WhatsApp,Fashion,Shawl,1,3040,3040
+ORD-11855,2025-07-03,Punjab,Website,Home,Air Fryer,2,18540,37080
+ORD-10526,2025-07-03,Punjab,WhatsApp,Home,Water Dispenser,3,23920,71760
+ORD-11656,2025-07-03,Punjab,Daraz,Home,Bedsheet Set,3,3990,11970
+ORD-11654,2025-07-03,Sindh,Website,Home,Bedsheet Set,3,4578,13734
+ORD-11881,2025-07-03,Sindh,Website,Home,Iron,2,4944,9888
+ORD-11935,2025-07-03,KPK,Website,Fashion,Shawl,2,3456,6912
+ORD-10925,2025-07-03,Punjab,Website,Electronics,Smart Watch,3,12600,37800
+ORD-10755,2025-07-04,Punjab,WhatsApp,Home,Water Dispenser,4,23920,95680
+ORD-11341,2025-07-04,KPK,Website,Home,Bedsheet Set,4,4116,16464
+ORD-12061,2025-07-04,Sindh,Daraz,Electronics,Power Bank,2,5940,11880
+ORD-10029,2025-07-04,Islamabad,Website,Home,Iron,1,4512,4512
+ORD-11845,2025-07-04,Punjab,Daraz,Fashion,Kurta,3,2632,7896
+ORD-11505,2025-07-05,Punjab,Website,Electronics,Smart Watch,3,12000,36000
+ORD-10097,2025-07-05,KPK,Daraz,Electronics,Charger,3,1656,4968
+ORD-11744,2025-07-05,Sindh,Website,Fashion,Lawn Suit,3,4140,12420
+ORD-11318,2025-07-05,Punjab,Website,Home,Iron,1,4416,4416
+ORD-11132,2025-07-05,Balochistan,WhatsApp,Electronics,Power Bank,1,5225,5225
+ORD-10032,2025-07-05,Punjab,WhatsApp,Home,Air Fryer,2,19800,39600
+ORD-12339,2025-07-05,Sindh,WhatsApp,Electronics,Power Bank,1,5115,5115
+ORD-11652,2025-07-05,KPK,Website,Electronics,Smart Watch,3,12240,36720
+ORD-11879,2025-07-06,Punjab,Daraz,Fashion,Sneakers,4,6305,25220
+ORD-12113,2025-07-06,Punjab,Website,Electronics,Earbuds,4,3710,14840
+ORD-12281,2025-07-06,Punjab,Daraz,Electronics,Smart Watch,4,11760,47040
+ORD-11024,2025-07-06,Balochistan,Daraz,Electronics,Earbuds,4,3640,14560
+ORD-12392,2025-07-06,KPK,Website,Fashion,Shawl,4,3136,12544
+ORD-10085,2025-07-06,Islamabad,WhatsApp,Fashion,Shawl,1,3392,3392
+ORD-12383,2025-07-06,Balochistan,Daraz,Fashion,Sneakers,4,6955,27820
+ORD-10968,2025-07-06,Punjab,Daraz,Home,Water Dispenser,4,26520,106080
+ORD-11942,2025-07-07,Sindh,WhatsApp,Electronics,Power Bank,2,5225,10450
+ORD-10051,2025-07-07,Punjab,Daraz,Fashion,Shawl,4,3520,14080
+ORD-10768,2025-07-07,Sindh,Website,Home,Iron,4,4848,19392
+ORD-10702,2025-07-07,Islamabad,Website,Electronics,Power Bank,3,5720,17160
+ORD-12223,2025-07-07,Islamabad,WhatsApp,Fashion,Kurta,1,3052,3052
+ORD-10059,2025-07-07,Balochistan,WhatsApp,Home,Air Fryer,2,18360,36720
+ORD-10888,2025-07-07,KPK,Daraz,Home,Water Dispenser,4,28600,114400
+ORD-10247,2025-07-07,Balochistan,WhatsApp,Electronics,Charger,1,1980,1980
+ORD-11191,2025-07-07,KPK,WhatsApp,Fashion,Sneakers,2,5980,11960
+ORD-10807,2025-07-07,Sindh,Website,Fashion,Shawl,1,3200,3200
+ORD-10275,2025-07-08,Sindh,Daraz,Fashion,Sneakers,2,6175,12350
+ORD-11020,2025-07-08,Islamabad,Website,Home,Bedsheet Set,2,4284,8568
+ORD-12126,2025-07-08,Islamabad,Website,Fashion,Kurta,4,3024,12096
+ORD-11254,2025-07-08,Islamabad,Website,Electronics,Power Bank,1,5280,5280
+ORD-12141,2025-07-08,Punjab,WhatsApp,Home,Air Fryer,1,19080,19080
+ORD-10727,2025-07-08,Sindh,Website,Electronics,Smart Watch,2,12360,24720
+ORD-11257,2025-07-08,Islamabad,Daraz,Fashion,Shawl,4,3168,12672
+ORD-11811,2025-07-09,Sindh,Website,Home,Air Fryer,4,16560,66240
+ORD-10297,2025-07-09,Punjab,Website,Home,Bedsheet Set,4,4494,17976
+ORD-12011,2025-07-09,Sindh,Website,Electronics,Charger,3,1674,5022
+ORD-11792,2025-07-09,KPK,Website,Electronics,Earbuds,3,3500,10500
+ORD-10567,2025-07-09,Punjab,Website,Home,Air Fryer,2,17280,34560
+ORD-12308,2025-07-09,Balochistan,WhatsApp,Electronics,Smart Watch,2,12120,24240
+ORD-10219,2025-07-09,Sindh,Daraz,Electronics,Earbuds,4,3745,14980
+ORD-10277,2025-07-10,KPK,Website,Fashion,Kurta,3,2940,8820
+ORD-11721,2025-07-10,Islamabad,Daraz,Fashion,Lawn Suit,2,4725,9450
+ORD-12007,2025-07-10,Islamabad,Website,Electronics,Smart Watch,3,11040,33120
+ORD-11363,2025-07-10,Punjab,Website,Fashion,Shawl,1,3232,3232
+ORD-11660,2025-07-10,Punjab,Daraz,Home,Air Fryer,2,19620,39240
+ORD-11049,2025-07-11,KPK,Daraz,Electronics,Smart Watch,4,13080,52320
+ORD-11473,2025-07-11,Balochistan,Daraz,Electronics,Smart Watch,1,11520,11520
+ORD-10498,2025-07-11,Punjab,WhatsApp,Electronics,Smart Watch,1,11880,11880
+ORD-10859,2025-07-11,Sindh,WhatsApp,Electronics,Power Bank,2,5335,10670
+ORD-11396,2025-07-11,Sindh,Website,Home,Bedsheet Set,1,3822,3822
+ORD-10207,2025-07-11,Punjab,WhatsApp,Electronics,Charger,2,1908,3816
+ORD-10367,2025-07-11,Islamabad,Website,Electronics,Charger,1,1638,1638
+ORD-11342,2025-07-11,Sindh,Website,Electronics,Charger,1,1944,1944
+ORD-11786,2025-07-11,Punjab,Website,Fashion,Kurta,3,2716,8148
+ORD-12096,2025-07-12,Punjab,Daraz,Home,Air Fryer,3,19620,58860
+ORD-12326,2025-07-12,Punjab,Daraz,Electronics,Smart Watch,4,12240,48960
+ORD-11206,2025-07-12,Sindh,Daraz,Electronics,Smart Watch,2,11040,22080
+ORD-10723,2025-07-12,Sindh,WhatsApp,Fashion,Lawn Suit,3,4140,12420
+ORD-12178,2025-07-13,KPK,Website,Home,Air Fryer,2,19260,38520
+ORD-10220,2025-07-13,Punjab,Website,Electronics,Earbuds,2,3430,6860
+ORD-10558,2025-07-14,Balochistan,Daraz,Fashion,Lawn Suit,2,4860,9720
+ORD-10842,2025-07-14,Balochistan,WhatsApp,Electronics,Power Bank,3,4950,14850
+ORD-10148,2025-07-14,Punjab,Website,Fashion,Sneakers,2,6565,13130
+ORD-10080,2025-07-14,Punjab,WhatsApp,Fashion,Sneakers,2,6435,12870
+ORD-11018,2025-07-14,Sindh,Website,Fashion,Shawl,4,2944,11776
+ORD-11978,2025-07-14,Punjab,Daraz,Fashion,Shawl,3,3104,9312
+ORD-11458,2025-07-14,Sindh,Website,Electronics,Charger,1,1854,1854
+ORD-10660,2025-07-15,Punjab,Daraz,Electronics,Charger,1,1782,1782
+ORD-11542,2025-07-15,Punjab,Daraz,Home,Iron,1,5040,5040
+ORD-10575,2025-07-15,Islamabad,Website,Electronics,Charger,4,1620,6480
+ORD-10731,2025-07-15,Punjab,WhatsApp,Electronics,Power Bank,3,5995,17985
+ORD-11418,2025-07-15,Balochistan,Daraz,Electronics,Smart Watch,2,11880,23760
+ORD-11926,2025-07-15,KPK,WhatsApp,Fashion,Kurta,4,3052,12208
+ORD-12120,2025-07-15,Sindh,Daraz,Home,Water Dispenser,2,28080,56160
+ORD-11917,2025-07-16,Punjab,Daraz,Electronics,Charger,1,1962,1962
+ORD-12134,2025-07-16,Balochistan,Website,Electronics,Earbuds,2,3570,7140
+ORD-10503,2025-07-16,Islamabad,Daraz,Fashion,Sneakers,4,6240,24960
+ORD-10858,2025-07-16,Punjab,Website,Home,Air Fryer,1,18540,18540
+ORD-10399,2025-07-16,Islamabad,Daraz,Electronics,Charger,1,1836,1836
+ORD-10621,2025-07-17,Punjab,Website,Electronics,Earbuds,3,3815,11445
+ORD-11435,2025-07-17,Punjab,WhatsApp,Home,Iron,4,4656,18624
+ORD-12086,2025-07-17,KPK,Website,Home,Air Fryer,4,19620,78480
+ORD-10298,2025-07-17,Sindh,Website,Fashion,Sneakers,1,6370,6370
+ORD-10996,2025-07-17,KPK,Daraz,Home,Iron,2,5136,10272
+ORD-12103,2025-07-17,Sindh,Website,Fashion,Kurta,3,2828,8484
+ORD-11931,2025-07-17,Islamabad,Daraz,Electronics,Power Bank,4,5445,21780
+ORD-10095,2025-07-17,Balochistan,Daraz,Fashion,Sneakers,2,7085,14170
+ORD-11971,2025-07-17,Punjab,Daraz,Electronics,Smart Watch,4,10920,43680
+ORD-11425,2025-07-18,Sindh,Daraz,Home,Water Dispenser,2,26260,52520
+ORD-10744,2025-07-18,Islamabad,Website,Fashion,Lawn Suit,4,4365,17460
+ORD-12296,2025-07-18,Sindh,Daraz,Electronics,Power Bank,4,5115,20460
+ORD-12248,2025-07-18,Balochistan,Website,Fashion,Sneakers,1,6175,6175
+ORD-10124,2025-07-19,Sindh,Website,Fashion,Kurta,3,2828,8484
+ORD-11015,2025-07-19,KPK,Daraz,Fashion,Shawl,1,3104,3104
+ORD-11498,2025-07-19,KPK,WhatsApp,Home,Air Fryer,2,19080,38160
+ORD-10187,2025-07-19,Punjab,WhatsApp,Home,Bedsheet Set,3,3990,11970
+ORD-11795,2025-07-19,Punjab,Website,Electronics,Smart Watch,1,11760,11760
+ORD-10758,2025-07-19,Islamabad,Website,Home,Air Fryer,1,16740,16740
+ORD-11742,2025-07-20,Punjab,Website,Fashion,Lawn Suit,4,4320,17280
+ORD-10625,2025-07-20,Balochistan,Website,Home,Water Dispenser,4,28600,114400
+ORD-11735,2025-07-20,Islamabad,Website,Home,Bedsheet Set,3,4620,13860
+ORD-11261,2025-07-20,Punjab,Website,Electronics,Smart Watch,4,12600,50400
+ORD-12227,2025-07-20,Balochistan,Website,Fashion,Lawn Suit,2,4770,9540
+ORD-11409,2025-07-20,Sindh,WhatsApp,Fashion,Shawl,4,3264,13056
+ORD-12279,2025-07-20,Islamabad,Website,Electronics,Power Bank,1,5170,5170
+ORD-12175,2025-07-20,Islamabad,WhatsApp,Fashion,Kurta,2,2996,5992
+ORD-10877,2025-07-21,KPK,Website,Electronics,Earbuds,3,3185,9555
+ORD-10165,2025-07-21,KPK,Website,Fashion,Lawn Suit,4,4230,16920
+ORD-12370,2025-07-21,Islamabad,Daraz,Electronics,Charger,4,1656,6624
+ORD-12088,2025-07-21,Sindh,Website,Home,Bedsheet Set,3,4032,12096
+ORD-11340,2025-07-21,KPK,Daraz,Home,Bedsheet Set,4,4032,16128
+ORD-10841,2025-07-21,Islamabad,WhatsApp,Fashion,Kurta,3,2744,8232
+ORD-10897,2025-07-22,Islamabad,Daraz,Fashion,Shawl,3,3296,9888
+ORD-11216,2025-07-22,Punjab,Website,Home,Water Dispenser,3,24960,74880
+ORD-11210,2025-07-22,Sindh,Daraz,Fashion,Shawl,1,3456,3456
+ORD-12391,2025-07-22,Sindh,Daraz,Fashion,Lawn Suit,4,4950,19800
+ORD-10031,2025-07-22,Punjab,Website,Home,Water Dispenser,2,26260,52520
+ORD-10580,2025-07-23,KPK,Daraz,Fashion,Shawl,3,3360,10080
+ORD-10913,2025-07-23,KPK,WhatsApp,Electronics,Power Bank,4,5335,21340
+ORD-11700,2025-07-23,Punjab,WhatsApp,Electronics,Charger,1,1782,1782
+ORD-10867,2025-07-23,KPK,Daraz,Home,Iron,3,4560,13680
+ORD-10949,2025-07-23,Islamabad,Website,Fashion,Kurta,2,2632,5264
+ORD-10128,2025-07-24,KPK,Website,Fashion,Kurta,4,2772,11088
+ORD-12014,2025-07-24,KPK,Daraz,Fashion,Shawl,3,3008,9024
+ORD-11439,2025-07-24,Balochistan,Website,Home,Iron,4,4368,17472
+ORD-11300,2025-07-24,Sindh,WhatsApp,Fashion,Shawl,1,3104,3104
+ORD-12099,2025-07-25,Punjab,Website,Home,Air Fryer,3,18900,56700
+ORD-10477,2025-07-25,Punjab,Website,Fashion,Lawn Suit,3,4275,12825
+ORD-10865,2025-07-25,Sindh,Website,Electronics,Smart Watch,4,11400,45600
+ORD-12117,2025-07-25,Punjab,WhatsApp,Electronics,Charger,2,1800,3600
+ORD-10160,2025-07-25,Punjab,Website,Electronics,Charger,4,1944,7776
+ORD-11595,2025-07-25,Punjab,Website,Electronics,Power Bank,2,5005,10010
+ORD-11962,2025-07-25,Punjab,Website,Electronics,Smart Watch,1,11160,11160
+ORD-11647,2025-07-26,Balochistan,WhatsApp,Fashion,Lawn Suit,2,4770,9540
+ORD-12092,2025-07-26,KPK,WhatsApp,Fashion,Sneakers,4,7085,28340
+ORD-11366,2025-07-26,Islamabad,Daraz,Electronics,Earbuds,1,3640,3640
+ORD-10383,2025-07-26,Punjab,Daraz,Electronics,Smart Watch,2,12480,24960
+ORD-10173,2025-07-27,Punjab,WhatsApp,Electronics,Earbuds,3,3780,11340
+ORD-11391,2025-07-27,Punjab,Website,Electronics,Earbuds,4,3430,13720
+ORD-10184,2025-07-27,Islamabad,WhatsApp,Electronics,Smart Watch,3,11640,34920
+ORD-10157,2025-07-27,Punjab,Website,Home,Air Fryer,3,16200,48600
+ORD-11591,2025-07-27,Punjab,Daraz,Electronics,Smart Watch,1,13200,13200
+ORD-10966,2025-07-27,Sindh,WhatsApp,Home,Water Dispenser,2,24440,48880
+ORD-12191,2025-07-27,KPK,Website,Fashion,Sneakers,4,6565,26260
+ORD-10712,2025-07-27,Sindh,Website,Fashion,Lawn Suit,1,4095,4095
+ORD-11394,2025-07-28,Punjab,Website,Fashion,Kurta,3,2884,8652
+ORD-11401,2025-07-28,Punjab,Website,Home,Bedsheet Set,2,4494,8988
+ORD-11339,2025-07-28,Punjab,Daraz,Home,Iron,3,4848,14544
+ORD-10396,2025-07-28,Sindh,Website,Fashion,Shawl,3,3072,9216
+ORD-11260,2025-07-28,Sindh,Daraz,Home,Air Fryer,2,16740,33480
+ORD-12138,2025-07-28,Punjab,Website,Fashion,Sneakers,1,6955,6955
+ORD-11183,2025-07-28,Punjab,WhatsApp,Home,Water Dispenser,3,26520,79560
+ORD-12078,2025-07-28,Punjab,WhatsApp,Home,Water Dispenser,4,23920,95680
+ORD-10263,2025-07-29,Punjab,WhatsApp,Electronics,Earbuds,1,3395,3395
+ORD-10445,2025-07-29,KPK,Website,Fashion,Lawn Suit,1,4905,4905
+ORD-10661,2025-07-29,Balochistan,Daraz,Electronics,Smart Watch,1,11520,11520
+ORD-10409,2025-07-29,Punjab,Daraz,Fashion,Sneakers,4,6110,24440
+ORD-11685,2025-07-30,Punjab,Website,Electronics,Smart Watch,2,12960,25920
+ORD-10230,2025-07-30,Balochistan,Daraz,Home,Bedsheet Set,1,4242,4242
+ORD-10282,2025-07-30,Punjab,Website,Electronics,Earbuds,3,3780,11340
+ORD-10116,2025-07-30,Sindh,WhatsApp,Fashion,Shawl,3,3168,9504
+ORD-11901,2025-07-30,Punjab,WhatsApp,Home,Iron,3,5184,15552
+ORD-10813,2025-07-30,KPK,Daraz,Electronics,Charger,1,1728,1728
+ORD-11984,2025-07-31,Punjab,Daraz,Electronics,Smart Watch,1,11880,11880
+ORD-11875,2025-07-31,Sindh,Daraz,Fashion,Sneakers,3,5980,17940
+ORD-11395,2025-07-31,Sindh,WhatsApp,Home,Iron,4,4944,19776
+ORD-10283,2025-07-31,Punjab,Daraz,Home,Iron,4,4944,19776
+ORD-10004,2025-07-31,Islamabad,Website,Home,Air Fryer,4,18900,75600
+ORD-11954,2025-07-31,Islamabad,Website,Fashion,Sneakers,2,7085,14170
+ORD-11422,2025-07-31,Punjab,Daraz,Home,Air Fryer,1,18180,18180
+ORD-10420,2025-07-31,KPK,Website,Electronics,Smart Watch,4,10920,43680
+ORD-10947,2025-07-31,Punjab,Website,Electronics,Smart Watch,3,12480,37440
+ORD-11036,2025-07-31,Punjab,Daraz,Fashion,Sneakers,4,6305,25220
+ORD-10517,2025-07-31,Sindh,WhatsApp,Electronics,Earbuds,3,3815,11445
+ORD-11956,2025-08-01,Sindh,Daraz,Home,Bedsheet Set,3,4074,12222
+ORD-12247,2025-08-01,Islamabad,Website,Electronics,Power Bank,4,5500,22000
+ORD-11413,2025-08-01,Punjab,WhatsApp,Fashion,Sneakers,4,7150,28600
+ORD-10030,2025-08-01,Punjab,WhatsApp,Fashion,Kurta,1,3024,3024
+ORD-10975,2025-08-01,Punjab,Website,Electronics,Charger,3,1800,5400
+ORD-12303,2025-08-01,Islamabad,WhatsApp,Fashion,Shawl,1,2912,2912
+ORD-12033,2025-08-01,Punjab,Website,Home,Iron,2,5232,10464
+ORD-10172,2025-08-01,Punjab,Website,Fashion,Sneakers,1,5850,5850
+ORD-11274,2025-08-01,Sindh,Website,Electronics,Power Bank,4,5170,20680
+ORD-10955,2025-08-02,Balochistan,Website,Fashion,Lawn Suit,3,4320,12960
+ORD-11803,2025-08-02,Islamabad,Website,Fashion,Shawl,1,3136,3136
+ORD-11474,2025-08-02,Sindh,WhatsApp,Home,Water Dispenser,2,23660,47320
+ORD-10444,2025-08-02,Punjab,WhatsApp,Home,Bedsheet Set,2,4284,8568
+ORD-10818,2025-08-02,Sindh,WhatsApp,Home,Water Dispenser,2,25740,51480
+ORD-11728,2025-08-03,Punjab,WhatsApp,Home,Water Dispenser,1,23400,23400
+ORD-12218,2025-08-03,Punjab,Daraz,Electronics,Smart Watch,4,11880,47520
+ORD-11523,2025-08-03,Islamabad,Website,Electronics,Power Bank,4,5940,23760
+ORD-11482,2025-08-03,Sindh,Daraz,Fashion,Kurta,4,3052,12208
+ORD-11752,2025-08-03,KPK,Daraz,Electronics,Charger,3,1692,5076
+ORD-11148,2025-08-03,Islamabad,Website,Fashion,Kurta,3,2940,8820
+ORD-12305,2025-08-03,KPK,Website,Fashion,Kurta,2,2912,5824
+ORD-12265,2025-08-04,Punjab,Daraz,Electronics,Earbuds,1,3675,3675
+ORD-10119,2025-08-04,Sindh,Website,Electronics,Charger,4,1710,6840
+ORD-10387,2025-08-04,Punjab,Daraz,Electronics,Power Bank,1,5335,5335
+ORD-10213,2025-08-04,Punjab,Daraz,Fashion,Kurta,4,2716,10864
+ORD-10606,2025-08-04,Punjab,Website,Electronics,Charger,1,1818,1818
+ORD-10490,2025-08-04,Punjab,WhatsApp,Electronics,Smart Watch,4,12120,48480
+ORD-11405,2025-08-04,Islamabad,Website,Electronics,Smart Watch,1,12120,12120
+ORD-11693,2025-08-04,Sindh,Daraz,Electronics,Smart Watch,2,11880,23760
+ORD-10804,2025-08-05,Sindh,Website,Fashion,Sneakers,3,6240,18720
+ORD-10326,2025-08-05,Punjab,Daraz,Electronics,Charger,3,1710,5130
+ORD-11966,2025-08-05,Islamabad,Website,Electronics,Smart Watch,4,12120,48480
+ORD-12089,2025-08-05,KPK,Daraz,Home,Air Fryer,1,18900,18900
+ORD-10881,2025-08-05,Sindh,Daraz,Fashion,Sneakers,2,7085,14170
+ORD-12235,2025-08-05,KPK,Website,Fashion,Lawn Suit,4,4680,18720
+ORD-11084,2025-08-05,KPK,Website,Electronics,Earbuds,1,3710,3710
+ORD-10488,2025-08-06,Sindh,Website,Fashion,Sneakers,3,6435,19305
+ORD-10799,2025-08-06,Punjab,Website,Home,Air Fryer,1,19440,19440
+ORD-11756,2025-08-06,Balochistan,WhatsApp,Home,Iron,1,4416,4416
+ORD-10512,2025-08-06,KPK,WhatsApp,Fashion,Shawl,4,3104,12416
+ORD-11355,2025-08-06,Islamabad,Daraz,Fashion,Sneakers,1,5980,5980
+ORD-11028,2025-08-06,KPK,Daraz,Fashion,Kurta,2,2716,5432
+ORD-10333,2025-08-06,Sindh,WhatsApp,Electronics,Smart Watch,3,11760,35280
+ORD-12338,2025-08-07,Punjab,Daraz,Electronics,Power Bank,4,5115,20460
+ORD-11198,2025-08-07,KPK,Website,Fashion,Kurta,3,2968,8904
+ORD-10765,2025-08-07,Punjab,Website,Home,Iron,3,4416,13248
+ORD-12295,2025-08-07,Sindh,Website,Fashion,Kurta,1,2576,2576
+ORD-12232,2025-08-07,Sindh,WhatsApp,Home,Air Fryer,3,18720,56160
+ORD-10103,2025-08-07,Sindh,WhatsApp,Home,Iron,3,5184,15552
+ORD-10108,2025-08-07,Islamabad,WhatsApp,Home,Air Fryer,1,18900,18900
+ORD-11710,2025-08-07,KPK,WhatsApp,Fashion,Shawl,4,3424,13696
+ORD-11963,2025-08-08,Islamabad,Daraz,Fashion,Shawl,4,2976,11904
+ORD-11602,2025-08-08,KPK,Daraz,Home,Water Dispenser,3,27560,82680
+ORD-11856,2025-08-08,Punjab,Website,Electronics,Smart Watch,1,12600,12600
+ORD-11316,2025-08-08,Sindh,Daraz,Electronics,Smart Watch,2,11880,23760
+ORD-12183,2025-08-08,Sindh,WhatsApp,Home,Water Dispenser,2,23920,47840
+ORD-11555,2025-08-08,Punjab,Daraz,Fashion,Shawl,3,3264,9792
+ORD-11723,2025-08-08,KPK,Website,Home,Air Fryer,2,18540,37080
+ORD-11155,2025-08-08,Punjab,Website,Electronics,Earbuds,4,3325,13300
+ORD-10598,2025-08-09,Islamabad,WhatsApp,Fashion,Sneakers,2,7085,14170
+ORD-10121,2025-08-09,Punjab,WhatsApp,Fashion,Shawl,3,3360,10080
+ORD-11322,2025-08-09,Islamabad,Daraz,Fashion,Kurta,1,2660,2660
+ORD-12167,2025-08-09,KPK,Daraz,Home,Iron,1,4320,4320
+ORD-11452,2025-08-09,Punjab,Daraz,Fashion,Sneakers,4,6760,27040
+ORD-11502,2025-08-09,KPK,Website,Electronics,Charger,1,1638,1638
+ORD-10329,2025-08-09,Punjab,Daraz,Fashion,Kurta,1,2940,2940
+ORD-12368,2025-08-09,Sindh,Daraz,Electronics,Earbuds,2,3570,7140
+ORD-11810,2025-08-09,Sindh,Daraz,Home,Water Dispenser,3,23920,71760
+ORD-11713,2025-08-09,Sindh,Daraz,Home,Air Fryer,3,19080,57240
+ORD-11271,2025-08-10,Punjab,Website,Fashion,Shawl,4,3296,13184
+ORD-11187,2025-08-10,KPK,Daraz,Electronics,Smart Watch,2,11760,23520
+ORD-11446,2025-08-10,Sindh,Website,Electronics,Charger,4,1800,7200
+ORD-10154,2025-08-10,Punjab,Website,Fashion,Kurta,2,3052,6104
+ORD-10714,2025-08-10,Islamabad,Website,Electronics,Smart Watch,4,11760,47040
+ORD-12008,2025-08-10,Islamabad,Website,Home,Water Dispenser,3,27820,83460
+ORD-11691,2025-08-11,KPK,Website,Fashion,Lawn Suit,2,4950,9900
+ORD-11518,2025-08-11,Sindh,Website,Fashion,Shawl,3,2944,8832
+ORD-12337,2025-08-11,Punjab,WhatsApp,Fashion,Sneakers,1,5850,5850
+ORD-11144,2025-08-11,KPK,Website,Home,Water Dispenser,2,23400,46800
+ORD-10405,2025-08-11,Punjab,Daraz,Home,Water Dispenser,4,27300,109200
+ORD-10449,2025-08-11,KPK,Website,Fashion,Lawn Suit,1,4140,4140
+ORD-12064,2025-08-11,Punjab,Website,Fashion,Kurta,1,2716,2716
+ORD-12313,2025-08-12,Punjab,Website,Fashion,Shawl,1,3392,3392
+ORD-11400,2025-08-12,KPK,Website,Fashion,Sneakers,2,6305,12610
+ORD-11177,2025-08-12,Punjab,WhatsApp,Electronics,Smart Watch,1,12840,12840
+ORD-10045,2025-08-12,KPK,Daraz,Electronics,Power Bank,4,5775,23100
+ORD-10098,2025-08-12,Sindh,Daraz,Electronics,Charger,3,1818,5454
+ORD-11587,2025-08-12,Islamabad,WhatsApp,Electronics,Charger,4,1728,6912
+ORD-11135,2025-08-14,Sindh,Daraz,Fashion,Sneakers,1,6370,6370
+ORD-11419,2025-08-14,Punjab,WhatsApp,Electronics,Earbuds,2,3605,7210
+ORD-11797,2025-08-14,Sindh,WhatsApp,Electronics,Charger,3,1782,5346
+ORD-10314,2025-08-14,Punjab,Website,Electronics,Smart Watch,3,11520,34560
+ORD-12158,2025-08-14,Punjab,Daraz,Electronics,Charger,3,1782,5346
+ORD-10076,2025-08-14,Sindh,Website,Fashion,Sneakers,1,6760,6760
+ORD-11600,2025-08-14,Islamabad,Website,Fashion,Kurta,1,2828,2828
+ORD-12005,2025-08-15,Punjab,Website,Electronics,Smart Watch,3,12480,37440
+ORD-10903,2025-08-15,Sindh,Website,Fashion,Kurta,2,2800,5600
+ORD-11085,2025-08-15,Punjab,Daraz,Home,Iron,1,5136,5136
+ORD-11336,2025-08-15,Sindh,Daraz,Electronics,Earbuds,3,3500,10500
+ORD-10541,2025-08-15,Sindh,Website,Electronics,Earbuds,1,3710,3710
+ORD-12056,2025-08-15,Sindh,Daraz,Electronics,Smart Watch,1,11760,11760
+ORD-11897,2025-08-16,Punjab,WhatsApp,Home,Water Dispenser,4,28080,112320
+ORD-10037,2025-08-16,Sindh,WhatsApp,Home,Bedsheet Set,3,3822,11466
+ORD-11981,2025-08-16,Sindh,Website,Fashion,Shawl,1,3264,3264
+ORD-10427,2025-08-17,Punjab,WhatsApp,Home,Water Dispenser,3,27300,81900
+ORD-10001,2025-08-17,KPK,Website,Electronics,Power Bank,4,5335,21340
+ORD-10243,2025-08-18,Punjab,Website,Electronics,Earbuds,1,3745,3745
+ORD-10729,2025-08-18,Punjab,Daraz,Electronics,Earbuds,3,3255,9765
+ORD-12267,2025-08-18,Balochistan,Website,Fashion,Shawl,2,3008,6016
+ORD-10343,2025-08-18,Punjab,WhatsApp,Electronics,Charger,4,1890,7560
+ORD-10870,2025-08-18,KPK,WhatsApp,Electronics,Smart Watch,1,12240,12240
+ORD-12105,2025-08-18,Balochistan,Website,Fashion,Kurta,1,2576,2576
+ORD-11275,2025-08-18,Punjab,WhatsApp,Electronics,Smart Watch,4,12240,48960
+ORD-10057,2025-08-18,Sindh,Website,Electronics,Smart Watch,4,12840,51360
+ORD-10309,2025-08-18,Punjab,Website,Home,Water Dispenser,1,25220,25220
+ORD-12000,2025-08-19,Islamabad,WhatsApp,Electronics,Power Bank,3,5665,16995
+ORD-10875,2025-08-19,Punjab,Website,Fashion,Sneakers,3,6955,20865
+ORD-10455,2025-08-19,Punjab,Website,Electronics,Smart Watch,4,12720,50880
+ORD-11051,2025-08-19,Balochistan,Website,Electronics,Earbuds,2,3815,7630
+ORD-10478,2025-08-20,Punjab,Daraz,Home,Iron,1,4992,4992
+ORD-11777,2025-08-20,Islamabad,Website,Electronics,Earbuds,1,3745,3745
+ORD-10345,2025-08-20,Punjab,Daraz,Fashion,Sneakers,1,5980,5980
+ORD-11960,2025-08-20,Islamabad,WhatsApp,Electronics,Charger,2,1710,3420
+ORD-10578,2025-08-21,Punjab,Website,Electronics,Charger,4,1728,6912
+ORD-11667,2025-08-21,Punjab,WhatsApp,Home,Air Fryer,4,16380,65520
+ORD-11285,2025-08-21,Sindh,Daraz,Fashion,Shawl,1,3040,3040
+ORD-10592,2025-08-21,Balochistan,Website,Fashion,Lawn Suit,4,4410,17640
+ORD-11679,2025-08-21,Islamabad,Website,Electronics,Earbuds,1,3500,3500
+ORD-11763,2025-08-21,Islamabad,Website,Electronics,Earbuds,2,3815,7630
+ORD-10123,2025-08-21,Sindh,Website,Electronics,Charger,3,1926,5778
+ORD-11043,2025-08-21,KPK,Website,Fashion,Kurta,1,2884,2884
+ORD-10962,2025-08-21,Balochistan,Website,Electronics,Charger,3,1962,5886
+ORD-12367,2025-08-22,Punjab,WhatsApp,Electronics,Earbuds,2,3185,6370
+ORD-11103,2025-08-22,Punjab,WhatsApp,Home,Bedsheet Set,2,3822,7644
+ORD-11064,2025-08-22,Islamabad,Website,Fashion,Kurta,2,2632,5264
+ORD-10447,2025-08-22,KPK,Website,Fashion,Shawl,3,3328,9984
+ORD-12137,2025-08-22,Punjab,Website,Home,Bedsheet Set,2,3906,7812
+ORD-11809,2025-08-22,Balochistan,Website,Electronics,Power Bank,2,5940,11880
+ORD-10089,2025-08-22,Punjab,Website,Home,Water Dispenser,1,28080,28080
+ORD-10530,2025-08-22,KPK,Daraz,Electronics,Earbuds,4,3290,13160
+ORD-10601,2025-08-23,Sindh,Daraz,Electronics,Smart Watch,2,11760,23520
+ORD-10102,2025-08-23,Punjab,Website,Fashion,Lawn Suit,4,4545,18180
+ORD-12374,2025-08-23,KPK,Daraz,Fashion,Sneakers,3,6240,18720
+ORD-11039,2025-08-23,Sindh,WhatsApp,Home,Air Fryer,3,17820,53460
+ORD-10909,2025-08-23,Sindh,WhatsApp,Electronics,Smart Watch,3,11280,33840
+ORD-10400,2025-08-23,KPK,Website,Home,Air Fryer,2,16920,33840
+ORD-10823,2025-08-23,Punjab,Daraz,Electronics,Earbuds,2,3360,6720
+ORD-10171,2025-08-23,KPK,Daraz,Fashion,Shawl,4,3008,12032
+ORD-10587,2025-08-24,Punjab,Website,Fashion,Kurta,1,2576,2576
+ORD-12186,2025-08-24,Balochistan,Website,Fashion,Lawn Suit,4,4815,19260
+ORD-11992,2025-08-24,KPK,Daraz,Home,Iron,3,4416,13248
+ORD-10234,2025-08-24,Sindh,Website,Home,Air Fryer,1,17460,17460
+ORD-11890,2025-08-25,KPK,WhatsApp,Home,Air Fryer,2,17460,34920
+ORD-12144,2025-08-25,Sindh,Website,Fashion,Kurta,3,2884,8652
+ORD-11397,2025-08-25,Punjab,WhatsApp,Electronics,Smart Watch,3,11040,33120
+ORD-11828,2025-08-25,Sindh,Website,Electronics,Charger,2,1746,3492
+ORD-10473,2025-08-26,Islamabad,WhatsApp,Home,Iron,3,4608,13824
+ORD-12264,2025-08-26,KPK,Website,Electronics,Power Bank,4,5335,21340
+ORD-11790,2025-08-26,Sindh,Website,Electronics,Charger,1,1656,1656
+ORD-10908,2025-08-27,Sindh,Daraz,Electronics,Charger,2,1890,3780
+ORD-12180,2025-08-27,Islamabad,WhatsApp,Home,Iron,1,5136,5136
+ORD-12203,2025-08-27,Punjab,Daraz,Home,Iron,4,4560,18240
+ORD-11760,2025-08-27,Punjab,Website,Home,Bedsheet Set,1,4116,4116
+ORD-11083,2025-08-28,Punjab,Website,Electronics,Smart Watch,2,12600,25200
+ORD-12285,2025-08-28,Punjab,WhatsApp,Home,Bedsheet Set,1,4116,4116
+ORD-10487,2025-08-28,Sindh,Daraz,Electronics,Earbuds,2,3500,7000
+ORD-11878,2025-08-28,Islamabad,Website,Electronics,Charger,1,1926,1926
+ORD-11950,2025-08-28,Sindh,WhatsApp,Electronics,Power Bank,2,5170,10340
+ORD-10850,2025-08-28,KPK,Daraz,Electronics,Power Bank,3,5665,16995
+ORD-11939,2025-08-28,Sindh,Website,Home,Bedsheet Set,1,3864,3864
+ORD-10696,2025-08-29,KPK,WhatsApp,Electronics,Smart Watch,3,11760,35280
+ORD-11014,2025-08-29,Punjab,WhatsApp,Electronics,Charger,1,1800,1800
+ORD-10203,2025-08-29,Islamabad,WhatsApp,Fashion,Shawl,3,2912,8736
+ORD-10403,2025-08-29,Punjab,Website,Fashion,Lawn Suit,4,4680,18720
+ORD-10335,2025-08-29,Balochistan,WhatsApp,Home,Water Dispenser,1,26000,26000
+ORD-11626,2025-08-29,Sindh,Website,Electronics,Earbuds,2,3570,7140
+ORD-11680,2025-08-29,Punjab,Website,Fashion,Lawn Suit,2,4185,8370
+ORD-10106,2025-08-29,Punjab,Daraz,Electronics,Smart Watch,1,12360,12360
+ORD-11923,2025-08-29,Sindh,Daraz,Electronics,Earbuds,4,3780,15120
+ORD-11503,2025-08-30,Sindh,WhatsApp,Home,Water Dispenser,1,24440,24440
+ORD-10453,2025-08-30,Balochistan,WhatsApp,Home,Bedsheet Set,3,4536,13608
+ORD-10554,2025-08-30,Punjab,Website,Electronics,Smart Watch,3,12360,37080
+ORD-10432,2025-08-30,KPK,Daraz,Electronics,Power Bank,4,5940,23760
+ORD-10502,2025-08-30,Punjab,Daraz,Fashion,Kurta,4,2772,11088
+ORD-10495,2025-08-30,Punjab,Daraz,Electronics,Power Bank,4,5005,20020
+ORD-10474,2025-08-30,Balochistan,Website,Electronics,Smart Watch,1,11880,11880
+ORD-10147,2025-08-30,Sindh,WhatsApp,Electronics,Earbuds,2,3815,7630
+ORD-11153,2025-08-31,Punjab,WhatsApp,Electronics,Power Bank,4,5885,23540
+ORD-11608,2025-08-31,Sindh,WhatsApp,Electronics,Smart Watch,2,12480,24960
+ORD-11882,2025-08-31,Islamabad,WhatsApp,Fashion,Lawn Suit,3,4950,14850
+ORD-10078,2025-08-31,Sindh,Daraz,Fashion,Sneakers,4,6110,24440
+ORD-11688,2025-08-31,Punjab,Website,Fashion,Kurta,4,3024,12096
+ORD-12041,2025-08-31,KPK,Website,Electronics,Smart Watch,4,11400,45600
+ORD-10951,2025-08-31,KPK,Daraz,Home,Water Dispenser,2,26260,52520
+ORD-11179,2025-09-01,Islamabad,Website,Electronics,Charger,4,1800,7200
+ORD-11149,2025-09-01,KPK,Daraz,Electronics,Smart Watch,3,13200,39600
+ORD-11985,2025-09-02,Punjab,Website,Fashion,Kurta,3,2548,7644
+ORD-10719,2025-09-02,KPK,WhatsApp,Electronics,Power Bank,2,5390,10780
+ORD-10837,2025-09-02,Punjab,WhatsApp,Fashion,Sneakers,4,6305,25220
+ORD-11142,2025-09-03,KPK,WhatsApp,Electronics,Earbuds,3,3780,11340
+ORD-11649,2025-09-03,Islamabad,Website,Home,Iron,4,5232,20928
+ORD-12065,2025-09-03,Balochistan,WhatsApp,Fashion,Shawl,3,3264,9792
+ORD-11622,2025-09-03,Sindh,WhatsApp,Electronics,Charger,1,1872,1872
+ORD-11796,2025-09-03,Sindh,Website,Electronics,Power Bank,1,5665,5665
+ORD-10141,2025-09-03,Sindh,Website,Home,Water Dispenser,1,27560,27560
+ORD-12356,2025-09-04,Sindh,Website,Electronics,Power Bank,3,5830,17490
+ORD-11444,2025-09-04,Punjab,Website,Fashion,Sneakers,1,5980,5980
+ORD-10125,2025-09-04,Islamabad,Daraz,Fashion,Sneakers,4,5980,23920
+ORD-10305,2025-09-04,Punjab,Website,Fashion,Shawl,2,3456,6912
+ORD-10561,2025-09-04,Punjab,WhatsApp,Electronics,Earbuds,1,3570,3570
+ORD-11793,2025-09-04,Sindh,Website,Fashion,Lawn Suit,1,4635,4635
+ORD-11181,2025-09-05,KPK,Daraz,Home,Bedsheet Set,3,4284,12852
+ORD-10953,2025-09-05,Islamabad,Daraz,Fashion,Lawn Suit,1,4410,4410
+ORD-12226,2025-09-05,Islamabad,Website,Home,Air Fryer,3,18540,55620
+ORD-10391,2025-09-05,KPK,Website,Home,Bedsheet Set,1,4368,4368
+ORD-10654,2025-09-05,Sindh,Website,Fashion,Lawn Suit,2,4185,8370
+ORD-10907,2025-09-05,Balochistan,Daraz,Electronics,Power Bank,3,5170,15510
+ORD-11776,2025-09-05,Punjab,Website,Electronics,Smart Watch,1,12360,12360
+ORD-10750,2025-09-05,Sindh,Website,Electronics,Smart Watch,3,12360,37080
+ORD-11599,2025-09-05,Islamabad,Website,Home,Bedsheet Set,3,4410,13230
+ORD-10350,2025-09-05,Islamabad,WhatsApp,Electronics,Charger,3,1890,5670
+ORD-11010,2025-09-05,Punjab,Daraz,Home,Water Dispenser,3,25480,76440
+ORD-12080,2025-09-05,Sindh,Website,Fashion,Sneakers,2,6045,12090
+ORD-11223,2025-09-06,Sindh,Daraz,Home,Air Fryer,4,16560,66240
+ORD-10785,2025-09-06,Punjab,Website,Home,Iron,1,4464,4464
+ORD-11558,2025-09-06,Islamabad,WhatsApp,Electronics,Smart Watch,4,10920,43680
+ORD-10304,2025-09-06,Punjab,Website,Electronics,Charger,1,1854,1854
+ORD-11172,2025-09-06,Punjab,Website,Fashion,Sneakers,4,6890,27560
+ORD-10496,2025-09-06,Sindh,WhatsApp,Electronics,Smart Watch,2,12480,24960
+ORD-11035,2025-09-07,Balochistan,Website,Electronics,Power Bank,3,5720,17160
+ORD-10210,2025-09-07,KPK,Website,Fashion,Sneakers,3,6240,18720
+ORD-10002,2025-09-07,Punjab,Website,Home,Iron,1,5136,5136
+ORD-10215,2025-09-07,Sindh,Daraz,Electronics,Power Bank,3,5885,17655
+ORD-11239,2025-09-08,Islamabad,Website,Home,Iron,4,5040,20160
+ORD-10100,2025-09-08,Punjab,Website,Electronics,Earbuds,3,3220,9660
+ORD-11894,2025-09-08,Sindh,Website,Fashion,Shawl,2,3360,6720
+ORD-10989,2025-09-08,Islamabad,Daraz,Electronics,Charger,2,1836,3672
+ORD-11830,2025-09-08,Sindh,Website,Home,Bedsheet Set,1,3822,3822
+ORD-10458,2025-09-08,Sindh,Website,Home,Air Fryer,1,19080,19080
+ORD-11437,2025-09-08,Balochistan,WhatsApp,Electronics,Earbuds,4,3570,14280
+ORD-11402,2025-09-08,Sindh,Daraz,Fashion,Shawl,1,3008,3008
+ORD-11662,2025-09-09,Punjab,Daraz,Home,Iron,1,4992,4992
+ORD-12320,2025-09-09,Balochistan,Website,Home,Bedsheet Set,1,4620,4620
+ORD-12038,2025-09-10,Sindh,Website,Electronics,Power Bank,3,5390,16170
+ORD-12190,2025-09-10,Sindh,WhatsApp,Electronics,Power Bank,4,5500,22000
+ORD-10069,2025-09-10,Sindh,Daraz,Fashion,Sneakers,3,7020,21060
+ORD-11821,2025-09-10,Punjab,Website,Home,Bedsheet Set,4,4326,17304
+ORD-10831,2025-09-10,Punjab,Daraz,Home,Water Dispenser,1,24440,24440
+ORD-12155,2025-09-11,KPK,Website,Electronics,Charger,1,1944,1944
+ORD-11197,2025-09-11,KPK,Website,Electronics,Smart Watch,4,11040,44160
+ORD-11569,2025-09-11,Islamabad,Website,Electronics,Smart Watch,3,12240,36720
+ORD-11970,2025-09-11,Islamabad,WhatsApp,Fashion,Shawl,4,3104,12416
+ORD-10362,2025-09-11,KPK,Website,Electronics,Charger,3,1962,5886
+ORD-11434,2025-09-12,Sindh,Daraz,Fashion,Shawl,4,3072,12288
+ORD-11673,2025-09-12,Punjab,Daraz,Fashion,Shawl,3,3392,10176
+ORD-11478,2025-09-12,Islamabad,Website,Home,Water Dispenser,4,26000,104000
+ORD-11909,2025-09-12,Sindh,Website,Home,Air Fryer,4,17460,69840
+ORD-11854,2025-09-12,Sindh,WhatsApp,Fashion,Sneakers,3,6695,20085
+ORD-11293,2025-09-12,Sindh,Website,Home,Bedsheet Set,4,3948,15792
+ORD-12048,2025-09-13,KPK,Website,Fashion,Lawn Suit,2,4095,8190
+ORD-10354,2025-09-13,Sindh,Daraz,Electronics,Smart Watch,4,12720,50880
+ORD-10036,2025-09-13,Islamabad,Website,Fashion,Sneakers,2,6435,12870
+ORD-11460,2025-09-13,Punjab,Website,Home,Air Fryer,4,16740,66960
+ORD-10784,2025-09-13,Islamabad,Website,Home,Bedsheet Set,2,3822,7644
+ORD-10821,2025-09-14,Sindh,Daraz,Fashion,Lawn Suit,2,4635,9270
+ORD-11456,2025-09-14,Punjab,Website,Electronics,Earbuds,3,3780,11340
+ORD-12074,2025-09-14,Islamabad,WhatsApp,Electronics,Power Bank,1,5060,5060
+ORD-11725,2025-09-14,Sindh,WhatsApp,Electronics,Power Bank,3,5005,15015
+ORD-11610,2025-09-14,Sindh,Website,Home,Air Fryer,1,19260,19260
+ORD-11249,2025-09-14,Islamabad,Website,Fashion,Shawl,1,3520,3520
+ORD-10728,2025-09-15,Islamabad,Website,Home,Bedsheet Set,3,4536,13608
+ORD-11278,2025-09-15,Islamabad,Website,Electronics,Power Bank,2,5060,10120
+ORD-11021,2025-09-15,Sindh,Website,Electronics,Charger,2,1872,3744
+ORD-11697,2025-09-15,Sindh,Daraz,Fashion,Lawn Suit,2,4500,9000
+ORD-12317,2025-09-15,Punjab,Daraz,Fashion,Kurta,1,2856,2856
+ORD-10378,2025-09-15,Balochistan,Website,Electronics,Earbuds,1,3500,3500
+ORD-10942,2025-09-15,KPK,Daraz,Fashion,Shawl,1,3488,3488
+ORD-11326,2025-09-15,KPK,WhatsApp,Electronics,Charger,4,1710,6840
+ORD-10895,2025-09-16,Sindh,Website,Electronics,Power Bank,4,5170,20680
+ORD-11576,2025-09-16,Punjab,Website,Home,Iron,4,4944,19776
+ORD-10781,2025-09-16,Sindh,Website,Electronics,Charger,2,1818,3636
+ORD-11874,2025-09-16,Sindh,Website,Home,Water Dispenser,1,26780,26780
+ORD-11753,2025-09-16,Sindh,Daraz,Home,Water Dispenser,2,25220,50440
+ORD-10088,2025-09-16,Islamabad,Website,Fashion,Sneakers,4,5980,23920
+ORD-11069,2025-09-16,KPK,Website,Electronics,Charger,4,1872,7488
+ORD-12116,2025-09-17,Punjab,WhatsApp,Fashion,Kurta,4,2884,11536
+ORD-10551,2025-09-17,Balochistan,Website,Electronics,Charger,2,1656,3312
+ORD-10506,2025-09-17,Islamabad,Website,Electronics,Earbuds,1,3325,3325
+ORD-11853,2025-09-18,Islamabad,Daraz,Home,Iron,4,5232,20928
+ORD-10290,2025-09-18,Punjab,Daraz,Electronics,Charger,4,1872,7488
+ORD-11561,2025-09-18,Punjab,Website,Home,Water Dispenser,4,27560,110240
+ORD-10645,2025-09-18,Punjab,Daraz,Fashion,Lawn Suit,2,4905,9810
+ORD-11301,2025-09-18,KPK,Daraz,Electronics,Charger,1,1890,1890
+ORD-10180,2025-09-18,Sindh,Daraz,Home,Water Dispenser,1,24180,24180
+ORD-10939,2025-09-18,Sindh,Website,Electronics,Smart Watch,1,11400,11400
+ORD-11782,2025-09-19,Punjab,WhatsApp,Fashion,Kurta,1,2968,2968
+ORD-11248,2025-09-19,KPK,Website,Electronics,Charger,1,1764,1764
+ORD-10307,2025-09-19,Balochistan,WhatsApp,Fashion,Lawn Suit,3,4905,14715
+ORD-12257,2025-09-19,Punjab,Daraz,Electronics,Charger,4,1638,6552
+ORD-11282,2025-09-19,Punjab,Website,Fashion,Lawn Suit,2,4275,8550
+ORD-10024,2025-09-20,Sindh,Daraz,Home,Air Fryer,3,19260,57780
+ORD-11734,2025-09-20,Punjab,Daraz,Fashion,Kurta,2,3080,6160
+ORD-10685,2025-09-20,Sindh,Daraz,Electronics,Power Bank,2,5445,10890
+ORD-11848,2025-09-20,Sindh,Website,Fashion,Lawn Suit,2,4365,8730
+ORD-12053,2025-09-20,Sindh,Website,Fashion,Sneakers,2,6175,12350
+ORD-10834,2025-09-20,Punjab,WhatsApp,Home,Water Dispenser,3,28080,84240
+ORD-10857,2025-09-20,Islamabad,WhatsApp,Fashion,Lawn Suit,2,4365,8730
+ORD-12139,2025-09-20,KPK,Website,Electronics,Charger,2,1890,3780
+ORD-12127,2025-09-20,Punjab,Website,Fashion,Kurta,1,2856,2856
+ORD-11959,2025-09-20,Punjab,Website,Home,Air Fryer,3,18900,56700
+ORD-10194,2025-09-20,Sindh,WhatsApp,Fashion,Kurta,3,2716,8148
+ORD-10627,2025-09-21,Balochistan,WhatsApp,Home,Air Fryer,2,16740,33480
+ORD-10072,2025-09-21,KPK,WhatsApp,Fashion,Sneakers,3,6305,18915
+ORD-11222,2025-09-21,Sindh,Website,Fashion,Sneakers,1,6110,6110
+ORD-10463,2025-09-21,Sindh,Website,Electronics,Earbuds,3,3535,10605
+ORD-11450,2025-09-21,Punjab,Daraz,Home,Water Dispenser,1,28600,28600
+ORD-10589,2025-09-21,Balochistan,Website,Fashion,Sneakers,2,6955,13910
+ORD-10609,2025-09-21,Islamabad,WhatsApp,Electronics,Charger,3,1962,5886
+ORD-10564,2025-09-22,Punjab,Website,Electronics,Earbuds,2,3570,7140
+ORD-11200,2025-09-22,Punjab,Daraz,Home,Bedsheet Set,3,3822,11466
+ORD-11704,2025-09-22,Punjab,WhatsApp,Electronics,Power Bank,1,5610,5610
+ORD-11195,2025-09-22,Punjab,Website,Home,Iron,2,4416,8832
+ORD-10249,2025-09-22,Sindh,Website,Home,Iron,4,4512,18048
+ORD-11291,2025-09-22,Sindh,Daraz,Electronics,Charger,1,1890,1890
+ORD-10555,2025-09-23,Punjab,Website,Fashion,Kurta,4,2688,10752
+ORD-10096,2025-09-23,KPK,WhatsApp,Home,Water Dispenser,3,28340,85020
+ORD-11948,2025-09-23,Sindh,Daraz,Electronics,Charger,4,1710,6840
+ORD-10204,2025-09-23,Balochistan,WhatsApp,Electronics,Power Bank,1,5060,5060
+ORD-11928,2025-09-23,Islamabad,Website,Fashion,Lawn Suit,1,4365,4365
+ORD-10847,2025-09-23,Punjab,Website,Home,Iron,4,4848,19392
+ORD-10357,2025-09-24,Islamabad,Daraz,Fashion,Sneakers,1,6500,6500
+ORD-12228,2025-09-24,KPK,Daraz,Electronics,Smart Watch,4,11280,45120
+ORD-11899,2025-09-24,Balochistan,Daraz,Home,Bedsheet Set,3,4032,12096
+ORD-11305,2025-09-24,Islamabad,Daraz,Fashion,Kurta,3,2604,7812
+ORD-12022,2025-09-24,Sindh,Website,Electronics,Earbuds,4,3745,14980
+ORD-10688,2025-09-24,KPK,WhatsApp,Home,Bedsheet Set,2,4578,9156
+ORD-11876,2025-09-24,Punjab,Website,Electronics,Smart Watch,3,12240,36720
+ORD-12121,2025-09-24,KPK,WhatsApp,Electronics,Earbuds,4,3290,13160
+ORD-10316,2025-09-24,Sindh,Daraz,Electronics,Smart Watch,2,11880,23760
+ORD-10861,2025-09-24,Sindh,WhatsApp,Electronics,Charger,2,1818,3636
+ORD-11932,2025-09-24,Sindh,Website,Home,Air Fryer,4,19080,76320
+ORD-11524,2025-09-25,Sindh,WhatsApp,Electronics,Earbuds,3,3710,11130
+ORD-11427,2025-09-25,Punjab,Daraz,Home,Air Fryer,2,16560,33120
+ORD-11027,2025-09-25,Sindh,Daraz,Home,Iron,1,4560,4560
+ORD-11804,2025-09-25,Islamabad,Website,Electronics,Earbuds,4,3675,14700
+ORD-10534,2025-09-25,Sindh,WhatsApp,Fashion,Sneakers,4,6305,25220
+ORD-10787,2025-09-26,Punjab,WhatsApp,Electronics,Power Bank,3,5830,17490
+ORD-11547,2025-09-26,Punjab,Daraz,Fashion,Lawn Suit,2,4815,9630
+ORD-10348,2025-09-26,Punjab,Website,Electronics,Power Bank,3,5060,15180
+ORD-12114,2025-09-26,Islamabad,Website,Home,Air Fryer,3,16920,50760
+ORD-10846,2025-09-26,Punjab,Website,Electronics,Earbuds,2,3150,6300
+ORD-11640,2025-09-26,KPK,Website,Home,Bedsheet Set,3,4200,12600
+ORD-10754,2025-09-26,Punjab,Website,Electronics,Earbuds,1,3290,3290
+ORD-11333,2025-09-27,Punjab,Daraz,Home,Bedsheet Set,4,4158,16632
+ORD-11597,2025-09-27,Sindh,Daraz,Fashion,Shawl,4,3456,13824
+ORD-10532,2025-09-27,Islamabad,WhatsApp,Fashion,Kurta,3,2632,7896
+ORD-11682,2025-09-28,Punjab,Website,Fashion,Kurta,3,2940,8820
+ORD-11287,2025-09-28,KPK,WhatsApp,Electronics,Power Bank,2,5995,11990
+ORD-10364,2025-09-28,KPK,Website,Fashion,Lawn Suit,3,4815,14445
+ORD-12288,2025-09-28,Punjab,Website,Fashion,Sneakers,3,6955,20865
+ORD-10091,2025-09-28,Sindh,Daraz,Electronics,Charger,2,1728,3456
+ORD-11952,2025-09-28,Punjab,WhatsApp,Fashion,Kurta,2,2940,5880
+ORD-12229,2025-09-29,Sindh,WhatsApp,Electronics,Earbuds,4,3850,15400
+ORD-10917,2025-09-29,Sindh,Website,Fashion,Sneakers,4,6370,25480
+ORD-12250,2025-09-29,Sindh,Daraz,Home,Iron,2,5136,10272
+ORD-10700,2025-09-29,Punjab,Daraz,Fashion,Sneakers,2,6760,13520
+ORD-10890,2025-09-29,KPK,WhatsApp,Electronics,Earbuds,1,3185,3185
+ORD-10232,2025-09-29,KPK,Daraz,Electronics,Charger,2,1746,3492
+ORD-12028,2025-09-29,Sindh,WhatsApp,Electronics,Earbuds,2,3570,7140
+ORD-11806,2025-09-29,Islamabad,Website,Electronics,Earbuds,1,3185,3185
+ORD-10281,2025-09-29,Sindh,Website,Fashion,Kurta,4,2520,10080
+ORD-10300,2025-09-30,Sindh,WhatsApp,Fashion,Shawl,3,3104,9312
+ORD-11475,2025-09-30,Punjab,WhatsApp,Fashion,Lawn Suit,2,4140,8280
+ORD-11738,2025-09-30,KPK,Daraz,Fashion,Kurta,4,2968,11872
+ORD-10328,2025-09-30,KPK,Website,Electronics,Power Bank,4,4950,19800
+ORD-12202,2025-10-01,Islamabad,Daraz,Home,Air Fryer,5,18900,94500
+ORD-11089,2025-10-01,Punjab,WhatsApp,Home,Iron,2,5040,10080
+ORD-12217,2025-10-01,Punjab,WhatsApp,Electronics,Smart Watch,4,13080,52320
+ORD-10893,2025-10-01,Islamabad,Daraz,Home,Iron,5,4464,22320
+ORD-10162,2025-10-01,KPK,Website,Electronics,Smart Watch,1,12240,12240
+ORD-11628,2025-10-01,Punjab,Website,Home,Bedsheet Set,3,4452,13356
+ORD-11384,2025-10-01,Sindh,Daraz,Electronics,Power Bank,1,5720,5720
+ORD-11268,2025-10-01,Islamabad,Website,Electronics,Earbuds,4,3570,14280
+ORD-10665,2025-10-01,Sindh,Website,Home,Water Dispenser,4,25220,100880
+ORD-10577,2025-10-01,Punjab,Website,Electronics,Smart Watch,3,11400,34200
+ORD-10574,2025-10-01,Punjab,WhatsApp,Electronics,Earbuds,3,3185,9555
+ORD-10231,2025-10-02,Punjab,Website,Electronics,Charger,1,1872,1872
+ORD-10191,2025-10-02,Punjab,Website,Electronics,Smart Watch,2,13080,26160
+ORD-11958,2025-10-02,Punjab,WhatsApp,Electronics,Power Bank,1,5335,5335
+ORD-11403,2025-10-02,Balochistan,WhatsApp,Electronics,Smart Watch,3,12240,36720
+ORD-11485,2025-10-02,Islamabad,WhatsApp,Fashion,Kurta,4,2800,11200
+ORD-11378,2025-10-02,Punjab,Website,Electronics,Earbuds,1,3745,3745
+ORD-10515,2025-10-02,Sindh,WhatsApp,Electronics,Smart Watch,4,13200,52800
+ORD-10670,2025-10-02,Islamabad,Daraz,Electronics,Earbuds,1,3815,3815
+ORD-11692,2025-10-02,Punjab,Website,Electronics,Earbuds,1,3360,3360
+ORD-10440,2025-10-02,Punjab,WhatsApp,Fashion,Sneakers,4,7085,28340
+ORD-10938,2025-10-03,Sindh,Website,Electronics,Power Bank,2,5940,11880
+ORD-10538,2025-10-03,Punjab,Website,Fashion,Sneakers,1,5915,5915
+ORD-12318,2025-10-03,Punjab,Daraz,Electronics,Earbuds,4,3605,14420
+ORD-11537,2025-10-03,Sindh,Website,Home,Air Fryer,2,16380,32760
+ORD-11645,2025-10-03,KPK,Website,Electronics,Earbuds,4,3640,14560
+ORD-11531,2025-10-03,KPK,Website,Electronics,Smart Watch,2,11040,22080
+ORD-10923,2025-10-03,Punjab,Website,Electronics,Power Bank,3,5280,15840
+ORD-10340,2025-10-03,Punjab,WhatsApp,Electronics,Power Bank,4,5335,21340
+ORD-11203,2025-10-03,Balochistan,Website,Home,Water Dispenser,3,27820,83460
+ORD-11246,2025-10-03,Sindh,Daraz,Electronics,Power Bank,1,5170,5170
+ORD-10793,2025-10-04,KPK,Website,Electronics,Earbuds,2,3430,6860
+ORD-10569,2025-10-04,KPK,WhatsApp,Fashion,Shawl,2,3520,7040
+ORD-11368,2025-10-04,Sindh,WhatsApp,Fashion,Lawn Suit,4,4770,19080
+ORD-11675,2025-10-04,Sindh,WhatsApp,Electronics,Power Bank,2,5390,10780
+ORD-10952,2025-10-04,Punjab,Daraz,Fashion,Shawl,3,3456,10368
+ORD-11631,2025-10-04,Punjab,Daraz,Electronics,Earbuds,3,3465,10395
+ORD-10607,2025-10-04,Punjab,Daraz,Fashion,Shawl,4,3168,12672
+ORD-11283,2025-10-04,Islamabad,Website,Electronics,Earbuds,2,3360,6720
+ORD-10779,2025-10-05,Balochistan,WhatsApp,Electronics,Smart Watch,3,10800,32400
+ORD-11367,2025-10-05,Sindh,WhatsApp,Home,Bedsheet Set,3,4326,12978
+ORD-10605,2025-10-05,Punjab,WhatsApp,Electronics,Smart Watch,2,13080,26160
+ORD-10408,2025-10-05,Sindh,Website,Fashion,Lawn Suit,3,4860,14580
+ORD-11244,2025-10-05,KPK,Website,Fashion,Lawn Suit,1,4185,4185
+ORD-10878,2025-10-05,Punjab,WhatsApp,Fashion,Lawn Suit,2,4905,9810
+ORD-10186,2025-10-05,Sindh,WhatsApp,Fashion,Kurta,2,2632,5264
+ORD-10639,2025-10-05,Islamabad,WhatsApp,Electronics,Power Bank,3,5775,17325
+ORD-12283,2025-10-05,Sindh,Daraz,Fashion,Sneakers,4,5915,23660
+ORD-12222,2025-10-05,KPK,Website,Electronics,Power Bank,4,5280,21120
+ORD-10775,2025-10-05,Sindh,WhatsApp,Electronics,Power Bank,1,5830,5830
+ORD-11661,2025-10-05,Islamabad,Daraz,Fashion,Sneakers,1,6955,6955
+ORD-11178,2025-10-06,Islamabad,Website,Home,Iron,5,4368,21840
+ORD-11694,2025-10-06,Sindh,Website,Home,Iron,5,4704,23520
+ORD-10852,2025-10-06,Punjab,Daraz,Electronics,Charger,1,1746,1746
+ORD-11130,2025-10-06,Punjab,Website,Electronics,Charger,1,1890,1890
+ORD-10762,2025-10-06,Punjab,WhatsApp,Electronics,Smart Watch,2,12120,24240
+ORD-12060,2025-10-06,Punjab,Website,Fashion,Kurta,3,2772,8316
+ORD-10353,2025-10-06,Punjab,Daraz,Electronics,Smart Watch,2,11040,22080
+ORD-11404,2025-10-06,Sindh,WhatsApp,Fashion,Kurta,4,2716,10864
+ORD-10523,2025-10-06,Punjab,Daraz,Fashion,Lawn Suit,2,4275,8550
+ORD-11484,2025-10-06,Balochistan,Website,Fashion,Lawn Suit,1,4635,4635
+ORD-12362,2025-10-07,Punjab,Website,Home,Water Dispenser,4,25740,102960
+ORD-12119,2025-10-07,Punjab,Website,Fashion,Shawl,4,3136,12544
+ORD-10439,2025-10-07,Punjab,WhatsApp,Home,Air Fryer,2,16380,32760
+ORD-10221,2025-10-07,Sindh,Daraz,Fashion,Shawl,4,3200,12800
+ORD-11269,2025-10-07,Sindh,Website,Electronics,Smart Watch,3,12840,38520
+ORD-11930,2025-10-08,Punjab,Website,Electronics,Power Bank,4,5390,21560
+ORD-10628,2025-10-08,Punjab,Daraz,Electronics,Earbuds,1,3780,3780
+ORD-10843,2025-10-08,Sindh,WhatsApp,Fashion,Lawn Suit,1,4230,4230
+ORD-10673,2025-10-08,Punjab,Website,Fashion,Shawl,1,3360,3360
+ORD-11009,2025-10-08,Punjab,Daraz,Home,Water Dispenser,2,26780,53560
+ORD-11087,2025-10-08,Punjab,Website,Electronics,Smart Watch,2,12600,25200
+ORD-11077,2025-10-08,Punjab,Daraz,Electronics,Charger,2,1962,3924
+ORD-12176,2025-10-08,Punjab,Daraz,Electronics,Charger,1,1890,1890
+ORD-10280,2025-10-08,Punjab,Daraz,Electronics,Smart Watch,2,12360,24720
+ORD-11188,2025-10-08,Balochistan,Website,Electronics,Power Bank,1,5665,5665
+ORD-12241,2025-10-08,Punjab,Daraz,Home,Iron,2,5184,10368
+ORD-11080,2025-10-08,Punjab,WhatsApp,Fashion,Lawn Suit,4,4590,18360
+ORD-11432,2025-10-08,Sindh,Website,Fashion,Shawl,3,3168,9504
+ORD-11532,2025-10-09,KPK,Website,Electronics,Smart Watch,2,11400,22800
+ORD-11023,2025-10-09,Islamabad,WhatsApp,Home,Iron,1,4368,4368
+ORD-12286,2025-10-09,Sindh,Website,Fashion,Sneakers,3,6630,19890
+ORD-11067,2025-10-09,Islamabad,WhatsApp,Electronics,Charger,1,1656,1656
+ORD-12128,2025-10-09,KPK,Daraz,Home,Water Dispenser,3,26780,80340
+ORD-11157,2025-10-09,Islamabad,Website,Electronics,Power Bank,2,5500,11000
+ORD-10516,2025-10-10,Sindh,Daraz,Home,Water Dispenser,2,25480,50960
+ORD-10976,2025-10-10,Punjab,Website,Fashion,Lawn Suit,2,4455,8910
+ORD-12242,2025-10-10,Islamabad,WhatsApp,Fashion,Lawn Suit,2,4320,8640
+ORD-11414,2025-10-10,Punjab,WhatsApp,Electronics,Earbuds,3,3325,9975
+ORD-10597,2025-10-11,Islamabad,Website,Electronics,Earbuds,3,3535,10605
+ORD-12044,2025-10-11,Punjab,WhatsApp,Fashion,Sneakers,1,6110,6110
+ORD-10557,2025-10-11,Punjab,Website,Home,Iron,3,4464,13392
+ORD-10005,2025-10-11,Balochistan,WhatsApp,Electronics,Smart Watch,1,12960,12960
+ORD-11706,2025-10-11,Punjab,Daraz,Fashion,Kurta,1,2940,2940
+ORD-12133,2025-10-12,KPK,Daraz,Electronics,Smart Watch,4,12120,48480
+ORD-12207,2025-10-12,Balochistan,Daraz,Home,Water Dispenser,1,24700,24700
+ORD-10724,2025-10-12,Islamabad,WhatsApp,Home,Iron,3,5136,15408
+ORD-11398,2025-10-13,Punjab,WhatsApp,Electronics,Power Bank,2,5775,11550
+ORD-10794,2025-10-13,KPK,WhatsApp,Home,Air Fryer,5,16380,81900
+ORD-11609,2025-10-13,Sindh,Daraz,Fashion,Sneakers,3,6955,20865
+ORD-11668,2025-10-13,Sindh,Website,Fashion,Sneakers,4,6045,24180
+ORD-11493,2025-10-13,Punjab,Website,Electronics,Charger,4,1746,6984
+ORD-10935,2025-10-14,Sindh,WhatsApp,Home,Water Dispenser,3,27300,81900
+ORD-10302,2025-10-15,Punjab,Daraz,Fashion,Shawl,3,2976,8928
+ORD-11231,2025-10-15,KPK,Daraz,Fashion,Sneakers,1,7085,7085
+ORD-11468,2025-10-15,Sindh,Daraz,Electronics,Charger,3,1656,4968
+ORD-11825,2025-10-15,Sindh,WhatsApp,Fashion,Lawn Suit,3,4230,12690
+ORD-12343,2025-10-15,Punjab,Website,Fashion,Lawn Suit,1,4860,4860
+ORD-12251,2025-10-15,Punjab,WhatsApp,Electronics,Power Bank,2,5170,10340
+ORD-10222,2025-10-16,Islamabad,WhatsApp,Fashion,Kurta,4,2660,10640
+ORD-11180,2025-10-16,KPK,Website,Home,Bedsheet Set,4,3948,15792
+ORD-10880,2025-10-16,Punjab,Daraz,Electronics,Earbuds,3,3675,11025
+ORD-11718,2025-10-16,Punjab,Daraz,Home,Bedsheet Set,2,3822,7644
+ORD-12348,2025-10-16,Punjab,WhatsApp,Electronics,Earbuds,1,3605,3605
+ORD-10735,2025-10-16,Islamabad,Daraz,Electronics,Charger,3,1908,5724
+ORD-10776,2025-10-16,KPK,WhatsApp,Fashion,Sneakers,1,7085,7085
+ORD-10760,2025-10-17,Punjab,WhatsApp,Electronics,Smart Watch,3,13080,39240
+ORD-10636,2025-10-17,Balochistan,WhatsApp,Fashion,Lawn Suit,1,4140,4140
+ORD-12376,2025-10-17,KPK,Website,Electronics,Power Bank,3,5390,16170
+ORD-11076,2025-10-17,Punjab,Daraz,Electronics,Earbuds,1,3570,3570
+ORD-10245,2025-10-17,Balochistan,Website,Fashion,Shawl,3,3328,9984
+ORD-12154,2025-10-17,Punjab,WhatsApp,Home,Water Dispenser,4,26000,104000
+ORD-10450,2025-10-17,KPK,Daraz,Electronics,Charger,2,1836,3672
+ORD-10035,2025-10-17,Punjab,WhatsApp,Electronics,Charger,3,1836,5508
+ORD-11131,2025-10-17,Balochistan,WhatsApp,Electronics,Charger,1,1890,1890
+ORD-10594,2025-10-17,Punjab,Website,Electronics,Charger,1,1926,1926
+ORD-11240,2025-10-17,KPK,WhatsApp,Electronics,Charger,2,1746,3492
+ORD-11328,2025-10-18,Punjab,WhatsApp,Home,Air Fryer,2,16200,32400
+ORD-11791,2025-10-18,KPK,Daraz,Fashion,Lawn Suit,2,4725,9450
+ORD-10435,2025-10-18,Punjab,WhatsApp,Electronics,Power Bank,4,5225,20900
+ORD-11862,2025-10-18,Sindh,WhatsApp,Home,Iron,5,5184,25920
+ORD-10017,2025-10-18,Islamabad,Daraz,Home,Iron,4,4512,18048
+ORD-12378,2025-10-18,KPK,WhatsApp,Electronics,Charger,3,1710,5130
+ORD-11556,2025-10-18,KPK,Daraz,Electronics,Power Bank,1,5720,5720
+ORD-11237,2025-10-19,Sindh,Daraz,Fashion,Sneakers,4,6175,24700
+ORD-10848,2025-10-19,Islamabad,WhatsApp,Fashion,Shawl,4,3296,13184
+ORD-10429,2025-10-19,Punjab,Daraz,Electronics,Power Bank,2,5940,11880
+ORD-10585,2025-10-19,Punjab,WhatsApp,Fashion,Shawl,1,3168,3168
+ORD-10822,2025-10-20,KPK,Daraz,Electronics,Earbuds,3,3395,10185
+ORD-11350,2025-10-20,Sindh,Website,Home,Water Dispenser,3,25740,77220
+ORD-10363,2025-10-20,Islamabad,Website,Home,Iron,5,5184,25920
+ORD-10930,2025-10-20,Sindh,WhatsApp,Electronics,Power Bank,3,5115,15345
+ORD-12019,2025-10-20,KPK,Website,Electronics,Smart Watch,1,11040,11040
+ORD-11022,2025-10-20,Punjab,Website,Electronics,Smart Watch,2,11400,22800
+ORD-11086,2025-10-20,Islamabad,WhatsApp,Fashion,Sneakers,4,5915,23660
+ORD-10819,2025-10-20,Sindh,Website,Home,Water Dispenser,2,24960,49920
+ORD-10413,2025-10-20,Sindh,Daraz,Fashion,Sneakers,4,6305,25220
+ORD-11720,2025-10-20,Balochistan,Daraz,Fashion,Shawl,3,3072,9216
+ORD-12371,2025-10-20,Sindh,Website,Electronics,Smart Watch,2,11040,22080
+ORD-11651,2025-10-20,Sindh,WhatsApp,Electronics,Charger,2,1872,3744
+ORD-12097,2025-10-21,Islamabad,WhatsApp,Home,Water Dispenser,4,23400,93600
+ORD-10815,2025-10-21,Islamabad,WhatsApp,Fashion,Sneakers,3,7085,21255
+ORD-10196,2025-10-21,Sindh,Daraz,Electronics,Smart Watch,1,13080,13080
+ORD-11407,2025-10-21,Balochistan,Daraz,Electronics,Power Bank,4,5390,21560
+ORD-11955,2025-10-21,Punjab,Daraz,Electronics,Power Bank,1,5005,5005
+ORD-12130,2025-10-21,KPK,Daraz,Electronics,Smart Watch,3,12960,38880
+ORD-11351,2025-10-21,Sindh,WhatsApp,Home,Water Dispenser,3,24180,72540
+ORD-12208,2025-10-21,Balochistan,Website,Fashion,Sneakers,4,6045,24180
+ORD-10459,2025-10-21,Punjab,Website,Electronics,Charger,2,1764,3528
+ORD-10303,2025-10-22,Punjab,Daraz,Fashion,Shawl,3,2976,8928
+ORD-11530,2025-10-22,Punjab,Website,Electronics,Power Bank,2,5060,10120
+ORD-11822,2025-10-22,Islamabad,WhatsApp,Electronics,Smart Watch,2,12480,24960
+ORD-10899,2025-10-22,Punjab,Daraz,Home,Water Dispenser,3,24700,74100
+ORD-11969,2025-10-22,Islamabad,Website,Electronics,Charger,2,1962,3924
+ORD-10034,2025-10-22,Punjab,WhatsApp,Fashion,Shawl,3,2976,8928
+ORD-11994,2025-10-22,Punjab,Daraz,Electronics,Charger,2,1638,3276
+ORD-11070,2025-10-22,Balochistan,WhatsApp,Fashion,Sneakers,1,5980,5980
+ORD-11993,2025-10-22,Sindh,Website,Electronics,Smart Watch,3,13080,39240
+ORD-11489,2025-10-22,Sindh,Daraz,Home,Iron,3,4944,14832
+ORD-12124,2025-10-23,Punjab,Daraz,Home,Iron,2,5280,10560
+ORD-10054,2025-10-23,Balochistan,Website,Electronics,Earbuds,2,3500,7000
+ORD-12095,2025-10-23,Sindh,WhatsApp,Electronics,Earbuds,1,3430,3430
+ORD-12094,2025-10-23,Punjab,Website,Fashion,Lawn Suit,4,4050,16200
+ORD-10233,2025-10-23,Islamabad,Daraz,Electronics,Charger,2,1962,3924
+ORD-11008,2025-10-23,Sindh,Website,Home,Iron,2,5136,10272
+ORD-11605,2025-10-24,Sindh,Daraz,Electronics,Charger,4,1764,7056
+ORD-11823,2025-10-24,Punjab,WhatsApp,Electronics,Earbuds,4,3570,14280
+ORD-10401,2025-10-24,Sindh,Website,Electronics,Earbuds,2,3780,7560
+ORD-12112,2025-10-24,Sindh,Daraz,Fashion,Sneakers,1,6825,6825
+ORD-12066,2025-10-24,Islamabad,Website,Home,Iron,5,4848,24240
+ORD-11373,2025-10-24,KPK,Website,Home,Air Fryer,1,16920,16920
+ORD-11253,2025-10-25,KPK,Website,Fashion,Shawl,3,3040,9120
+ORD-10368,2025-10-25,Sindh,Website,Electronics,Smart Watch,3,12720,38160
+ORD-10570,2025-10-25,Punjab,Daraz,Home,Water Dispenser,3,26520,79560
+ORD-10324,2025-10-25,Balochistan,Daraz,Fashion,Kurta,1,2800,2800
+ORD-11486,2025-10-25,Punjab,Website,Home,Water Dispenser,2,27560,55120
+ORD-10355,2025-10-25,Punjab,Daraz,Electronics,Smart Watch,4,12120,48480
+ORD-12321,2025-10-25,Punjab,Daraz,Electronics,Power Bank,1,5830,5830
+ORD-10113,2025-10-25,KPK,Daraz,Fashion,Shawl,1,3232,3232
+ORD-10239,2025-10-25,Punjab,Daraz,Home,Bedsheet Set,3,4536,13608
+ORD-12194,2025-10-25,Sindh,Daraz,Electronics,Charger,2,1656,3312
+ORD-11850,2025-10-26,Balochistan,Daraz,Fashion,Kurta,3,2828,8484
+ORD-11905,2025-10-26,KPK,Website,Fashion,Shawl,3,3072,9216
+ORD-10020,2025-10-26,KPK,Website,Home,Bedsheet Set,2,4032,8064
+ORD-11421,2025-10-26,Sindh,Daraz,Home,Air Fryer,4,17640,70560
+ORD-11443,2025-10-26,Punjab,WhatsApp,Electronics,Smart Watch,2,12240,24480
+ORD-11141,2025-10-26,Punjab,WhatsApp,Home,Air Fryer,2,19440,38880
+ORD-10905,2025-10-26,Punjab,Daraz,Fashion,Lawn Suit,1,4140,4140
+ORD-12277,2025-10-26,Punjab,Website,Electronics,Earbuds,3,3745,11235
+ORD-11807,2025-10-26,Sindh,Website,Fashion,Sneakers,1,6630,6630
+ORD-11029,2025-10-26,Sindh,Daraz,Home,Water Dispenser,4,24700,98800
+ORD-10824,2025-10-27,Sindh,Daraz,Electronics,Power Bank,1,5885,5885
+ORD-11578,2025-10-27,Islamabad,Website,Home,Bedsheet Set,2,4074,8148
+ORD-10015,2025-10-27,KPK,Website,Fashion,Kurta,1,2772,2772
+ORD-11270,2025-10-27,Punjab,Daraz,Fashion,Kurta,4,2520,10080
+ORD-11138,2025-10-28,Punjab,WhatsApp,Home,Water Dispenser,3,23400,70200
+ORD-10726,2025-10-28,Punjab,Website,Home,Iron,2,4656,9312
+ORD-11012,2025-10-28,Balochistan,Website,Home,Iron,4,4704,18816
+ORD-11562,2025-10-28,KPK,Website,Electronics,Earbuds,4,3255,13020
+ORD-12185,2025-10-28,KPK,Website,Electronics,Smart Watch,3,11520,34560
+ORD-10056,2025-10-28,Sindh,WhatsApp,Fashion,Kurta,4,2688,10752
+ORD-11348,2025-10-28,Punjab,Daraz,Fashion,Shawl,3,3168,9504
+ORD-11106,2025-10-28,Punjab,Daraz,Electronics,Power Bank,1,5390,5390
+ORD-10457,2025-10-28,Sindh,Website,Fashion,Shawl,1,3456,3456
+ORD-10134,2025-10-29,Sindh,Daraz,Fashion,Sneakers,1,6825,6825
+ORD-10752,2025-10-29,KPK,Daraz,Electronics,Earbuds,4,3640,14560
+ORD-10647,2025-10-29,KPK,WhatsApp,Fashion,Shawl,4,3232,12928
+ORD-10559,2025-10-29,Punjab,Daraz,Electronics,Earbuds,1,3570,3570
+ORD-10929,2025-10-29,KPK,Website,Home,Iron,3,4320,12960
+ORD-10902,2025-10-29,Punjab,WhatsApp,Fashion,Lawn Suit,1,4320,4320
+ORD-11424,2025-10-29,Sindh,WhatsApp,Home,Air Fryer,2,19440,38880
+ORD-12294,2025-10-29,Punjab,Website,Electronics,Smart Watch,2,10800,21600
+ORD-10438,2025-10-30,Punjab,WhatsApp,Electronics,Smart Watch,4,11520,46080
+ORD-11003,2025-10-30,Punjab,WhatsApp,Home,Water Dispenser,2,23660,47320
+ORD-11442,2025-10-30,Punjab,Website,Fashion,Sneakers,4,6825,27300
+ORD-10777,2025-10-30,Punjab,Daraz,Electronics,Earbuds,2,3500,7000
+ORD-11005,2025-10-30,KPK,Daraz,Fashion,Kurta,4,2968,11872
+ORD-10077,2025-10-30,Punjab,Daraz,Fashion,Kurta,3,2660,7980
+ORD-12122,2025-10-30,Punjab,Website,Electronics,Earbuds,1,3605,3605
+ORD-12136,2025-10-30,Sindh,WhatsApp,Fashion,Lawn Suit,2,4680,9360
+ORD-10284,2025-10-31,Punjab,Daraz,Electronics,Earbuds,3,3780,11340
+ORD-11171,2025-10-31,KPK,WhatsApp,Fashion,Shawl,3,3136,9408
+ORD-10539,2025-10-31,Punjab,Website,Home,Water Dispenser,4,24700,98800
+ORD-11644,2025-10-31,Sindh,Website,Fashion,Kurta,3,2660,7980
+ORD-10950,2025-10-31,KPK,Daraz,Electronics,Charger,2,1836,3672
+ORD-10497,2025-10-31,Sindh,Website,Electronics,Power Bank,2,5830,11660
+ORD-12331,2025-10-31,KPK,Website,Fashion,Kurta,2,2688,5376
+ORD-11976,2025-10-31,Punjab,Daraz,Electronics,Power Bank,1,5170,5170
+ORD-10631,2025-10-31,Punjab,Website,Home,Water Dispenser,2,25480,50960
+ORD-11320,2025-11-01,Punjab,WhatsApp,Home,Air Fryer,3,16740,50220
+ORD-10006,2025-11-01,Punjab,Website,Electronics,Earbuds,1,3325,3325
+ORD-12388,2025-11-01,Sindh,Website,Fashion,Sneakers,3,6500,19500
+ORD-12340,2025-11-01,Sindh,Website,Fashion,Lawn Suit,1,4500,4500
+ORD-10892,2025-11-01,Sindh,Website,Electronics,Earbuds,1,3290,3290
+ORD-11895,2025-11-01,Islamabad,Daraz,Fashion,Lawn Suit,1,4635,4635
+ORD-10833,2025-11-01,Balochistan,Website,Fashion,Lawn Suit,3,4050,12150
+ORD-10780,2025-11-01,Sindh,Website,Fashion,Sneakers,2,6500,13000
+ORD-11594,2025-11-02,Punjab,Daraz,Fashion,Shawl,4,2944,11776
+ORD-10798,2025-11-02,Punjab,WhatsApp,Electronics,Earbuds,3,3500,10500
+ORD-11770,2025-11-02,Islamabad,Daraz,Home,Bedsheet Set,4,3822,15288
+ORD-10358,2025-11-03,Punjab,Website,Home,Water Dispenser,5,24700,123500
+ORD-11836,2025-11-03,Sindh,Daraz,Home,Air Fryer,2,18360,36720
+ORD-10325,2025-11-03,Punjab,Website,Electronics,Charger,3,1746,5238
+ORD-11354,2025-11-04,Balochistan,Website,Electronics,Charger,1,1692,1692
+ORD-11740,2025-11-04,Sindh,Website,Home,Water Dispenser,4,24700,98800
+ORD-10536,2025-11-04,Punjab,Website,Fashion,Sneakers,1,6370,6370
+ORD-10708,2025-11-04,Islamabad,WhatsApp,Electronics,Earbuds,2,3500,7000
+ORD-10422,2025-11-04,Islamabad,WhatsApp,Home,Air Fryer,3,17460,52380
+ORD-10492,2025-11-04,Punjab,Website,Fashion,Lawn Suit,3,4905,14715
+ORD-10595,2025-11-04,Islamabad,Daraz,Electronics,Earbuds,4,3640,14560
+ORD-11426,2025-11-04,Islamabad,Daraz,Fashion,Kurta,3,2688,8064
+ORD-10151,2025-11-05,Punjab,Website,Electronics,Smart Watch,4,12120,48480
+ORD-10150,2025-11-05,Islamabad,WhatsApp,Fashion,Lawn Suit,1,4590,4590
+ORD-12152,2025-11-05,Punjab,Daraz,Fashion,Lawn Suit,2,4815,9630
+ORD-10672,2025-11-05,Islamabad,Website,Electronics,Earbuds,1,3780,3780
+ORD-10528,2025-11-05,Punjab,WhatsApp,Fashion,Kurta,1,2716,2716
+ORD-10933,2025-11-05,Islamabad,Website,Fashion,Shawl,4,3040,12160
+ORD-10042,2025-11-05,Sindh,Daraz,Home,Water Dispenser,6,26520,159120
+ORD-10619,2025-11-05,Punjab,Daraz,Electronics,Charger,4,1908,7632
+ORD-10802,2025-11-05,Balochistan,WhatsApp,Electronics,Charger,1,1962,1962
+ORD-12335,2025-11-06,Balochistan,Website,Electronics,Charger,3,1746,5238
+ORD-10238,2025-11-06,Sindh,Daraz,Fashion,Sneakers,4,6110,24440
+ORD-11263,2025-11-06,Islamabad,Daraz,Electronics,Power Bank,1,5445,5445
+ORD-10087,2025-11-06,Sindh,Daraz,Home,Iron,3,5280,15840
+ORD-11453,2025-11-06,KPK,Website,Home,Air Fryer,4,19620,78480
+ORD-10236,2025-11-06,Sindh,Website,Fashion,Shawl,1,2912,2912
+ORD-11122,2025-11-06,Punjab,Website,Electronics,Smart Watch,3,11760,35280
+ORD-11598,2025-11-06,Sindh,Website,Electronics,Power Bank,2,5500,11000
+ORD-11201,2025-11-07,Punjab,Website,Electronics,Smart Watch,4,12840,51360
+ORD-12068,2025-11-07,KPK,Website,Fashion,Shawl,4,3200,12800
+ORD-10560,2025-11-07,Punjab,Daraz,Electronics,Earbuds,2,3815,7630
+ORD-10783,2025-11-07,Punjab,Daraz,Home,Water Dispenser,1,28080,28080
+ORD-11564,2025-11-07,Punjab,Website,Electronics,Charger,2,1854,3708
+ORD-11833,2025-11-07,Punjab,Website,Electronics,Power Bank,4,5060,20240
+ORD-11170,2025-11-08,Punjab,Website,Home,Iron,2,5232,10464
+ORD-10417,2025-11-08,Sindh,Daraz,Electronics,Earbuds,2,3745,7490
+ORD-10720,2025-11-08,Sindh,Website,Home,Water Dispenser,2,25480,50960
+ORD-10510,2025-11-08,Sindh,Website,Electronics,Power Bank,1,5335,5335
+ORD-11225,2025-11-08,Punjab,Daraz,Home,Air Fryer,5,16740,83700
+ORD-11346,2025-11-09,Islamabad,WhatsApp,Home,Air Fryer,5,19800,99000
+ORD-10542,2025-11-09,Punjab,Website,Electronics,Charger,3,1656,4968
+ORD-10666,2025-11-09,KPK,WhatsApp,Fashion,Lawn Suit,2,4860,9720
+ORD-12231,2025-11-09,Islamabad,Website,Fashion,Sneakers,3,5915,17745
+ORD-11938,2025-11-09,Punjab,Website,Electronics,Charger,2,1638,3276
+ORD-10980,2025-11-09,Punjab,Website,Fashion,Kurta,4,2772,11088
+ORD-10044,2025-11-09,Sindh,Website,Fashion,Lawn Suit,3,4905,14715
+ORD-10772,2025-11-09,Islamabad,Daraz,Electronics,Power Bank,3,4950,14850
+ORD-11690,2025-11-10,Punjab,WhatsApp,Home,Iron,2,4464,8928
+ORD-11058,2025-11-10,Punjab,Website,Fashion,Shawl,1,3104,3104
+ORD-10398,2025-11-10,Punjab,WhatsApp,Electronics,Power Bank,3,5060,15180
+ORD-11514,2025-11-10,Sindh,Website,Fashion,Shawl,2,3456,6912
+ORD-11951,2025-11-10,KPK,Daraz,Electronics,Smart Watch,2,11400,22800
+ORD-10944,2025-11-10,Sindh,Website,Electronics,Power Bank,2,5225,10450
+ORD-11311,2025-11-10,Sindh,Daraz,Home,Air Fryer,5,18000,90000
+ORD-11279,2025-11-11,KPK,Website,Electronics,Charger,4,1674,6696
+ORD-10713,2025-11-11,Sindh,WhatsApp,Fashion,Kurta,3,2520,7560
+ORD-10433,2025-11-11,KPK,Website,Electronics,Earbuds,3,3570,10710
+ORD-11308,2025-11-11,Punjab,Website,Electronics,Smart Watch,1,12840,12840
+ORD-12032,2025-11-11,Punjab,Website,Fashion,Lawn Suit,4,4860,19440
+ORD-10945,2025-11-11,Punjab,Daraz,Home,Water Dispenser,1,27300,27300
+ORD-10216,2025-11-12,Punjab,Daraz,Electronics,Earbuds,2,3745,7490
+ORD-12364,2025-11-12,KPK,WhatsApp,Electronics,Smart Watch,4,12240,48960
+ORD-11538,2025-11-12,Islamabad,Website,Fashion,Lawn Suit,1,4815,4815
+ORD-11357,2025-11-12,Punjab,Daraz,Electronics,Smart Watch,3,12960,38880
+ORD-12109,2025-11-12,Sindh,WhatsApp,Electronics,Charger,4,1710,6840
+ORD-11112,2025-11-13,Punjab,Website,Electronics,Earbuds,3,3815,11445
+ORD-11359,2025-11-13,Punjab,Website,Electronics,Earbuds,4,3535,14140
+ORD-10262,2025-11-13,Punjab,Daraz,Electronics,Power Bank,1,5500,5500
+ORD-10465,2025-11-13,Sindh,WhatsApp,Fashion,Sneakers,3,6565,19695
+ORD-10242,2025-11-13,Balochistan,Website,Fashion,Lawn Suit,1,4140,4140
+ORD-10993,2025-11-13,Islamabad,WhatsApp,Electronics,Smart Watch,1,12600,12600
+ORD-11864,2025-11-13,Sindh,WhatsApp,Electronics,Smart Watch,1,13200,13200
+ORD-11839,2025-11-13,Punjab,WhatsApp,Electronics,Earbuds,2,3185,6370
+ORD-10548,2025-11-13,Punjab,WhatsApp,Fashion,Kurta,4,3052,12208
+ORD-12201,2025-11-14,Punjab,WhatsApp,Electronics,Earbuds,1,3640,3640
+ORD-11588,2025-11-14,Sindh,WhatsApp,Home,Water Dispenser,4,24960,99840
+ORD-12001,2025-11-14,KPK,WhatsApp,Fashion,Lawn Suit,4,4140,16560
+ORD-11857,2025-11-14,Sindh,Website,Home,Bedsheet Set,3,4536,13608
+ORD-12253,2025-11-14,KPK,Daraz,Fashion,Sneakers,3,6825,20475
+ORD-10737,2025-11-15,Punjab,Website,Home,Bedsheet Set,3,3864,11592
+ORD-11766,2025-11-15,KPK,Website,Fashion,Kurta,2,2996,5992
+ORD-11497,2025-11-15,Punjab,Website,Home,Bedsheet Set,4,3906,15624
+ORD-11900,2025-11-15,Punjab,Website,Fashion,Sneakers,1,7150,7150
+ORD-12143,2025-11-15,Punjab,WhatsApp,Electronics,Earbuds,3,3360,10080
+ORD-10209,2025-11-15,KPK,Website,Electronics,Earbuds,3,3815,11445
+ORD-12245,2025-11-15,Punjab,Website,Home,Water Dispenser,5,27820,139100
+ORD-10011,2025-11-15,Punjab,Website,Electronics,Earbuds,1,3290,3290
+ORD-10099,2025-11-15,Islamabad,Website,Electronics,Smart Watch,4,10920,43680
+ORD-10518,2025-11-16,Punjab,Daraz,Electronics,Earbuds,3,3500,10500
+ORD-10145,2025-11-16,Sindh,Website,Electronics,Smart Watch,3,10800,32400
+ORD-10183,2025-11-16,Sindh,Website,Home,Bedsheet Set,6,4536,27216
+ORD-12276,2025-11-16,Punjab,Daraz,Fashion,Kurta,1,2968,2968
+ORD-10604,2025-11-16,Sindh,Website,Home,Water Dispenser,4,27560,110240
+ORD-10887,2025-11-17,Punjab,Daraz,Electronics,Power Bank,1,5885,5885
+ORD-10287,2025-11-17,KPK,Website,Electronics,Earbuds,1,3675,3675
+ORD-11492,2025-11-17,Punjab,Website,Electronics,Earbuds,1,3745,3745
+ORD-12349,2025-11-17,KPK,Daraz,Electronics,Charger,1,1764,1764
+ORD-12063,2025-11-17,Islamabad,WhatsApp,Home,Water Dispenser,4,23920,95680
+ORD-10365,2025-11-17,Islamabad,WhatsApp,Fashion,Shawl,3,3136,9408
+ORD-12003,2025-11-17,Punjab,Website,Electronics,Power Bank,3,5775,17325
+ORD-11858,2025-11-17,Balochistan,Daraz,Electronics,Charger,1,1692,1692
+ORD-11934,2025-11-18,Sindh,Website,Fashion,Sneakers,3,6500,19500
+ORD-10484,2025-11-18,Punjab,Website,Electronics,Power Bank,4,5885,23540
+ORD-10773,2025-11-18,Sindh,Website,Fashion,Lawn Suit,1,4545,4545
+ORD-11480,2025-11-18,Punjab,Daraz,Home,Air Fryer,6,17820,106920
+ORD-11722,2025-11-18,Islamabad,WhatsApp,Home,Air Fryer,5,16740,83700
+ORD-10924,2025-11-18,Punjab,Daraz,Home,Water Dispenser,2,27820,55640
+ORD-10083,2025-11-18,Punjab,Daraz,Electronics,Charger,2,1962,3924
+ORD-10070,2025-11-18,Sindh,Website,Fashion,Lawn Suit,2,4365,8730
+ORD-12293,2025-11-18,Punjab,Daraz,Home,Water Dispenser,3,23660,70980
+ORD-10169,2025-11-19,Punjab,Daraz,Electronics,Power Bank,4,5005,20020
+ORD-12182,2025-11-19,Balochistan,Daraz,Electronics,Smart Watch,3,12960,38880
+ORD-10441,2025-11-19,Sindh,WhatsApp,Fashion,Sneakers,3,6890,20670
+ORD-11347,2025-11-19,Punjab,WhatsApp,Home,Iron,1,5136,5136
+ORD-10985,2025-11-19,Punjab,WhatsApp,Home,Iron,5,4656,23280
+ORD-10547,2025-11-19,Islamabad,Daraz,Fashion,Lawn Suit,4,4275,17100
+ORD-11420,2025-11-19,Balochistan,Website,Home,Bedsheet Set,5,3864,19320
+ORD-11163,2025-11-20,Balochistan,Website,Electronics,Smart Watch,1,11160,11160
+ORD-11541,2025-11-20,Punjab,Website,Fashion,Lawn Suit,3,4230,12690
+ORD-12355,2025-11-20,Punjab,Website,Fashion,Sneakers,4,6305,25220
+ORD-12132,2025-11-20,Punjab,WhatsApp,Electronics,Charger,1,1980,1980
+ORD-12314,2025-11-20,Balochistan,WhatsApp,Electronics,Smart Watch,3,12000,36000
+ORD-12315,2025-11-20,Punjab,Daraz,Electronics,Smart Watch,2,13200,26400
+ORD-11050,2025-11-20,Punjab,WhatsApp,Electronics,Earbuds,3,3290,9870
+ORD-12249,2025-11-21,Punjab,Website,Fashion,Kurta,4,2940,11760
+ORD-10582,2025-11-21,Sindh,Website,Electronics,Power Bank,1,5775,5775
+ORD-10693,2025-11-21,Islamabad,WhatsApp,Electronics,Charger,1,1674,1674
+ORD-12258,2025-11-21,KPK,WhatsApp,Electronics,Earbuds,1,3255,3255
+ORD-10366,2025-11-21,Sindh,WhatsApp,Electronics,Smart Watch,1,12960,12960
+ORD-11754,2025-11-21,KPK,Daraz,Home,Air Fryer,3,18720,56160
+ORD-10979,2025-11-21,Islamabad,Daraz,Fashion,Kurta,3,2716,8148
+ORD-11044,2025-11-21,KPK,Website,Electronics,Charger,3,1656,4968
+ORD-11991,2025-11-21,Balochistan,Website,Home,Bedsheet Set,5,4410,22050
+ORD-11896,2025-11-22,Punjab,Daraz,Fashion,Lawn Suit,3,4725,14175
+ORD-11334,2025-11-22,Islamabad,Daraz,Fashion,Lawn Suit,1,4095,4095
+ORD-11611,2025-11-22,Punjab,Website,Home,Bedsheet Set,4,3948,15792
+ORD-11815,2025-11-22,Sindh,Website,Electronics,Smart Watch,3,13200,39600
+ORD-12262,2025-11-22,Sindh,Website,Electronics,Power Bank,3,5280,15840
+ORD-10467,2025-11-22,Punjab,Website,Fashion,Sneakers,2,6045,12090
+ORD-10356,2025-11-23,Islamabad,Website,Electronics,Earbuds,3,3185,9555
+ORD-11186,2025-11-23,Sindh,Website,Electronics,Power Bank,1,5885,5885
+ORD-12211,2025-11-23,Sindh,Website,Fashion,Sneakers,4,6370,25480
+ORD-10480,2025-11-23,KPK,WhatsApp,Electronics,Charger,4,1890,7560
+ORD-12057,2025-11-23,Sindh,Daraz,Home,Iron,6,4944,29664
+ORD-11147,2025-11-23,Sindh,Daraz,Electronics,Charger,4,1836,7344
+ORD-12108,2025-11-24,Balochistan,WhatsApp,Electronics,Earbuds,1,3605,3605
+ORD-12156,2025-11-24,Punjab,WhatsApp,Fashion,Kurta,4,2632,10528
+ORD-10579,2025-11-24,Islamabad,Website,Electronics,Smart Watch,3,12360,37080
+ORD-11859,2025-11-24,Sindh,Website,Home,Iron,2,4560,9120
+ORD-10003,2025-11-24,Islamabad,Website,Home,Air Fryer,1,19620,19620
+ORD-10279,2025-11-24,KPK,Website,Fashion,Kurta,1,2688,2688
+ORD-11761,2025-11-24,Punjab,WhatsApp,Electronics,Earbuds,2,3710,7420
+ORD-11221,2025-11-24,Islamabad,WhatsApp,Home,Water Dispenser,2,26260,52520
+ORD-10940,2025-11-24,Punjab,WhatsApp,Home,Bedsheet Set,2,4284,8568
+ORD-10278,2025-11-25,Balochistan,Daraz,Electronics,Earbuds,1,3745,3745
+ORD-10416,2025-11-25,KPK,Website,Electronics,Charger,1,1944,1944
+ORD-10218,2025-11-26,Punjab,Website,Fashion,Shawl,2,3232,6464
+ORD-10524,2025-11-26,Punjab,WhatsApp,Fashion,Lawn Suit,2,4230,8460
+ORD-12020,2025-11-26,Islamabad,Website,Home,Water Dispenser,3,24180,72540
+ORD-11783,2025-11-26,Islamabad,Website,Electronics,Earbuds,4,3640,14560
+ORD-11094,2025-11-26,KPK,Daraz,Fashion,Shawl,1,3264,3264
+ORD-10155,2025-11-26,Islamabad,Website,Fashion,Kurta,2,2576,5152
+ORD-11573,2025-11-27,KPK,Daraz,Fashion,Shawl,3,3168,9504
+ORD-12049,2025-11-27,Punjab,Daraz,Home,Water Dispenser,2,25480,50960
+ORD-11304,2025-11-27,Punjab,Daraz,Electronics,Power Bank,2,5665,11330
+ORD-10533,2025-11-27,Sindh,WhatsApp,Fashion,Kurta,4,2660,10640
+ORD-12282,2025-11-27,Punjab,WhatsApp,Fashion,Shawl,1,3008,3008
+ORD-11943,2025-11-27,Sindh,Daraz,Electronics,Charger,1,1656,1656
+ORD-11842,2025-11-28,Punjab,Website,Home,Bedsheet Set,1,4452,4452
+ORD-11750,2025-11-28,KPK,Daraz,Electronics,Earbuds,1,3535,3535
+ORD-10330,2025-11-28,Sindh,Website,Electronics,Power Bank,4,5555,22220
+ORD-10198,2025-11-28,Punjab,WhatsApp,Fashion,Lawn Suit,1,4905,4905
+ORD-10223,2025-11-28,KPK,Daraz,Fashion,Lawn Suit,1,4455,4455
+ORD-11455,2025-11-29,KPK,Website,Fashion,Lawn Suit,3,4230,12690
+ORD-10254,2025-11-29,Punjab,Website,Electronics,Smart Watch,2,12240,24480
+ORD-10646,2025-11-29,Islamabad,Daraz,Electronics,Earbuds,1,3570,3570
+ORD-12170,2025-11-29,Sindh,WhatsApp,Electronics,Charger,3,1872,5616
+ORD-11272,2025-11-29,KPK,WhatsApp,Electronics,Charger,3,1836,5508
+ORD-10872,2025-11-30,Punjab,WhatsApp,Home,Air Fryer,1,18180,18180
+ORD-10361,2025-11-30,Punjab,Website,Home,Iron,2,4704,9408
+ORD-11256,2025-11-30,Islamabad,Website,Fashion,Lawn Suit,2,4230,8460
+ORD-10770,2025-11-30,KPK,Daraz,Electronics,Charger,4,1908,7632
+ORD-10759,2025-11-30,Sindh,WhatsApp,Electronics,Charger,4,1926,7704
+ORD-12385,2025-11-30,Punjab,Website,Electronics,Earbuds,1,3430,3430
+ORD-12084,2025-11-30,Punjab,Daraz,Fashion,Shawl,4,3296,13184
+ORD-10012,2025-11-30,KPK,Daraz,Home,Air Fryer,5,18540,92700
+ORD-10456,2025-11-30,Sindh,WhatsApp,Fashion,Lawn Suit,1,4320,4320
+ORD-10669,2025-11-30,Punjab,WhatsApp,Fashion,Lawn Suit,2,4230,8460
+ORD-12160,2025-11-30,KPK,Daraz,Electronics,Charger,2,1674,3348
+ORD-11684,2025-12-01,Islamabad,Website,Home,Water Dispenser,3,26520,79560
+ORD-10323,2025-12-01,Sindh,Daraz,Electronics,Smart Watch,1,10800,10800
+ORD-11173,2025-12-01,KPK,Daraz,Electronics,Charger,2,1746,3492
+ORD-10055,2025-12-01,Punjab,Website,Electronics,Power Bank,4,5005,20020
+ORD-10369,2025-12-01,Punjab,Website,Home,Bedsheet Set,4,4074,16296
+ORD-12369,2025-12-01,Balochistan,Daraz,Electronics,Smart Watch,2,11280,22560
+ORD-10695,2025-12-01,Sindh,Daraz,Fashion,Lawn Suit,3,4140,12420
+ORD-12270,2025-12-01,Punjab,Website,Electronics,Charger,3,1656,4968
+ORD-11808,2025-12-01,KPK,Daraz,Electronics,Smart Watch,3,12720,38160
+ORD-12151,2025-12-02,Balochistan,Website,Electronics,Smart Watch,3,11040,33120
+ORD-11543,2025-12-02,Sindh,Daraz,Electronics,Power Bank,4,5555,22220
+ORD-11604,2025-12-02,Punjab,Website,Electronics,Power Bank,2,5170,10340
+ORD-11582,2025-12-02,Sindh,Daraz,Electronics,Earbuds,2,3325,6650
+ORD-11585,2025-12-02,KPK,Website,Fashion,Kurta,2,2688,5376
+ORD-10633,2025-12-02,KPK,Website,Home,Air Fryer,3,17100,51300
+ORD-10360,2025-12-02,Islamabad,WhatsApp,Fashion,Lawn Suit,4,4635,18540
+ORD-10797,2025-12-02,Islamabad,Daraz,Electronics,Earbuds,4,3500,14000
+ORD-12021,2025-12-03,Punjab,Daraz,Electronics,Smart Watch,3,11040,33120
+ORD-11081,2025-12-03,Punjab,Website,Electronics,Earbuds,2,3290,6580
+ORD-11335,2025-12-03,Islamabad,Website,Electronics,Smart Watch,4,11160,44640
+ORD-10649,2025-12-03,Islamabad,Daraz,Electronics,Earbuds,2,3290,6580
+ORD-11838,2025-12-03,KPK,Website,Fashion,Lawn Suit,3,4185,12555
+ORD-10291,2025-12-03,Sindh,WhatsApp,Electronics,Charger,4,1908,7632
+ORD-11884,2025-12-03,Sindh,Website,Fashion,Lawn Suit,1,4905,4905
+ORD-12188,2025-12-03,Punjab,WhatsApp,Home,Air Fryer,4,19440,77760
+ORD-10918,2025-12-03,KPK,WhatsApp,Electronics,Power Bank,3,5940,17820
+ORD-11465,2025-12-03,Punjab,Website,Home,Water Dispenser,4,27040,108160
+ORD-11280,2025-12-03,KPK,Website,Electronics,Charger,2,1962,3924
+ORD-10310,2025-12-03,Punjab,Daraz,Electronics,Earbuds,2,3395,6790
+ORD-11145,2025-12-04,KPK,Website,Electronics,Smart Watch,2,11640,23280
+ORD-11940,2025-12-04,Punjab,Daraz,Fashion,Shawl,2,3424,6848
+ORD-11965,2025-12-04,Punjab,Website,Electronics,Earbuds,4,3605,14420
+ORD-11445,2025-12-04,Sindh,WhatsApp,Home,Water Dispenser,3,24960,74880
+ORD-11592,2025-12-04,Sindh,Website,Fashion,Lawn Suit,4,4545,18180
+ORD-12024,2025-12-04,Sindh,Daraz,Fashion,Shawl,3,3520,10560
+ORD-10640,2025-12-04,Islamabad,Website,Fashion,Kurta,3,3052,9156
+ORD-12395,2025-12-05,Punjab,Website,Electronics,Charger,1,1944,1944
+ORD-10972,2025-12-05,KPK,Website,Fashion,Lawn Suit,4,4185,16740
+ORD-10664,2025-12-05,Islamabad,Website,Fashion,Shawl,4,2944,11776
+ORD-11764,2025-12-05,Sindh,Website,Electronics,Charger,1,1710,1710
+ORD-11217,2025-12-05,Punjab,Website,Home,Water Dispenser,2,26000,52000
+ORD-10163,2025-12-05,Balochistan,WhatsApp,Electronics,Charger,1,1728,1728
+ORD-11747,2025-12-05,Sindh,Website,Home,Iron,3,5136,15408
+ORD-12269,2025-12-06,Sindh,Website,Fashion,Sneakers,2,6240,12480
+ORD-10894,2025-12-07,Punjab,Website,Electronics,Charger,3,1746,5238
+ORD-10227,2025-12-07,Sindh,WhatsApp,Fashion,Kurta,1,2548,2548
+ORD-10869,2025-12-07,Punjab,Daraz,Home,Bedsheet Set,4,3822,15288
+ORD-10860,2025-12-07,Punjab,WhatsApp,Electronics,Charger,3,1800,5400
+ORD-12148,2025-12-08,Islamabad,WhatsApp,Home,Iron,1,5088,5088
+ORD-11686,2025-12-08,Islamabad,Website,Electronics,Charger,4,1818,7272
+ORD-10988,2025-12-08,KPK,Daraz,Fashion,Shawl,1,3296,3296
+ORD-10803,2025-12-08,KPK,Website,Electronics,Smart Watch,2,12480,24960
+ORD-12187,2025-12-08,Sindh,Daraz,Electronics,Charger,2,1656,3312
+ORD-11730,2025-12-08,Punjab,WhatsApp,Fashion,Kurta,2,2800,5600
+ORD-12159,2025-12-08,KPK,WhatsApp,Home,Bedsheet Set,3,3864,11592
+ORD-11557,2025-12-08,Punjab,Daraz,Electronics,Charger,3,1656,4968
+ORD-12390,2025-12-08,Punjab,WhatsApp,Fashion,Lawn Suit,4,4140,16560
+ORD-10593,2025-12-09,Punjab,WhatsApp,Fashion,Shawl,4,2912,11648
+ORD-11284,2025-12-09,Balochistan,WhatsApp,Fashion,Lawn Suit,1,4455,4455
+ORD-11865,2025-12-09,Punjab,WhatsApp,Fashion,Kurta,1,2772,2772
+ORD-11174,2025-12-09,Punjab,Website,Fashion,Kurta,2,2940,5880
+ORD-11581,2025-12-09,Balochistan,Daraz,Fashion,Sneakers,2,6370,12740
+ORD-10397,2025-12-09,Sindh,Website,Electronics,Power Bank,2,5885,11770
+ORD-11245,2025-12-09,Punjab,Website,Home,Water Dispenser,5,24700,123500
+ORD-10690,2025-12-10,Sindh,Website,Fashion,Kurta,2,2940,5880
+ORD-11974,2025-12-10,Islamabad,WhatsApp,Fashion,Sneakers,2,6240,12480
+ORD-11466,2025-12-10,Sindh,Website,Fashion,Lawn Suit,2,4050,8100
+ORD-10716,2025-12-10,KPK,Website,Electronics,Earbuds,3,3500,10500
+ORD-11625,2025-12-10,Sindh,WhatsApp,Home,Water Dispenser,4,27820,111280
+ORD-10747,2025-12-10,KPK,WhatsApp,Fashion,Kurta,3,3024,9072
+ORD-10086,2025-12-10,Punjab,Website,Electronics,Smart Watch,2,11160,22320
+ORD-12046,2025-12-10,Sindh,WhatsApp,Fashion,Sneakers,3,6565,19695
+ORD-11619,2025-12-11,Balochistan,WhatsApp,Electronics,Charger,2,1746,3492
+ORD-10568,2025-12-11,Islamabad,Website,Fashion,Lawn Suit,1,4635,4635
+ORD-10734,2025-12-11,KPK,Website,Fashion,Kurta,4,2716,10864
+ORD-10000,2025-12-11,Punjab,Website,Electronics,Smart Watch,1,12840,12840
+ORD-11110,2025-12-11,Punjab,WhatsApp,Electronics,Charger,3,1800,5400
+ORD-11232,2025-12-11,Punjab,Daraz,Electronics,Charger,3,1890,5670
+ORD-10153,2025-12-11,Sindh,Website,Home,Water Dispenser,2,27040,54080
+ORD-10479,2025-12-11,KPK,Daraz,Fashion,Sneakers,4,7085,28340
+ORD-11158,2025-12-12,Punjab,Website,Fashion,Lawn Suit,4,4770,19080
+ORD-10977,2025-12-12,Sindh,Daraz,Fashion,Kurta,2,2828,5656
+ORD-10286,2025-12-12,Balochistan,Daraz,Fashion,Lawn Suit,1,4500,4500
+ORD-11621,2025-12-12,Islamabad,Daraz,Home,Water Dispenser,3,23920,71760
+ORD-11516,2025-12-12,Islamabad,Website,Electronics,Charger,2,1962,3924
+ORD-12161,2025-12-13,Islamabad,Website,Home,Air Fryer,6,17820,106920
+ORD-10380,2025-12-13,Balochistan,Website,Fashion,Shawl,2,3232,6464
+ORD-11887,2025-12-13,KPK,Daraz,Electronics,Smart Watch,2,12720,25440
+ORD-12050,2025-12-13,Balochistan,Daraz,Electronics,Power Bank,4,5830,23320
+ORD-10276,2025-12-13,Sindh,WhatsApp,Electronics,Power Bank,1,5500,5500
+ORD-10261,2025-12-13,Sindh,Daraz,Fashion,Lawn Suit,1,4185,4185
+ORD-11717,2025-12-13,Islamabad,WhatsApp,Fashion,Sneakers,4,7020,28080
+ORD-10662,2025-12-13,Sindh,Daraz,Home,Water Dispenser,3,23660,70980
+ORD-10825,2025-12-13,Punjab,Website,Electronics,Power Bank,3,5665,16995
+ORD-11202,2025-12-14,Sindh,Website,Home,Iron,2,4896,9792
+ORD-12307,2025-12-14,Punjab,WhatsApp,Fashion,Kurta,1,2744,2744
+ORD-10246,2025-12-14,Punjab,Website,Electronics,Charger,2,1674,3348
+ORD-12012,2025-12-14,KPK,Daraz,Electronics,Smart Watch,1,11640,11640
+ORD-11161,2025-12-14,Punjab,Website,Home,Bedsheet Set,2,4158,8316
+ORD-11805,2025-12-14,Punjab,Website,Fashion,Lawn Suit,1,4725,4725
+ORD-10299,2025-12-14,KPK,WhatsApp,Fashion,Kurta,2,2660,5320
+ORD-11185,2025-12-14,Balochistan,Daraz,Fashion,Sneakers,1,6630,6630
+ORD-11885,2025-12-14,Balochistan,Website,Electronics,Power Bank,1,5060,5060
+ORD-10269,2025-12-14,Sindh,Daraz,Fashion,Kurta,3,2632,7896
+ORD-11358,2025-12-14,Balochistan,Daraz,Fashion,Kurta,3,2884,8652
+ORD-10138,2025-12-14,Sindh,Website,Electronics,Earbuds,4,3780,15120
+ORD-10864,2025-12-14,KPK,Daraz,Electronics,Charger,3,1854,5562
+ORD-11393,2025-12-15,KPK,WhatsApp,Fashion,Sneakers,2,6955,13910
+ORD-11120,2025-12-16,Punjab,WhatsApp,Home,Bedsheet Set,4,3822,15288
+ORD-10126,2025-12-16,Islamabad,WhatsApp,Electronics,Earbuds,2,3395,6790
+ORD-11824,2025-12-16,Balochistan,Daraz,Electronics,Smart Watch,1,11400,11400
+ORD-10851,2025-12-16,KPK,Website,Fashion,Lawn Suit,3,4770,14310
+ORD-12234,2025-12-16,KPK,Website,Fashion,Lawn Suit,1,4635,4635
+ORD-12077,2025-12-16,Sindh,Daraz,Fashion,Sneakers,3,6045,18135
+ORD-11945,2025-12-17,Islamabad,WhatsApp,Home,Water Dispenser,5,24960,124800
+ORD-10339,2025-12-17,Punjab,WhatsApp,Electronics,Earbuds,2,3220,6440
+ORD-10156,2025-12-17,Punjab,WhatsApp,Home,Air Fryer,1,17100,17100
+ORD-10415,2025-12-17,Punjab,Website,Home,Air Fryer,2,18540,37080
+ORD-12150,2025-12-17,KPK,Daraz,Electronics,Earbuds,2,3745,7490
+ORD-12197,2025-12-17,Punjab,Website,Electronics,Charger,2,1764,3528
+ORD-10862,2025-12-17,Punjab,Website,Electronics,Power Bank,2,5720,11440
+ORD-11759,2025-12-17,Sindh,WhatsApp,Electronics,Earbuds,4,3500,14000
+ORD-10746,2025-12-18,Punjab,Website,Fashion,Shawl,3,3040,9120
+ORD-12325,2025-12-18,KPK,Daraz,Fashion,Lawn Suit,3,4725,14175
+ORD-11113,2025-12-18,Punjab,Daraz,Fashion,Lawn Suit,3,4770,14310
+ORD-11987,2025-12-18,Balochistan,WhatsApp,Electronics,Smart Watch,4,11040,44160
+ORD-10936,2025-12-18,Punjab,WhatsApp,Fashion,Kurta,4,2940,11760
+ORD-11898,2025-12-18,Punjab,Daraz,Fashion,Shawl,1,3040,3040
+ORD-12040,2025-12-18,KPK,Daraz,Home,Water Dispenser,3,23920,71760
+ORD-11055,2025-12-18,Balochistan,Website,Fashion,Kurta,2,2744,5488
+ORD-11299,2025-12-18,Islamabad,Website,Electronics,Charger,1,1692,1692
+ORD-12347,2025-12-19,Sindh,Daraz,Electronics,Charger,2,1638,3276
+ORD-10811,2025-12-19,KPK,Daraz,Electronics,Charger,1,1926,1926
+ORD-10082,2025-12-19,Sindh,Website,Home,Iron,1,4608,4608
+ORD-11701,2025-12-20,Balochistan,WhatsApp,Fashion,Lawn Suit,2,4815,9630
+ORD-10137,2025-12-20,KPK,Website,Electronics,Smart Watch,3,11160,33480
+ORD-11946,2025-12-20,Punjab,Website,Home,Iron,4,5184,20736
+ORD-12380,2025-12-20,Punjab,Website,Fashion,Lawn Suit,3,4275,12825
+ORD-10068,2025-12-20,Sindh,WhatsApp,Fashion,Kurta,4,2772,11088
+ORD-10170,2025-12-20,Islamabad,Website,Electronics,Power Bank,4,5390,21560
+ORD-10624,2025-12-20,Islamabad,Daraz,Electronics,Earbuds,4,3220,12880
+ORD-10182,2025-12-20,Punjab,Daraz,Electronics,Power Bank,1,5390,5390
+ORD-10201,2025-12-20,Punjab,Website,Home,Iron,4,4992,19968
+ORD-11408,2025-12-20,Punjab,Daraz,Fashion,Lawn Suit,3,4455,13365
+ORD-11379,2025-12-20,Sindh,Daraz,Fashion,Shawl,3,3456,10368
+ORD-12030,2025-12-20,Punjab,Daraz,Electronics,Charger,1,1980,1980
+ORD-12382,2025-12-21,Balochistan,Daraz,Home,Water Dispenser,2,24960,49920
+ORD-11552,2025-12-21,KPK,Daraz,Fashion,Sneakers,4,6045,24180
+ORD-10382,2025-12-21,KPK,Daraz,Electronics,Earbuds,4,3185,12740
+ORD-10311,2025-12-21,Islamabad,Daraz,Electronics,Power Bank,2,5335,10670
+ORD-10800,2025-12-21,Punjab,WhatsApp,Electronics,Earbuds,3,3675,11025
+ORD-11997,2025-12-21,Islamabad,Website,Home,Bedsheet Set,6,4536,27216
+ORD-10052,2025-12-21,Sindh,Website,Electronics,Smart Watch,4,10920,43680
+ORD-10751,2025-12-21,Punjab,Daraz,Electronics,Power Bank,3,5060,15180
+ORD-11066,2025-12-21,Punjab,Website,Home,Bedsheet Set,5,3948,19740
+ORD-11512,2025-12-21,Islamabad,WhatsApp,Electronics,Smart Watch,1,11280,11280
+ORD-10240,2025-12-21,Punjab,WhatsApp,Electronics,Smart Watch,2,11880,23760
+ORD-12212,2025-12-22,KPK,WhatsApp,Fashion,Sneakers,3,7020,21060
+ORD-11214,2025-12-22,Islamabad,Website,Home,Water Dispenser,3,25480,76440
+ORD-10786,2025-12-22,Punjab,Website,Electronics,Smart Watch,1,11760,11760
+ORD-11567,2025-12-22,Islamabad,Website,Home,Air Fryer,1,19440,19440
+ORD-11915,2025-12-22,Punjab,Daraz,Electronics,Smart Watch,3,12960,38880
+ORD-11835,2025-12-23,Punjab,Website,Electronics,Power Bank,3,5445,16335
+ORD-11748,2025-12-23,Punjab,WhatsApp,Electronics,Power Bank,3,5830,17490
+ORD-11472,2025-12-23,Punjab,Website,Fashion,Shawl,2,2976,5952
+ORD-11380,2025-12-23,Sindh,WhatsApp,Fashion,Shawl,1,3488,3488
+ORD-11989,2025-12-24,Punjab,Website,Electronics,Earbuds,3,3710,11130
+ORD-10745,2025-12-24,Punjab,Website,Electronics,Charger,4,1926,7704
+ORD-11574,2025-12-24,Sindh,WhatsApp,Electronics,Power Bank,1,5005,5005
+ORD-10117,2025-12-24,Punjab,Daraz,Electronics,Charger,1,1782,1782
+ORD-10273,2025-12-24,KPK,Website,Fashion,Sneakers,2,6695,13390
+ORD-11376,2025-12-24,Punjab,Website,Home,Air Fryer,4,16200,64800
+ORD-11840,2025-12-25,Sindh,Daraz,Fashion,Sneakers,1,6370,6370
+ORD-11483,2025-12-25,Islamabad,Daraz,Electronics,Smart Watch,1,11640,11640
+ORD-11154,2025-12-25,Sindh,WhatsApp,Fashion,Lawn Suit,4,4500,18000
+ORD-10176,2025-12-25,Sindh,Website,Home,Iron,2,4896,9792
+ORD-12332,2025-12-25,Sindh,Website,Home,Iron,1,5280,5280
+ORD-11800,2025-12-26,Punjab,Website,Fashion,Shawl,2,3104,6208
+ORD-10766,2025-12-26,Sindh,Daraz,Home,Iron,3,5040,15120
+ORD-12237,2025-12-26,Sindh,WhatsApp,Electronics,Smart Watch,4,11040,44160
+ORD-10706,2025-12-27,Sindh,Website,Home,Bedsheet Set,6,4242,25452
+ORD-10655,2025-12-27,Sindh,Website,Fashion,Shawl,2,3488,6976
+ORD-10264,2025-12-27,Balochistan,Daraz,Electronics,Smart Watch,3,11520,34560
+ORD-10778,2025-12-27,Sindh,Website,Home,Air Fryer,1,18000,18000
+ORD-10039,2025-12-27,KPK,WhatsApp,Electronics,Charger,4,1944,7776
+ORD-11709,2025-12-28,Sindh,WhatsApp,Electronics,Charger,1,1746,1746
+ORD-10026,2025-12-28,Balochistan,Daraz,Fashion,Kurta,3,2576,7728
+ORD-11873,2025-12-28,Punjab,Website,Electronics,Smart Watch,3,13080,39240
+ORD-11175,2025-12-28,Punjab,Daraz,Fashion,Kurta,3,2912,8736
+ORD-12071,2025-12-28,Islamabad,WhatsApp,Fashion,Lawn Suit,3,4455,13365
+ORD-11772,2025-12-28,Punjab,Website,Fashion,Kurta,4,2884,11536
+ORD-11910,2025-12-28,Sindh,Website,Electronics,Earbuds,3,3710,11130
+ORD-12379,2025-12-28,Punjab,WhatsApp,Electronics,Earbuds,4,3360,13440
+ORD-11715,2025-12-28,Punjab,Website,Fashion,Lawn Suit,2,4185,8370
+ORD-10064,2025-12-29,Balochistan,Website,Electronics,Charger,2,1764,3528
+ORD-11860,2025-12-29,Punjab,WhatsApp,Home,Air Fryer,2,19620,39240
+ORD-10641,2025-12-29,KPK,WhatsApp,Electronics,Charger,3,1944,5832
+ORD-11613,2025-12-29,Punjab,Daraz,Fashion,Sneakers,2,6695,13390
+ORD-12125,2025-12-29,Punjab,Daraz,Home,Bedsheet Set,6,4116,24696
+ORD-10486,2025-12-29,KPK,Website,Electronics,Smart Watch,1,11400,11400
+ORD-12140,2025-12-29,Islamabad,Website,Home,Iron,3,4464,13392
+ORD-11672,2025-12-29,Sindh,WhatsApp,Fashion,Shawl,1,3072,3072
+ORD-11000,2025-12-29,Sindh,Website,Electronics,Smart Watch,4,11760,47040
+ORD-10591,2025-12-30,Sindh,WhatsApp,Electronics,Smart Watch,3,12840,38520
+ORD-12165,2025-12-30,Punjab,WhatsApp,Fashion,Lawn Suit,4,4500,18000
+ORD-10691,2025-12-30,Sindh,Website,Electronics,Smart Watch,4,11880,47520
+ORD-10732,2025-12-30,Punjab,Website,Fashion,Shawl,2,3424,6848
+ORD-11601,2025-12-30,Balochistan,Daraz,Fashion,Lawn Suit,3,4905,14715
+ORD-10033,2025-12-30,Islamabad,Website,Home,Iron,5,4800,24000
+ORD-10967,2025-12-31,KPK,Daraz,Electronics,Smart Watch,3,11760,35280
+ORD-10224,2025-12-31,KPK,Website,Fashion,Kurta,3,2688,8064
+ORD-11936,2025-12-31,Sindh,WhatsApp,Fashion,Sneakers,4,6630,26520

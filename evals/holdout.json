@@ -1,0 +1,38 @@
+[
+  {"id": "city_most_sales", "kind": "unanswerable",
+   "question": "Which city brought in the most sales?"},
+  {"id": "refunded_orders", "kind": "unanswerable",
+   "question": "How many orders were refunded?"},
+
+  {"id": "best_month_fashion", "kind": "numeric",
+   "question": "What was the best month for Fashion?",
+   "reference_sql": "SELECT strftime(date_trunc('month', order_date), '%Y-%m') AS month, SUM(revenue_pkr) AS revenue FROM sales WHERE category = 'Fashion' GROUP BY 1 ORDER BY revenue DESC LIMIT 1"},
+
+  {"id": "electronics_daraz_orders_pct", "kind": "numeric",
+   "question": "What percent of Electronics orders came via Daraz?",
+   "reference_sql": "SELECT COUNT(*) FILTER (WHERE channel = 'Daraz')::DOUBLE / COUNT(*) AS daraz_order_share FROM sales WHERE category = 'Electronics'"},
+
+  {"id": "avg_units_by_channel", "kind": "numeric",
+   "question": "What's the average units per order by channel?",
+   "reference_sql": "SELECT channel, AVG(units)::DOUBLE AS avg_units FROM sales GROUP BY channel"},
+
+  {"id": "biggest_single_order", "kind": "numeric",
+   "question": "What was the biggest single order?",
+   "reference_sql": "SELECT product, region, channel, revenue_pkr FROM sales ORDER BY revenue_pkr DESC, order_id LIMIT 1"},
+
+  {"id": "sindh_sneakers_revenue", "kind": "numeric",
+   "question": "How much revenue did Sneakers bring in from Sindh?",
+   "reference_sql": "SELECT SUM(revenue_pkr) AS revenue FROM sales WHERE product = 'Sneakers' AND region = 'Sindh'"},
+
+  {"id": "air_fryer_top_channel", "kind": "numeric",
+   "question": "Which channel sold the most Air Fryers?",
+   "reference_sql": "SELECT channel, SUM(units) AS units FROM sales WHERE product = 'Air Fryer' GROUP BY channel ORDER BY units DESC LIMIT 1"},
+
+  {"id": "q2_vs_q3", "kind": "numeric",
+   "question": "Did the second quarter outsell the third?",
+   "reference_sql": "SELECT SUM(revenue_pkr) FILTER (WHERE month(order_date) BETWEEN 4 AND 6) AS q2_revenue, SUM(revenue_pkr) FILTER (WHERE month(order_date) BETWEEN 7 AND 9) AS q3_revenue FROM sales"},
+
+  {"id": "cheapest_product", "kind": "numeric",
+   "question": "What's the cheapest product we sell, by average unit price?",
+   "reference_sql": "SELECT product, AVG(unit_price_pkr) AS avg_price FROM sales GROUP BY product ORDER BY avg_price ASC LIMIT 1"}
+]

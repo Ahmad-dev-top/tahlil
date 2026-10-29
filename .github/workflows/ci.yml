@@ -1,0 +1,89 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt pytest
+      - run: pytest -q
+
+  sandbox-docker:
+    # Same graph tests, but analysis code runs in the real locked-down container.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: docker build -t tahlil-sandbox:latest sandbox
+      - run: pip install -r requirements.txt pytest
+      - run: pytest -q tests/test_graph.py
+        env:
+          TEST_SANDBOX_MODE: docker
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build
+
+  e2e:
+    # Real browser against the real backend (offline model with simulated latency).
+    needs: [backend, frontend]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: pip install -r requirements.txt
+      - run: npm ci && npx playwright install --with-deps chromium
+        working-directory: frontend
+      - name: Start backend
+        run: |
+          LLM_MODE=fake SANDBOX_MODE=local DEMO_DELAY_S=0.4 DATA_DIR=/tmp/tahlil-e2e \
+            nohup uvicorn app.api:app --port 8000 > api.log 2>&1 &
+      - name: Start frontend
+        working-directory: frontend
+        run: nohup npm run dev -- -p 3000 > next.log 2>&1 &
+      - name: Wait for servers
+        run: |
+          for i in $(seq 1 60); do
+            curl -sf localhost:8000/health && curl -sf -o /dev/null localhost:3000 && exit 0; sleep 2
+          done; cat api.log frontend/next.log; exit 1
+      - run: npm run test:e2e
+        working-directory: frontend
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: e2e-screenshots
+          path: frontend/e2e/shots/

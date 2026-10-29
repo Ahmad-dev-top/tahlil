@@ -1,0 +1,69 @@
+[
+  {"id": "total_revenue", "kind": "numeric", "question": "What is the total revenue?",
+   "reference_sql": "SELECT SUM(revenue_pkr) AS total_revenue FROM sales"},
+  {"id": "revenue_by_region", "question": "Show revenue by region",
+   "reference_sql": "SELECT region, SUM(revenue_pkr) AS revenue FROM sales GROUP BY region"},
+  {"id": "best_aov_channel", "question": "Which sales channel has the highest average order value?",
+   "reference_sql": "SELECT channel, AVG(revenue_pkr) AS aov FROM sales GROUP BY channel ORDER BY aov DESC LIMIT 1"},
+  {"id": "top_products_units", "question": "What are the top 5 products by units sold?",
+   "reference_sql": "SELECT product, SUM(units) AS units FROM sales GROUP BY product ORDER BY units DESC LIMIT 5"},
+  {"id": "monthly_revenue", "question": "How did revenue change month by month in 2025?",
+   "reference_sql": "SELECT date_trunc('month', order_date) AS month, SUM(revenue_pkr) AS revenue FROM sales GROUP BY 1 ORDER BY 1"},
+  {"id": "orders_per_category", "question": "How many orders are there in each category?",
+   "reference_sql": "SELECT category, COUNT(*) AS orders FROM sales GROUP BY category"},
+  {"id": "whatsapp_share", "question": "What share of total revenue comes from WhatsApp orders?",
+   "reference_sql": "SELECT SUM(CASE WHEN channel = 'WhatsApp' THEN revenue_pkr ELSE 0 END) / SUM(revenue_pkr) AS whatsapp_share FROM sales"},
+  {"id": "air_fryer_price", "question": "What is the average unit price of the Air Fryer?",
+   "reference_sql": "SELECT AVG(unit_price_pkr) AS avg_price FROM sales WHERE product = 'Air Fryer'"},
+  {"id": "q4_top_region", "question": "Which region had the most orders in Q4 (October to December)?",
+   "reference_sql": "SELECT region, COUNT(*) AS orders FROM sales WHERE month(order_date) >= 10 GROUP BY region ORDER BY orders DESC LIMIT 1"},
+  {"id": "category_channel_matrix", "kind": "numeric", "question": "Break down revenue by category and channel",
+   "reference_sql": "SELECT category, channel, SUM(revenue_pkr) AS revenue FROM sales GROUP BY 1, 2"},
+
+  {"id": "mom_growth", "kind": "numeric",
+   "question": "What was the month-over-month revenue growth rate for each month of 2025?",
+   "reference_sql": "WITH m AS (SELECT date_trunc('month', order_date) AS month, SUM(revenue_pkr)::DOUBLE AS revenue FROM sales GROUP BY 1) SELECT (revenue - LAG(revenue) OVER (ORDER BY month)) / NULLIF(LAG(revenue) OVER (ORDER BY month), 0) AS mom_growth FROM m ORDER BY month"},
+
+  {"id": "top_product_per_region", "kind": "numeric",
+   "question": "Which product generated the most revenue in each region?",
+   "reference_sql": "WITH totals AS (SELECT region, product, SUM(revenue_pkr) AS revenue FROM sales GROUP BY region, product), ranked AS (SELECT region, product, revenue, ROW_NUMBER() OVER (PARTITION BY region ORDER BY revenue DESC, product) AS rn FROM totals) SELECT region, product, revenue FROM ranked WHERE rn = 1"},
+
+  {"id": "aov_by_channel_category", "kind": "numeric",
+   "question": "What is the average order value for each channel and category?",
+   "reference_sql": "SELECT channel, category, AVG(revenue_pkr) AS aov FROM sales GROUP BY channel, category"},
+
+  {"id": "top3_product_share", "kind": "numeric",
+   "question": "What share of total revenue comes from the top 3 products?",
+   "reference_sql": "WITH p AS (SELECT product, SUM(revenue_pkr)::DOUBLE AS revenue FROM sales GROUP BY product), ranked AS (SELECT revenue, ROW_NUMBER() OVER (ORDER BY revenue DESC, product) AS rn FROM p) SELECT SUM(CASE WHEN rn <= 3 THEN revenue END) / SUM(revenue) AS top3_share FROM ranked"},
+
+  {"id": "weekday_vs_weekend", "kind": "numeric",
+   "question": "How does total revenue split between weekdays and weekends?",
+   "reference_sql": "SELECT CASE WHEN isodow(order_date) IN (6, 7) THEN 'weekend' ELSE 'weekday' END AS day_type, SUM(revenue_pkr) AS revenue FROM sales GROUP BY 1"},
+
+  {"id": "median_order_value", "kind": "numeric",
+   "question": "What is the median order value?",
+   "reference_sql": "SELECT median(revenue_pkr) AS median_order_value FROM sales"},
+
+  {"id": "regions_above_average", "kind": "numeric",
+   "question": "Which regions have total revenue above the average region revenue?",
+   "reference_sql": "WITH r AS (SELECT region, SUM(revenue_pkr) AS revenue FROM sales GROUP BY region) SELECT region, revenue FROM r WHERE revenue > (SELECT AVG(revenue) FROM r)"},
+
+  {"id": "q4_vs_q1_category", "kind": "numeric",
+   "question": "For each category, how did Q4 revenue change compared with Q1?",
+   "reference_sql": "SELECT category, SUM(revenue_pkr) FILTER (WHERE month(order_date) BETWEEN 10 AND 12) - SUM(revenue_pkr) FILTER (WHERE month(order_date) BETWEEN 1 AND 3) AS q4_minus_q1 FROM sales GROUP BY category"},
+
+  {"id": "cumulative_revenue", "kind": "numeric",
+   "question": "What is the cumulative revenue by month through 2025?",
+   "reference_sql": "WITH m AS (SELECT date_trunc('month', order_date) AS month, SUM(revenue_pkr) AS revenue FROM sales GROUP BY 1) SELECT SUM(revenue) OVER (ORDER BY month) AS cumulative_revenue FROM m ORDER BY month"},
+
+  {"id": "home_whatsapp_punjab", "kind": "numeric",
+   "question": "How much revenue came from Home products ordered on WhatsApp in Punjab?",
+   "reference_sql": "SELECT SUM(revenue_pkr) AS revenue FROM sales WHERE category = 'Home' AND channel = 'WhatsApp' AND region = 'Punjab'"},
+
+  {"id": "profit_margin", "kind": "unanswerable",
+   "question": "What is the profit margin by region?"},
+  {"id": "customer_retention", "kind": "unanswerable",
+   "question": "What is the customer retention rate?"},
+  {"id": "revenue_last_year", "kind": "unanswerable",
+   "question": "How did revenue last year compare with this year?"}
+]

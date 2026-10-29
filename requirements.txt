@@ -1,0 +1,15 @@
+langgraph>=1.0,<2
+crewai[anthropic]>=1.0,<2
+guardrails-ai>=0.6,<1
+litellm>=1.60
+duckdb>=1.1
+sqlglot>=25
+pandas>=2.2
+matplotlib>=3.9
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic>=2.7
+sqlalchemy>=2.0
+psycopg[binary]>=3.2      # PostgreSQL connector
+pymysql>=1.1              # MySQL / MariaDB connector

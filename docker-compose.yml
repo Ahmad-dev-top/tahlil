@@ -1,0 +1,34 @@
+services:
+  # Builds the sandbox image only; the API starts one throwaway container per analysis.
+  sandbox-image:
+    build: ./sandbox
+    image: tahlil-sandbox:latest
+    command: ["true"]
+
+  api:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      sandbox-image:
+        condition: service_completed_successfully
+    ports: ["127.0.0.1:8000:8000"]   # local only; the public entry point is `web`
+    env_file: .env
+    environment:
+      SANDBOX_MODE: docker
+      SANDBOX_IMAGE: tahlil-sandbox:latest
+      DATA_DIR: /data
+      # Must be the SAME path on host and in this container (docker.sock mounts resolve on the host)
+      SANDBOX_WORK_DIR: ${PWD}/.sandbox-work
+      API_KEYS: ${TAHLIL_API_KEY:-}
+    volumes:
+      - ./data:/data
+      - ${PWD}/.sandbox-work:${PWD}/.sandbox-work
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  web:
+    build: ./frontend
+    restart: unless-stopped
+    depends_on: [api]
+    ports: ["80:80"]
+    environment:
+      TAHLIL_API_KEY: ${TAHLIL_API_KEY:-}

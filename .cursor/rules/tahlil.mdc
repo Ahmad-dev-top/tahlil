@@ -1,0 +1,35 @@
+---
+description: Tahlil project rules: autonomous data analyst agent (LangGraph, CrewAI, GuardrailsAI, Docker, FastAPI, Next.js/React/Tailwind)
+alwaysApply: true
+---
+
+# Working on Tahlil
+
+Read PLAN.md first. It lists phases, what is verified, and the done-criteria for each.
+
+## Safety layers are non-negotiable
+Never weaken these to make a test, eval or demo pass:
+- `app/guards.py` → `ReadOnlySQL` (one SELECT, known tables, no file/system functions) and `GroundedNumbers` (every number in a report must exist in results). Add new blocked functions freely; never remove one.
+- `app/db.py` → queries always use a **read-only** DuckDB connection.
+- `app/sandbox.py` → Docker flags: `--network none --read-only --cap-drop ALL --security-opt no-new-privileges`, non-root user, memory/CPU/PID limits, timeout. `SANDBOX_MODE=local` is dev-only.
+- `app/connectors.py` → SQLite connector stays disabled by default; never store DB passwords.
+- If a report can't be verified, the API must say so (`verified: false`). Never hide it.
+
+When accuracy is the problem, fix **prompts** (`app/prompts.py`), not guards or the eval scorer.
+
+## Architecture conventions
+- Agent flow lives only in `app/graph.py` (LangGraph). New behaviour = a new node or edge, with a `trace` entry via `_log(...)`. The web UI labels steps from trace entries (`frontend/src/lib/steps.ts` → `stepLabel`), so add a label when you add a node.
+- All LLM calls go through the `LLM` protocol (`app/llm.py`) with a role name (`planner`, `sql`, `analysis_code`, `report`). Tests use `FakeLLM` scripted per role. Never call a real model in tests.
+- Config comes only from env vars via `app/config.py` (frozen dataclass). Add new settings there and to `.env.example`.
+- API responses for a question are built only by `build_payload()` in `app/api.py`, shared by `/ask`, `/ask/stream` and saved turns.
+
+## Tests
+- `pytest -q` must stay green, with no API key or Docker needed. Add tests with every change.
+- Docker-mode check: `TEST_SANDBOX_MODE=docker pytest -q tests/test_graph.py` after `docker build -t tahlil-sandbox:latest sandbox`.
+- Frontend (in `frontend/`): `npm run typecheck && npm run lint && npm test && npm run build` all green, and `npm run test:e2e` passes against a running backend (`LLM_MODE=fake SANDBOX_MODE=local DEMO_DELAY_S=0.4`).
+
+## Style
+- Python 3.12, type hints, small functions, no new frameworks without a reason.
+- Frontend: Next.js 16 App Router with `output: "export"` (static, no server features: no API routes, server actions or `next/image` optimisation). React 19 client components, TypeScript strict, Tailwind 4 utility classes (shared classes in `globals.css` `@layer components`), `lucide-react` icons. All state lives in `useTahlil`; no Redux/Zustand unless asked. API calls only through `src/lib/api.ts`. Never put secrets in `NEXT_PUBLIC_*`.
+- Next.js 16 differs from older versions: read `frontend/AGENTS.md` and the docs in `node_modules/next/dist/docs/` before using unfamiliar APIs.
+- Keep README.md and PLAN.md status tables up to date when a phase changes state.
