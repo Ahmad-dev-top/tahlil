@@ -52,8 +52,11 @@ jobs:
 
   e2e:
     # Real browser against the real backend (offline model with simulated latency).
+    # DATA_DIR is shared with the backend the smoke test restarts after the unreachable check.
     needs: [backend, frontend]
     runs-on: ubuntu-latest
+    env:
+      DATA_DIR: /tmp/tahlil-e2e
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
