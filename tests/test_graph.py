@@ -40,6 +40,22 @@ def steps(state):
     return [t["step"] for t in state["trace"]]
 
 
+def test_crewai_is_not_imported_when_disabled(dataset_id, monkeypatch):
+    """USE_CREWAI=false must answer without ever loading the crewai package."""
+    import sys
+    from dataclasses import replace
+
+    from app import crew
+
+    monkeypatch.setattr(crew, "settings", replace(crew.settings, use_crewai=False))
+    loaded = [name for name in sys.modules if name == "crewai" or name.startswith("crewai.")]
+    for name in loaded:
+        del sys.modules[name]
+    state = ask(dataset_id, "Which region brings the most revenue?", script())
+    assert state["status"] == "ok" and state["verified"]
+    assert not [name for name in sys.modules if name == "crewai" or name.startswith("crewai.")]
+
+
 def test_happy_path(dataset_id):
     state = ask(dataset_id, "Which region brings the most revenue?", script())
     assert state["status"] == "ok" and state["verified"]

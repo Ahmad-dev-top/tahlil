@@ -20,12 +20,12 @@
 | 5 | Auth (API keys) + rate limiting | ✅ | ✅ tests | — |
 | 6 | Evals (accuracy on known answers) | ✅ | ✅ 23 questions; Haiku + CrewAI 100% accuracy and verified | — |
 | 7 | CI (GitHub Actions) | ✅ | ✅ backend, sandbox-docker, frontend, and e2e green on main | — |
-| 8 | Deployment (compose + nginx, Oracle Cloud) | ✅ | ✅ https://tahlil.muhammad-dgr.duckdns.org (Let's Encrypt, portfolio still up) | — |
+| 8 | Deployment (compose + nginx, Oracle Cloud) | ✅ | ✅ live HTTPS; hardening done (one worker, CrewAI off, 450 MB cap, queue 110s) | — |
 | 9 | Portfolio packaging | ✅ | ✅ GIF, three stills, case study, Upwork offer, LinkedIn post | — |
 
-Tests: **69 backend tests** (`pytest -q`, plus 2 live DB tests skipped unless `TAHLIL_LIVE_DB=1`), **8 frontend unit tests** (`npm test`) and a **browser e2e test** (`npm run test:e2e`) that uploads a CSV, watches the steps stream in, checks the answer, asks a follow-up, stops a run, checks the unreachable state, and checks the mobile layout. The default backend suite passes with no API key or Docker.
+Tests: **70 backend tests** (`pytest -q`, plus 2 live DB tests skipped unless `TAHLIL_LIVE_DB=1`), **8 frontend unit tests** (`npm test`) and a **browser e2e test** (`npm run test:e2e`) that uploads a CSV, watches the steps stream in, checks the answer, asks a follow-up, stops a run, checks the unreachable state, and checks the mobile layout. The default backend suite passes with no API key or Docker.
 
-**Verified locally:** `pytest -q` is 69 passed, 2 skipped. With `TAHLIL_LIVE_DB=1` the two connector tests run as well. Also verified: the 23-question eval matrix (see the README), live sonnet questions including Punjab on the Postgres snapshot, frontend typecheck/lint/build/e2e, and five live Haiku questions in the web UI. GitHub CI on `main` is green: https://github.com/Ahmad-dev-top/tahlil/actions/runs/41064093674. The weekly evals workflow has run on the tuning set at 100%.
+**Verified locally:** `pytest -q` is 70 passed, 2 skipped. With `TAHLIL_LIVE_DB=1` the two connector tests run as well. Also verified: the 23-question eval matrix (see the README), live sonnet questions including Punjab on the Postgres snapshot, frontend typecheck/lint/build/e2e, and five live Haiku questions in the web UI. GitHub CI on `main` is green: https://github.com/Ahmad-dev-top/tahlil/actions/runs/41064093674. The weekly evals workflow has run on the tuning set at 100%.
 
 **Deployed:** `https://tahlil.muhammad-dgr.duckdns.org` on the existing portfolio VM (Ubuntu 22.04, x86_64, host nginx + certbot). The API is on `127.0.0.1:18000` because `/opt/dogar` already uses `127.0.0.1:8000`. Caddy is not running. The app directory is a git checkout of this repo at `/home/ubuntu/tahlil`. Updates are `git pull && docker compose up -d --build`.
 
@@ -183,6 +183,8 @@ Why a static export: the app is fully client-side, so production needs no Node s
 
 ## Phase 8 — Deployment ✅ live at https://tahlil.muhammad-dgr.duckdns.org
 
+**Hardening ✅.** One uvicorn worker. On the 1 GB VM, CrewAI is off, the API cgroup is 450 MB, and `QUEUE_TIMEOUT_S` is 110. The measured profile is in `deploy/README.md`.
+
 `docker compose up -d --build` starts:
 - `sandbox-image`: builds the sandbox image, then exits (`restart: "no"`, because `command: true` would loop)
 - `api`: bound to 127.0.0.1:8000, mounts docker.sock to launch sandbox containers
@@ -211,6 +213,7 @@ Live steps, the server `.env`, and the "existing proxy vs Caddy" choice are in `
 
 ## Backlog (after v1)
 
+- Move to Oracle A1 (arm64)
 - Store DB credentials encrypted (Fernet + key from env) so refresh needs no URL
 - Excel (.xlsx) and Parquet upload
 - Multi-user accounts, per-user datasets, Redis rate limits

@@ -30,9 +30,9 @@ Three further runs of the tuning set, same model and crew, all scored 100% accur
 
 ## Cost and latency
 
-The operating point I ship is Haiku 5.5 with CrewAI: about $0.002 per question, against $0.034 for Sonnet on the same tuning set. Median step times on that Haiku run were plan 3.5s, write SQL 2.8s, analyze 11.5s, and report 11.7s. A later five-question split put the sandbox at 2.4s inside `analyze` and the chart-code model call at 8.7s. Inside the report, the analyst took 5.5s and the writer 5.7s.
+On the eval machine the operating point is Haiku 5.5 with CrewAI: about $0.002 per question, against $0.034 for Sonnet on the same tuning set. Median step times on that Haiku run were plan 3.5s, write SQL 2.8s, analyze 11.5s, and report 11.7s. A later five-question split put the sandbox at 2.4s inside `analyze` and the chart-code model call at 8.7s. Inside the report, the analyst took 5.5s and the writer 5.7s. The p50 of 31.1s is this machine, with CrewAI on.
 
-On the 1 GB demo VM (sandbox 256 MB, API container 450 MB), “What is the total revenue?” took 67.2 seconds. The trace put 12.9s in `plan` and 31.5s in `report`, with 13.7s of that `analyze` step inside the sandbox, while the host was already using about 1.6 GB of swap. The chart still came back.
+The public demo is separate. It is a 1 GB VM, sandbox 256 MB, API container 450 MB, one uvicorn worker, CrewAI off. With CrewAI on, that API container peaked at 447 MiB and “What is the total revenue?” took 74.7s. With CrewAI off the same three questions took 41.6s, 34.7s, and 16.9s. All three were verified on the first report. After the first question the API sat near 180 MiB. The host was still using about 1.6–1.9 GB of swap.
 
 ## What went wrong, and the fix
 

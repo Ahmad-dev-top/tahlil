@@ -50,7 +50,7 @@ cat > .env << 'EOF'
 LLM_MODEL=anthropic/claude-haiku-5-5
 LLM_TEMPERATURE=
 LLM_MODE=live
-USE_CREWAI=true
+USE_CREWAI=false
 SANDBOX_MODE=docker
 SANDBOX_MEMORY=256m
 ANTHROPIC_API_KEY=paste-the-key-here
@@ -59,6 +59,7 @@ PUBLIC_DEMO=true
 DAILY_COST_LIMIT_USD=1
 ASKS_PER_MINUTE=5
 MAX_CONCURRENT_ASKS=1
+QUEUE_TIMEOUT_S=110
 ALLOW_SQLITE_CONNECTOR=false
 CORS_ORIGINS=*
 # Only if 127.0.0.1:8000 is already in use on the host. Leave unset otherwise.
@@ -67,6 +68,22 @@ EOF
 openssl rand -hex 32
 # put that hex string in TAHLIL_API_KEY, then: chmod 600 .env
 ```
+
+## 1 GB demo profile
+
+This VM has about 1 GB of RAM and a 450 MB cap on the API container. Uvicorn is one worker (`uvicorn app.api:app`, no `--workers`). CrewAI is off. With it on, the API process stayed against the cap (peaks 417 MiB and 447 MiB on the first two questions) and “What is the total revenue?” took 74.7s. With it off, that question took 41.6s, the next two questions sat near 180 MiB, and every answer was still verified on the first report. `MALLOC_ARENA_MAX=2` did not lower the first-question peak (403 MiB either way), so it is not set. The peak is not well under 350 MB, so the cap stays 450 MB.
+
+`QUEUE_TIMEOUT_S=110` is 2.5 times the p90 of those three CrewAI-off times (16.9s, 34.7s, 41.6s; linear p90 40.2s), rounded up to the next 10 seconds. One question runs at a time. A third request waiting behind the two slower ones still gets a slot.
+
+Measured on 2026-10-30, same three questions, API restarted before each config. Portfolio stayed HTTP 200. `dmesg` had no OOM lines. Host swap used was about 1.6 GB idle and up to about 2.0 GB during a question.
+
+| Config | Total revenue | Highest-revenue region | Order count | API idle | API peak | Host available, min | Swap used, max |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| A CrewAI on, 450 MB | 74.7s, $0.001327, verified | 43.6s, $0.001584, verified | 26.0s, $0.001238, verified | 254 MiB, 356 MB available, swap 1581 | 447 MiB | 215 MB | 1978 MB |
+| B CrewAI off, 450 MB | 41.6s, $0.001250, verified | 34.7s, $0.003126, verified | 16.9s, $0.001145, verified | 298 MiB, 418 MB available, swap 1616 | 403 MiB | 268 MB | 1885 MB |
+| C CrewAI off, 450 MB, `MALLOC_ARENA_MAX=2` | 45.5s, $0.001451, verified | 33.0s, $0.002943, verified | 16.9s, $0.001210, verified | 260 MiB, 426 MB available, swap 1615 | 403 MiB | 245 MB | 1891 MB |
+
+Every row is `report_attempts` 1. Config B is what the server runs. Config D (350 MB cap) was not run: B's peak of 403 MiB is not well under 350.
 
 ## Install Docker (if missing)
 

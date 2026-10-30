@@ -153,12 +153,14 @@ Two speedups, not implemented, sandbox flags unchanged:
 
 Mean accuracy 100% (range 0), mean verified rate 100% (range 0), mean first-try report rate 93% (range 91–96%).
 
-Recommended default: `anthropic/claude-haiku-5-5` with CrewAI on. That is what `.env.example` sets. On the tuning set it matched Sonnet on accuracy and verification at about $0.002 per question instead of $0.034. The held-out run is the number that was not tuned for: 90%.
+Recommended default: `anthropic/claude-haiku-5-5` with CrewAI on. That is what `.env.example` sets. On the tuning set it matched Sonnet on accuracy and verification at about $0.002 per question instead of $0.034. The held-out run is the number that was not tuned for: 90%. Those latency numbers are from the eval machine.
+
+The public demo is a 1 GB VM with the sandbox at 256 MB and the API container at 450 MB. CrewAI is off there, because with it on the API process sat at 417–447 MiB of that 450 MB cap. With CrewAI off, the same three questions took 41.6s, 34.7s, and 16.9s, all verified on the first report. That is a different measurement from the eval-machine p50 of 31.1s.
 
 ## Tests
 
 ```bash
-pytest -q        # 69 tests, no API key or Docker needed; 2 more run when TAHLIL_LIVE_DB=1
+pytest -q        # 70 tests, no API key or Docker needed; 2 more run when TAHLIL_LIVE_DB=1
 ```
 They cover guards, self-correction, report grounding, streaming, conversations, DB connectors, auth, rate limits, the public-demo caps, and the eval scorer.
 
