@@ -45,7 +45,7 @@ flowchart LR
 
 ```bash
 cp .env.example .env          # add your model API key
-docker compose up --build     # web UI on http://localhost, API on 127.0.0.1:8000
+docker compose up --build     # web UI on http://127.0.0.1:8080, API on 127.0.0.1:8000
 ```
 
 **No API key?** Set `LLM_MODE=fake` in `.env` for an offline demo of the full pipeline.
@@ -123,6 +123,19 @@ Median time in each step (ms). `analyze` is the Docker sandbox. `report` is Crew
 
 The Docker sandbox is inside `analyze`, and its security flags were left unchanged. CrewAI adds a second report call, so that step takes about 12 seconds instead of 5.
 
+A later five-question run (Haiku 5.5 + CrewAI) split `analyze` into the model writing the chart code and the container running it. Medians:
+
+| plan | write_sql | analyze LLM | analyze sandbox | report |
+|---|---:|---:|---:|---:|
+| 3.0s | 4.8s | 8.7s | 2.4s | 12.8s |
+
+Inside the report, the analyst took 5.5s and the writer 5.7s. Most of the old 11s `analyze` step is the model, not Docker.
+
+Two speedups, not implemented, sandbox flags unchanged:
+
+1. Skip chart-code generation and the container when the SQL result is a single row. That removes about 11s (8.7s + 2.4s) on those questions, because the container is never started.
+2. Merge `plan` and `write_sql` into one model call. That removes the planner round trip, about 3s at the median.
+
 **Held-out set** (`evals/holdout.json`, 10 new questions, prompts not changed after the run): Haiku 5.5 + CrewAI scored **90% accuracy and 90% verified**. The miss was “Which city brought in the most sales?”: there is no city column, and the model ranked regions instead of saying so.
 
 **Stability** on the tuning set, Haiku 5.5 + CrewAI, three separate runs:
@@ -140,9 +153,9 @@ Recommended default: `anthropic/claude-haiku-5-5` with CrewAI on. That is what `
 ## Tests
 
 ```bash
-pytest -q        # 57 tests, no API key or Docker needed; 2 more run when TAHLIL_LIVE_DB=1
+pytest -q        # 69 tests, no API key or Docker needed; 2 more run when TAHLIL_LIVE_DB=1
 ```
-They cover guards, self-correction, report grounding, streaming, conversations, DB connectors, auth, rate limits and the eval scorer.
+They cover guards, self-correction, report grounding, streaming, conversations, DB connectors, auth, rate limits, the public-demo caps, and the eval scorer.
 
 ## Configuration (`.env`)
 
@@ -153,8 +166,19 @@ They cover guards, self-correction, report grounding, streaming, conversations, 
 | `LLM_MODE` | `live` | `fake` = offline demo |
 | `USE_CREWAI` | `true` | `false` = single LLM call for the report |
 | `SANDBOX_MODE` | `docker` | `local` = dev only |
-| `SANDBOX_TIMEOUT_S` / `SANDBOX_MEMORY` | `30` / `512m` | Per-run limits |
+| `SANDBOX_TIMEOUT_S` / `SANDBOX_MEMORY` | `30` / `512m` | Per-run limits. The 1 GB demo VM uses `256m` |
 | `MAX_SQL_ATTEMPTS` / `MAX_REPORT_ATTEMPTS` | `3` / `2` | Retry budgets |
+| `PUBLIC_DEMO` | `false` | Hides DB connect, 5 MB / 3-file uploads, preloads the sample CSV, rate-limits by client IP |
+| `DAILY_COST_LIMIT_USD` | empty | Empty = no cap. UTC-day sum of `total_cost_usd`; the next question past the cap returns 429 |
+| `ASKS_PER_MINUTE` | `10` | Per API key, or per client IP when `PUBLIC_DEMO=true` |
+| `MAX_CONCURRENT_ASKS` | empty | Empty = unlimited. Otherwise one process-wide slot count for `/ask` and `/ask/stream` |
+| `QUEUE_TIMEOUT_S` | `60` | Wait for a free slot, then HTTP 503. Streams send a `queued` step while they wait |
+| `DEMO_RETENTION_HOURS` | `24` | In the public demo, uploaded datasets older than this are deleted. The sample stays |
+| `TRUSTED_PROXIES` | empty | Hostnames or IPs allowed to set `X-Forwarded-For`. Compose sets this to `web` |
+
+## Deploy
+
+See [deploy/README.md](deploy/README.md). The UI is on `127.0.0.1:8080` and the API on `127.0.0.1:8000`. Add Caddy with `docker compose --profile https up -d` only when ports 80 and 443 are free.
 
 ## Project layout
 

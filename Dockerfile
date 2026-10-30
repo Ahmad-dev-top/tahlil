@@ -10,6 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt \
 
 COPY app ./app
 COPY sandbox ./sandbox
+COPY sample_data ./sample_data
 
 ENV PYTHONUNBUFFERED=1 OTEL_SDK_DISABLED=true CREWAI_DISABLE_TELEMETRY=true
 EXPOSE 8000

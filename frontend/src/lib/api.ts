@@ -25,6 +25,8 @@ async function request<T>(path: string, init: RequestInit = {}): Promise<T> {
 export const chartUrl = (path: string) => `${API_BASE}${path}`;
 
 export const api = {
+  health: () => request<{ ok: boolean; public_demo?: boolean }>("/health"),
+
   listDatasets: () => request<Dataset[]>("/datasets"),
 
   datasetSchema: async (id: string) => (await request<{ schema: string }>(`/datasets/${id}`)).schema ?? "",

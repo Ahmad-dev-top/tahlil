@@ -11,6 +11,12 @@ os.environ.update(
     ALLOW_SQLITE_CONNECTOR="true",
     CREWAI_DISABLE_TELEMETRY="true",
     ASKS_PER_MINUTE="1000",
+    PUBLIC_DEMO="false",
+    DAILY_COST_LIMIT_USD="",
+    TRUSTED_PROXIES="",
+    MAX_CONCURRENT_ASKS="",
+    QUEUE_TIMEOUT_S="60",
+    DEMO_RETENTION_HOURS="24",
 )
 
 import pytest  # noqa: E402

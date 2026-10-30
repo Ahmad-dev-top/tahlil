@@ -21,6 +21,8 @@ export function useTahlil() {
   const [turns, setTurns] = useState<Turn[]>([]);
   const [loading, setLoading] = useState(false);
   const [unreachable, setUnreachable] = useState(false);
+  // Hidden until /health says otherwise, so the public demo never flashes the Database button.
+  const [publicDemo, setPublicDemo] = useState(true);
   const [toast, setToast] = useState<Toast | null>(null);
   const abortRef = useRef<AbortController | null>(null);
 
@@ -60,7 +62,11 @@ export function useTahlil() {
     setLoading(true);
     setUnreachable(false);
     try {
-      const list = await api.listDatasets();
+      const [list, health] = await Promise.all([
+        api.listDatasets(),
+        api.health().catch(() => null),
+      ]);
+      setPublicDemo(Boolean(health?.public_demo));
       setDatasets(list);
       if (list.length) await openDataset(list[0]);
     } catch (e) {
@@ -166,6 +172,7 @@ export function useTahlil() {
 
   return {
     datasets, dataset, schema, conversations, conversation, turns, loading, asking, unreachable, toast,
+    publicDemo,
     selectDataset, selectConversation, newConversation, uploadCsv, connectDatabase, ask, stop,
     retry: loadAll,
     dismissToast: () => setToast(null),

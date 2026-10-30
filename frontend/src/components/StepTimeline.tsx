@@ -11,6 +11,7 @@ export function StepTimeline({ steps, running }: { steps: TraceStep[]; running: 
     <ol className="flex flex-wrap gap-1.5" aria-label="Agent steps" data-testid="steps">
       {visible.map((s, i) => {
         const ok = stepOk(s);
+        const waiting = s.step === "queued";
         return (
           <li
             key={i}
@@ -23,7 +24,9 @@ export function StepTimeline({ steps, running }: { steps: TraceStep[]; running: 
                 : "border-amber-300 bg-amber-50 text-amber-900 dark:border-amber-700/60 dark:bg-amber-950/40 dark:text-amber-200",
             )}
           >
-            {ok ? (
+            {waiting ? (
+              <Loader2 className="size-3.5 animate-spin" />
+            ) : ok ? (
               <CheckCircle2 className="size-3.5 text-teal-600" />
             ) : (
               <AlertTriangle className="size-3.5 text-amber-600" />

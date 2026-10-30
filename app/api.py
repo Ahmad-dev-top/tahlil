@@ -17,11 +17,19 @@ Auth: if API_KEYS is set, every route except /health and /charts needs header `X
 """
 from __future__ import annotations
 
+import asyncio
 import json
+import logging
+import queue
 import re
+import shutil
+import socket
 import threading
 import time
 from collections import defaultdict, deque
+from contextlib import asynccontextmanager
+from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any, Iterator
 
 import pandas as pd
@@ -36,8 +44,123 @@ from .config import settings
 from .connectors import ConnectorError, import_database
 
 MAX_UPLOAD_BYTES = 50 * 1024 * 1024
+DEMO_UPLOAD_BYTES = 5 * 1024 * 1024
+DEMO_MAX_FILES = 3
+SAMPLE_DATASET_NAME = "Sample: Pakistan sales 2025"
+_BUDGET_DETAIL = "Daily demo budget reached, try again tomorrow"
+_BUSY_DETAIL = "Demo is busy, try again in a minute"
+log = logging.getLogger("tahlil")
 
-app = FastAPI(title="Tahlil — Autonomous Data Analyst", version="0.2.0")
+
+class AskGate:
+    """Process-wide cap on questions running at once. Empty MAX_CONCURRENT_ASKS means unlimited."""
+
+    def __init__(self):
+        self._cond = threading.Condition()
+        self._active = 0
+
+    def reset(self) -> None:
+        with self._cond:
+            self._active = 0
+            self._cond.notify_all()
+
+    def acquire(self, timeout: float, on_wait=None, cancel: threading.Event | None = None) -> tuple[bool, bool]:
+        """Returns (counted, acquired). `on_wait` runs once, inside the wait, before blocking."""
+        if settings.max_concurrent_asks is None:
+            return False, True
+        deadline = time.monotonic() + max(0.0, timeout)
+        notified = False
+        with self._cond:
+            while True:
+                limit = settings.max_concurrent_asks
+                if limit is None:
+                    return False, True
+                if cancel is not None and cancel.is_set():
+                    return False, False
+                if self._active < limit:
+                    self._active += 1
+                    return True, True
+                if not notified and on_wait is not None:
+                    on_wait()
+                    notified = True
+                remaining = deadline - time.monotonic()
+                if remaining <= 0:
+                    return False, False
+                self._cond.wait(timeout=remaining)
+
+    def release(self) -> None:
+        with self._cond:
+            if self._active:
+                self._active -= 1
+            self._cond.notify()
+
+
+gate = AskGate()
+
+
+def purge_demo_uploads(now: float | None = None) -> int:
+    """Delete uploaded demo datasets older than DEMO_RETENTION_HOURS. Keeps the sample."""
+    if not settings.public_demo:
+        return 0
+    cutoff = (now if now is not None else time.time()) - settings.demo_retention_hours * 3600
+    removed = 0
+    for record in store.list_expired_datasets(cutoff, SAMPLE_DATASET_NAME):
+        store.delete_dataset(record["id"])
+        try:
+            shutil.rmtree(db.dataset_dir(record["id"]), ignore_errors=True)
+        except ValueError:
+            log.warning("skipping cleanup for unexpected dataset id %s", record["id"])
+        removed += 1
+    if removed:
+        log.info("removed %s expired demo upload(s)", removed)
+    return removed
+
+
+async def _retention_loop() -> None:
+    while True:
+        await asyncio.sleep(3600)
+        try:
+            await asyncio.to_thread(purge_demo_uploads)
+        except asyncio.CancelledError:
+            raise
+        except Exception:
+            log.exception("demo retention cleanup failed")
+
+def preload_sample_dataset() -> str | None:
+    """Load the bundled sales CSV once. Returns the dataset id, or None if it is already there."""
+    if any(d["name"] == SAMPLE_DATASET_NAME for d in store.list_datasets()):
+        return None
+    path = Path(__file__).resolve().parent.parent / "sample_data" / "sales.csv"
+    if not path.is_file():
+        log.warning("public demo sample CSV is missing: %s", path)
+        return None
+    dataset_id, tables = db.create_dataset({"sales.csv": path.read_bytes()})
+    store.add_dataset(dataset_id, SAMPLE_DATASET_NAME, "csv", "sales.csv", tables)
+    return dataset_id
+
+
+@asynccontextmanager
+async def _lifespan(_app: FastAPI):
+    task: asyncio.Task | None = None
+    if settings.public_demo:
+        preload_sample_dataset()
+        try:
+            purge_demo_uploads()
+        except Exception:
+            log.exception("demo retention cleanup failed")
+        task = asyncio.create_task(_retention_loop())
+    try:
+        yield
+    finally:
+        if task is not None:
+            task.cancel()
+            try:
+                await task
+            except asyncio.CancelledError:
+                pass
+
+
+app = FastAPI(title="Tahlil — Autonomous Data Analyst", version="0.2.0", lifespan=_lifespan)
 app.add_middleware(CORSMiddleware, allow_origins=list(settings.cors_origins),
                    allow_methods=["*"], allow_headers=["*"])
 
@@ -52,6 +175,56 @@ def require_key(request: Request) -> str:
     if key not in settings.api_keys:
         raise HTTPException(401, "missing or invalid X-API-Key")
     return key
+
+
+def _peer(request: Request) -> str:
+    return request.client.host if request.client else "local"
+
+
+def _trusted_proxy(peer: str) -> bool:
+    """True when the TCP peer is the nginx container (or another name listed in TRUSTED_PROXIES)."""
+    allowed = settings.trusted_proxies
+    if not allowed:
+        return False
+    if peer in allowed:
+        return True
+    return any(_resolves_to(name, peer) for name in allowed)
+
+
+def _resolves_to(name: str, peer: str) -> bool:
+    if name == peer:
+        return True
+    try:
+        infos = socket.getaddrinfo(name, None)
+    except socket.gaierror:
+        return False
+    return any(sockaddr[0] == peer for *_, sockaddr in infos)
+
+
+def client_ip(request: Request) -> str:
+    """Client IP. X-Forwarded-For is honored only when the immediate peer is a trusted proxy.
+
+    The rightmost address is the one that proxy appended, so a caller cannot pick their bucket
+    by sending a forged header to the API directly.
+    """
+    peer = _peer(request)
+    if not _trusted_proxy(peer):
+        return peer
+    parts = [p.strip() for p in request.headers.get("x-forwarded-for", "").split(",") if p.strip()]
+    return parts[-1] if parts else peer
+
+
+def _utc_day_start() -> float:
+    now = datetime.now(timezone.utc)
+    return now.replace(hour=0, minute=0, second=0, microsecond=0).timestamp()
+
+
+def enforce_daily_budget() -> None:
+    limit = settings.daily_cost_limit_usd
+    if limit is None:
+        return
+    if store.cost_since(_utc_day_start()) >= limit:
+        raise HTTPException(429, _BUDGET_DETAIL)
 
 
 class RateLimiter:
@@ -77,9 +250,13 @@ class RateLimiter:
 limiter = RateLimiter()
 
 
-def ask_limit(caller: str = Depends(require_key)) -> str:
-    limiter.check(caller, settings.asks_per_minute)
-    return caller
+def ask_limit(request: Request, caller: str = Depends(require_key)) -> str:
+    # In the public demo every browser shares one API key injected by nginx, so the
+    # bucket is the client IP. Outside that mode the bucket stays the API key.
+    identity = client_ip(request) if settings.public_demo else caller
+    limiter.check(identity, settings.asks_per_minute)
+    enforce_daily_budget()
+    return identity
 
 
 api = APIRouter(dependencies=[Depends(require_key)])
@@ -168,7 +345,7 @@ def _sse(event: str, data: Any) -> str:
 @app.get("/health")
 def health():
     return {"ok": True, "llm_mode": settings.llm_mode, "sandbox": settings.sandbox_mode,
-            "auth": bool(settings.api_keys)}
+            "auth": bool(settings.api_keys), "public_demo": settings.public_demo}
 
 
 @api.get("/datasets")
@@ -176,15 +353,25 @@ def list_datasets():
     return store.list_datasets()
 
 
+def _upload_limits() -> tuple[int, int | None]:
+    if settings.public_demo:
+        return DEMO_UPLOAD_BYTES, DEMO_MAX_FILES
+    return MAX_UPLOAD_BYTES, None
+
+
 @api.post("/datasets")
 async def upload(files: list[UploadFile] = File(...), name: str | None = Form(default=None)):
+    max_bytes, max_files = _upload_limits()
+    if max_files is not None and len(files) > max_files:
+        raise HTTPException(400, f"at most {max_files} files")
     payload = {}
     for f in files:
         if not (f.filename or "").lower().endswith(".csv"):
             raise HTTPException(400, f"{f.filename}: only .csv files are supported")
         content = await f.read()
-        if len(content) > MAX_UPLOAD_BYTES:
-            raise HTTPException(413, f"{f.filename} exceeds 50 MB")
+        if len(content) > max_bytes:
+            mb = max_bytes // (1024 * 1024)
+            raise HTTPException(413, f"{f.filename} exceeds {mb} MB")
         payload[f.filename] = content
     try:
         dataset_id, tables = await run_in_threadpool(db.create_dataset, payload)
@@ -195,8 +382,14 @@ async def upload(files: list[UploadFile] = File(...), name: str | None = Form(de
     return {**record, "dataset_id": dataset_id, "schema": db.describe_schema(dataset_id)}
 
 
+def _reject_outbound_db() -> None:
+    if settings.public_demo:
+        raise HTTPException(403, "Database connections are disabled on the public demo")
+
+
 @api.post("/datasets/connect")
 async def connect(req: ConnectRequest):
+    _reject_outbound_db()
     try:
         res = await run_in_threadpool(import_database, req.url, req.schema_name, req.tables, req.row_limit)
     except ConnectorError as e:
@@ -208,6 +401,7 @@ async def connect(req: ConnectRequest):
 
 @api.post("/datasets/{dataset_id}/refresh")
 async def refresh(dataset_id: str, req: ConnectRequest):
+    _reject_outbound_db()
     record = store.get_dataset(dataset_id)
     if not record:
         raise HTTPException(404, "dataset not found")
@@ -277,19 +471,33 @@ def _short_provider_message(exc: BaseException) -> str:
     return (text[:180] or "the model provider returned an error")
 
 
+def _release_slot(outcome: dict) -> None:
+    if outcome.get("counted") and outcome.get("ok") and not outcome.get("released"):
+        gate.release()
+        outcome["released"] = True
+
+
 @api.post("/ask", dependencies=[Depends(ask_limit)])
 async def ask_endpoint(req: AskRequest):
     _require_dataset(req.dataset_id)
     history = _resolve_conversation(req)
+    counted, ok = gate.acquire(settings.queue_timeout_s)
+    if not ok:
+        raise HTTPException(503, _BUSY_DETAIL)
     try:
-        state = await run_in_threadpool(graph.ask, req.dataset_id, req.question, None, history)
-    except Exception as e:
-        if _is_provider_error(e):
-            raise HTTPException(502, f"Model provider error: {_short_provider_message(e)}") from e
-        raise
-    payload = build_payload(req.dataset_id, req.question, state)
-    _save_turn(req, payload)
-    return payload
+        try:
+            state = await run_in_threadpool(graph.ask, req.dataset_id, req.question, None, history)
+        except Exception as e:
+            if _is_provider_error(e):
+                raise HTTPException(502, f"Model provider error: {_short_provider_message(e)}") from e
+            raise
+        payload = build_payload(req.dataset_id, req.question, state)
+        store.record_cost(payload["total_cost_usd"])
+        _save_turn(req, payload)
+        return payload
+    finally:
+        if counted:
+            gate.release()
 
 
 @api.post("/ask/stream", dependencies=[Depends(ask_limit)])
@@ -298,16 +506,49 @@ def ask_stream(req: AskRequest):
     history = _resolve_conversation(req)
 
     def events() -> Iterator[str]:  # sync generator: Starlette runs it in a threadpool
+        notices: queue.SimpleQueue = queue.SimpleQueue()
+        outcome: dict = {}
+        cancel = threading.Event()
+
+        def waiter() -> None:
+            counted, ok = gate.acquire(
+                settings.queue_timeout_s, on_wait=lambda: notices.put("queued"), cancel=cancel,
+            )
+            outcome["counted"] = counted
+            outcome["ok"] = ok
+            notices.put("done")
+
+        thread = threading.Thread(target=waiter, daemon=True)
+        thread.start()
         try:
-            for kind, data in graph.stream(req.dataset_id, req.question, None, history):
-                if kind == "step":
-                    yield _sse("step", data)
-                else:
-                    payload = build_payload(req.dataset_id, req.question, data)
-                    _save_turn(req, payload)
-                    yield _sse("result", payload)
-        except Exception as e:  # surface failures to the client instead of a dropped connection
-            yield _sse("error", {"error": f"{type(e).__name__}: {str(e)[:300]}"})
+            while True:
+                item = notices.get()
+                if item == "queued":
+                    yield _sse("step", {"step": "queued"})
+                    continue
+                break
+            if not outcome.get("ok"):
+                yield _sse("error", {"error": _BUSY_DETAIL})
+                return
+            try:
+                for kind, data in graph.stream(req.dataset_id, req.question, None, history):
+                    if kind == "step":
+                        yield _sse("step", data)
+                    else:
+                        payload = build_payload(req.dataset_id, req.question, data)
+                        store.record_cost(payload["total_cost_usd"])
+                        _save_turn(req, payload)
+                        yield _sse("result", payload)
+            except Exception as e:  # surface failures to the client instead of a dropped connection
+                yield _sse("error", {"error": f"{type(e).__name__}: {str(e)[:300]}"})
+            finally:
+                _release_slot(outcome)
+        finally:
+            cancel.set()
+            with gate._cond:
+                gate._cond.notify_all()
+            thread.join(timeout=2)
+            _release_slot(outcome)
 
     return StreamingResponse(events(), media_type="text/event-stream",
                              headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})

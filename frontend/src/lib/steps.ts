@@ -10,6 +10,8 @@ export function stepLabel(s: TraceStep): string {
   const ok = stepOk(s);
   const attempt = typeof s.attempt === "number" && s.attempt > 1 ? ` (attempt ${s.attempt})` : "";
   switch (s.step) {
+    case "queued":
+      return "Waiting for a free slot";
     case "load_schema":
       return "Read schema";
     case "plan":

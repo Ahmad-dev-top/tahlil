@@ -42,6 +42,12 @@ CREATE TABLE IF NOT EXISTS turns (
     created_at REAL NOT NULL
 );
 CREATE INDEX IF NOT EXISTS idx_turns_conv ON turns(conversation_id, created_at);
+CREATE TABLE IF NOT EXISTS usage (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    created_at REAL NOT NULL,
+    cost_usd REAL NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_usage_day ON usage(created_at);
 """
 
 
@@ -132,6 +138,40 @@ def list_turns(conversation_id: str) -> list[dict]:
         rows = con.execute("SELECT id, payload_json, created_at FROM turns WHERE conversation_id=? ORDER BY created_at",
                            (conversation_id,)).fetchall()
     return [{"id": r["id"], "created_at": r["created_at"], **json.loads(r["payload_json"])} for r in rows]
+
+
+def record_cost(cost_usd: float) -> None:
+    with _conn() as con:
+        con.execute("INSERT INTO usage (created_at, cost_usd) VALUES (?, ?)", (time.time(), float(cost_usd)))
+
+
+def list_expired_datasets(cutoff: float, keep_name: str) -> list[dict]:
+    """Datasets created before `cutoff`, except one kept by name (the demo sample)."""
+    with _conn() as con:
+        rows = con.execute(
+            "SELECT * FROM datasets WHERE created_at < ? AND name != ? ORDER BY created_at",
+            (cutoff, keep_name),
+        ).fetchall()
+    return [_dataset_out(dict(r)) for r in rows]
+
+
+def delete_dataset(dataset_id: str) -> None:
+    """Drop the dataset row plus its conversations and turns. Does not touch files."""
+    with _conn() as con:
+        conv_ids = [r[0] for r in con.execute(
+            "SELECT id FROM conversations WHERE dataset_id=?", (dataset_id,)).fetchall()]
+        for conv_id in conv_ids:
+            con.execute("DELETE FROM turns WHERE conversation_id=?", (conv_id,))
+        con.execute("DELETE FROM conversations WHERE dataset_id=?", (dataset_id,))
+        con.execute("DELETE FROM datasets WHERE id=?", (dataset_id,))
+
+
+def cost_since(since: float) -> float:
+    with _conn() as con:
+        row = con.execute(
+            "SELECT COALESCE(SUM(cost_usd), 0) FROM usage WHERE created_at >= ?", (since,)
+        ).fetchone()
+    return float(row[0] or 0)
 
 
 def history_for_prompt(conversation_id: str, limit: int = 5) -> list[dict]:

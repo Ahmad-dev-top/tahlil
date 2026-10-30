@@ -1,17 +1,22 @@
 services:
   # Builds the sandbox image only; the API starts one throwaway container per analysis.
+  # One-shot image build. restart would loop, because the command exits 0 on purpose.
   sandbox-image:
     build: ./sandbox
     image: tahlil-sandbox:latest
     command: ["true"]
+    restart: "no"
 
   api:
     build: .
     restart: unless-stopped
+    # Leaves room on a 1 GB VM for the sandbox plus the other sites on the host.
+    mem_limit: 450m
     depends_on:
       sandbox-image:
         condition: service_completed_successfully
-    ports: ["127.0.0.1:8000:8000"]   # local only; the public entry point is `web`
+    # Loopback only. Override API_HOST_PORT when 8000 is already taken on the host.
+    ports: ["127.0.0.1:${API_HOST_PORT:-8000}:8000"]
     env_file: .env
     environment:
       SANDBOX_MODE: docker
@@ -20,6 +25,8 @@ services:
       # Must be the SAME path on host and in this container (docker.sock mounts resolve on the host)
       SANDBOX_WORK_DIR: ${PWD}/.sandbox-work
       API_KEYS: ${TAHLIL_API_KEY:-}
+      # Only the web container may supply X-Forwarded-For. Direct hits on :8000 cannot spoof it.
+      TRUSTED_PROXIES: web
     volumes:
       - ./data:/data
       - ${PWD}/.sandbox-work:${PWD}/.sandbox-work
@@ -28,7 +35,28 @@ services:
   web:
     build: ./frontend
     restart: unless-stopped
+    mem_limit: 64m
     depends_on: [api]
-    ports: ["80:80"]
+    # Loopback only, so an existing proxy on this VM can forward the public hostname here.
+    ports: ["127.0.0.1:8080:80"]
     environment:
       TAHLIL_API_KEY: ${TAHLIL_API_KEY:-}
+
+  # Optional. Use when 80/443 are free: docker compose --profile https up -d
+  # When another site already owns 80/443, leave this off and proxy to 127.0.0.1:8080 instead.
+  caddy:
+    image: caddy:2
+    profiles: ["https"]
+    restart: unless-stopped
+    depends_on: [web]
+    ports: ["80:80", "443:443"]
+    environment:
+      TAHLIL_DOMAIN: ${TAHLIL_DOMAIN:-localhost}
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:

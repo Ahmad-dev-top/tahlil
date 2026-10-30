@@ -20,12 +20,14 @@
 | 5 | Auth (API keys) + rate limiting | ✅ | ✅ tests | — |
 | 6 | Evals (accuracy on known answers) | ✅ | ✅ 23 questions; Haiku + CrewAI 100% accuracy and verified | — |
 | 7 | CI (GitHub Actions) | ✅ | ✅ backend, sandbox-docker, frontend, and e2e green on main | — |
-| 8 | Deployment (compose + nginx, Oracle Cloud) | ✅ written | ❌ | Deploy, add HTTPS |
+| 8 | Deployment (compose + nginx, Oracle Cloud) | ✅ | ✅ https://tahlil.muhammad-dgr.duckdns.org (Let's Encrypt, portfolio still up) | — |
 | 9 | Portfolio packaging | — | — | Screenshots, demo video, case study |
 
-Tests: **57 backend tests** (`pytest -q`, plus 2 live DB tests skipped unless `TAHLIL_LIVE_DB=1`), **7 frontend unit tests** (`npm test`) and a **browser e2e test** (`npm run test:e2e`) that uploads a CSV, watches the steps stream in, checks the answer, asks a follow-up, stops a run, checks the unreachable state, and checks the mobile layout. The default backend suite passes with no API key or Docker.
+Tests: **65 backend tests** (`pytest -q`, plus 2 live DB tests skipped unless `TAHLIL_LIVE_DB=1`), **8 frontend unit tests** (`npm test`) and a **browser e2e test** (`npm run test:e2e`) that uploads a CSV, watches the steps stream in, checks the answer, asks a follow-up, stops a run, checks the unreachable state, and checks the mobile layout. The default backend suite passes with no API key or Docker.
 
-**Verified locally:** `pytest -q` with `TAHLIL_LIVE_DB=1` is 59 passed. Without that variable, expect 57 passed and 2 skipped. Also verified: the 23-question eval matrix (see the README), live sonnet questions including Punjab on the Postgres snapshot, frontend typecheck/lint/build/e2e, and five live Haiku questions in the web UI. GitHub CI on `main` is green: https://github.com/Ahmad-dev-top/tahlil/actions/runs/40920716510. **Still open:** deploy. The live evals workflow runs only after the `ANTHROPIC_API_KEY` repo secret is added.
+**Verified locally:** `pytest -q` is 65 passed, 2 skipped. With `TAHLIL_LIVE_DB=1` the two connector tests run as well. Also verified: the 23-question eval matrix (see the README), live sonnet questions including Punjab on the Postgres snapshot, frontend typecheck/lint/build/e2e, and five live Haiku questions in the web UI. GitHub CI on `main` is green: https://github.com/Ahmad-dev-top/tahlil/actions/runs/40920716510. The weekly evals workflow has run on the tuning set at 100%.
+
+**Deployed:** `https://tahlil.muhammad-dgr.duckdns.org` on the existing portfolio VM (Ubuntu 22.04, x86_64, host nginx + certbot). The API is on `127.0.0.1:18000` because `/opt/dogar` already uses `127.0.0.1:8000`. Caddy is not running. The copy on the VM is the working tree at `/home/ubuntu/tahlil`, not a git checkout, so `git pull` there waits until this phase is pushed.
 
 ---
 
@@ -179,20 +181,17 @@ Why a static export: the app is fully client-side, so production needs no Node s
 
 ---
 
-## Phase 8 — Deployment ✅ written
+## Phase 8 — Deployment ✅ live at https://tahlil.muhammad-dgr.duckdns.org
 
 `docker compose up -d --build` starts:
-- `sandbox-image`: builds the sandbox image, then exits
+- `sandbox-image`: builds the sandbox image, then exits (`restart: "no"`, because `command: true` would loop)
 - `api`: bound to 127.0.0.1:8000, mounts docker.sock to launch sandbox containers
-- `web`: nginx on :80, serving the Next.js static export and proxying `/api` (adds the API key server-side; SSE buffering off)
+- `web`: nginx on 127.0.0.1:8080, serving the Next.js static export and proxying `/api` (adds the API key server-side; SSE buffering off)
+- `caddy` (profile `https` only): automatic HTTPS when 80/443 are free
 
-**Oracle Cloud VM steps (Ubuntu, Ampere A1 works):**
-1. Install Docker + compose plugin; add your user to the `docker` group.
-2. Open ports 80/443 in the VCN security list **and** in the VM firewall (`iptables`/`ufw`).
-3. `git clone`, `cp .env.example .env`, set `ANTHROPIC_API_KEY`, set `TAHLIL_API_KEY` to a long random string, leave `ALLOW_SQLITE_CONNECTOR=false`.
-4. `docker compose up -d --build`.
-5. HTTPS: point a subdomain (e.g. `tahlil.<your-duckdns>.duckdns.org`) at the VM. Put Caddy in front, or change `web` to listen on 8080 and run `caddy reverse-proxy --from tahlil.example --to :8080`.
-6. Protect the public demo: nginx basic auth on `/` or Cloudflare Access. The proxy injects the API key, so anyone who can open the site can spend your LLM credit.
+Public demo (`PUBLIC_DEMO=true`): no `/datasets/connect` or refresh, 5 MB and 3 files, sample CSV preloaded, daily USD cap, rate limit per client IP. `X-Forwarded-For` is trusted only from `TRUSTED_PROXIES` (compose sets `web`).
+
+Live steps, the server `.env`, and the "existing proxy vs Caddy" choice are in `deploy/README.md`. Do not start Caddy if the portfolio already owns 80/443. Port 8000 stays on loopback.
 
 **Cursor prompt:**
 > Add a Caddy service to docker-compose.yml (caddy:2) that serves HTTPS for the domain in env `TAHLIL_DOMAIN` and reverse-proxies to `web:80`. Move `web` off public port 80. Add optional basic auth via env `TAHLIL_BASIC_AUTH` (bcrypt hash). Document it in README under "Deploy". Test locally with `TAHLIL_DOMAIN=localhost`.

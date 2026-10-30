@@ -44,7 +44,24 @@ class Settings:
     # comma-separated API keys; empty = auth disabled (local dev)
     api_keys: frozenset = frozenset(k.strip() for k in os.getenv("API_KEYS", "").split(",") if k.strip())
     asks_per_minute: int = int(os.getenv("ASKS_PER_MINUTE", "10"))
+    # Empty = no cap on how many questions run at once. A number is a process-wide slot count.
+    max_concurrent_asks: int | None = (
+        int(os.environ["MAX_CONCURRENT_ASKS"]) if os.getenv("MAX_CONCURRENT_ASKS", "").strip() else None
+    )
+    queue_timeout_s: float = float(os.getenv("QUEUE_TIMEOUT_S", "60"))
+    # Public demo only: uploaded datasets older than this are deleted. The sample dataset stays.
+    demo_retention_hours: float = float(os.getenv("DEMO_RETENTION_HOURS", "24"))
     cors_origins: tuple = tuple(o.strip() for o in os.getenv("CORS_ORIGINS", "*").split(",") if o.strip())
+    # Public demo: no outbound DB connections, smaller uploads, sample dataset, per-IP limits.
+    public_demo: bool = os.getenv("PUBLIC_DEMO", "false").lower() == "true"
+    # Empty = no cap. Otherwise USD per UTC day, summed from recorded question costs.
+    daily_cost_limit_usd: float | None = (
+        float(os.environ["DAILY_COST_LIMIT_USD"]) if os.getenv("DAILY_COST_LIMIT_USD", "").strip() else None
+    )
+    # Hostnames or IPs of proxies whose X-Forwarded-For is trusted. Anyone else is ignored.
+    trusted_proxies: frozenset = frozenset(
+        p.strip() for p in os.getenv("TRUSTED_PROXIES", "").split(",") if p.strip()
+    )
 
     use_crewai: bool = field(
         default_factory=lambda: os.getenv("USE_CREWAI", "true").lower() == "true"

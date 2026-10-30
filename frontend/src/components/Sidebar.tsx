@@ -24,17 +24,24 @@ export function Sidebar({ s, onNavigate }: { s: TahlilState; onNavigate?: () => 
         <p className="mt-1 text-xs text-zinc-500">Autonomous data analyst</p>
       </div>
 
-      <div className="grid grid-cols-2 gap-2 px-4 pt-4">
+      <div className={s.publicDemo ? "px-4 pt-4" : "grid grid-cols-2 gap-2 px-4 pt-4"}>
         <button
-          className="btn-tonal"
+          className="btn-tonal w-full"
           disabled={s.loading}
           onClick={() => fileInput.current?.click()}
         >
           <Upload className="size-4" /> CSV
         </button>
-        <button className="btn-tonal" disabled={s.loading} onClick={() => setConnectOpen(true)}>
-          <Database className="size-4" /> Database
-        </button>
+        {!s.publicDemo && (
+          <button
+            className="btn-tonal"
+            disabled={s.loading}
+            data-testid="database-button"
+            onClick={() => setConnectOpen(true)}
+          >
+            <Database className="size-4" /> Database
+          </button>
+        )}
         <input
           ref={fileInput}
           type="file"

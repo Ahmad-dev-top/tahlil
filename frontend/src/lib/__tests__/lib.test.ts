@@ -41,6 +41,7 @@ describe("steps", () => {
     expect(stepLabel({ step: "write_sql", attempt: 2 })).toBe("Wrote SQL (attempt 2)");
     expect(stepLabel({ step: "run_sql", ok: true, rows: 5 })).toBe("Ran query · 5 rows");
     expect(stepLabel({ step: "analyze", ok: true, charts: 1 })).toBe("Analysed in sandbox · 1 chart");
+    expect(stepLabel({ step: "queued" })).toBe("Waiting for a free slot");
     expect(stepOk({ step: "fail" })).toBe(false);
   });
 });
