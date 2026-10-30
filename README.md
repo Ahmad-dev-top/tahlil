@@ -3,11 +3,16 @@
 [![CI](https://github.com/Ahmad-dev-top/tahlil/actions/workflows/ci.yml/badge.svg)](https://github.com/Ahmad-dev-top/tahlil/actions/workflows/ci.yml)
 [![Evals](https://github.com/Ahmad-dev-top/tahlil/actions/workflows/evals.yml/badge.svg)](https://github.com/Ahmad-dev-top/tahlil/actions/workflows/evals.yml)
 
-Upload a CSV, ask a question in plain English, get back **SQL, a result table, a chart and a short report**. Every query is checked before it runs, every line of analysis code runs in a locked-down Docker container, and every number in the report is checked against the actual results.
+Ask a plain-English question about a spreadsheet and get SQL, a chart, and a short report whose numbers were checked against the query result.
 
-**Stack:** LangGraph · CrewAI · GuardrailsAI · Docker · DuckDB · FastAPI · Next.js + React + Tailwind · litellm (any model)
+**Live demo:** [tahlil.muhammad-dgr.duckdns.org](https://tahlil.muhammad-dgr.duckdns.org)
 
-> Build status and the full roadmap are in **[PLAN.md](PLAN.md)**.
+![Asking which region brings in the most revenue, then the steps, the verified report, the chart, and the SQL](docs/demo.gif)
+
+- **Verified numbers.** On a 10-question held-out set the prompts were not adjusted on, 90% of answers were accurate and 90% passed the number check.
+- **About $0.002 per question** with Claude Haiku 5.5 and CrewAI (tuning-set average).
+- **Sandboxed code.** Analysis Python runs in Docker with no network, a read-only filesystem, and every capability dropped.
+- **Read-only SQL guard.** One SELECT, known tables only, and no file or system functions. The query connection is opened read-only as well.
 
 ## How it works
 
